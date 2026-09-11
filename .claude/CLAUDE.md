@@ -46,7 +46,7 @@ Write `(not done)` for anything not yet translated. Never leave a bare link that
 Figures carry real content in his notes, so losing them loses the point of the document.
 
 1. Download them with the fetch tool. Notion serves images through its image proxy, so they arrive as PNGs.
-2. Redraw each one in English. Read the PNG, rebuild it, keep the same structure and reading order. The `drawio` skill is the usual tool.
+2. Redraw diagrams in English. Read the PNG, rebuild it, keep the same structure and reading order. The `drawio` skill is the usual tool. This applies to real diagrams, like the writing plan diagram. Screenshots of a tool's output, such as his Copilot and GPT session captures, are used directly with no redraw: there is nothing in them worth reconstructing.
 3. Keep the original beside the redrawn version, named `*-original.png`, so a reviewer can check the redraw.
 4. If a figure cannot be redrawn, embed the original and write an English caption under it. Never delete it and never leave it unmentioned.
 5. **A figure that is a scan or screenshot of someone else's publication is cited, not embedded.** Several of his figures are pages photographed out of books and other people's talk slides. His permission does not cover those authors' work, so name the source precisely enough to find it (book, chapter, page; or talk title) and say what the figure shows. This is the one case where a figure legitimately does not appear in the translation.
