@@ -2,7 +2,7 @@
 source: notion page 怎么做吸引人的demo和application (nested under 论文画图模板, under 怎么审论文, under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 怎么审论文 -> 论文画图模板 -> 怎么做吸引人的demo和application
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 1, the author's original, English redraw pending
 -->
 
@@ -30,10 +30,10 @@ Example 3: vid2avatar ran experiments on in-the-wild data, which dug out the alg
 </details>
 
 <details>
-<summary>A student in the group summarised why running experiments on more challenging new data has such large impact</summary>
+<summary>A student in the group summarised why running experiments on more challenging new data has very large impact</summary>
 
 ![IMG_7918.JPG](./assets/9adfaf84b49a4b6f8ee1bbd918445013-IMG_7918.jpg)
 
 </details>
 
-Making some interactive demos on Hugging Face also attracts attention to our papers.
+Making some interactive demos on Hugging Face is also fairly good at attracting attention to our papers.

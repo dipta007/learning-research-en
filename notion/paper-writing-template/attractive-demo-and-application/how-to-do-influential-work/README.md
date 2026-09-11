@@ -2,7 +2,7 @@
 source: notion page 如何做出有影响力的工作 (nested under 怎么做吸引人的demo和application, under 论文画图模板, under 怎么审论文, under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 怎么审论文 -> 论文画图模板 -> 怎么做吸引人的demo和application -> 如何做出有影响力的工作
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 2, the author's originals, English redraws pending
 -->
 
@@ -26,7 +26,7 @@ How to increase your own paper's citation count:
 
    Aim for papers with that kind of high citation count.
 
-   > **note** It is similar to starting a company. A successful business either has a good eye for which direction to invest in, or has a product that is very good to use.
+   > **note** It is similar to starting a company. A successful business either has a very good eye for which direction to invest in, or has a product that is very good to use.
 
 2. Once a paper is finished, how to increase its citation count:
    1. Increase the paper's readership: make a beautiful project page and demo, and promote your work on social media.
