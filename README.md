@@ -1,53 +1,36 @@
 # learning_research, in English
 
-An English translation of Prof. Peng Sida's open research notes: https://github.com/pengsida/learning_research
+An English translation of [Prof. Peng Sida's open research notes](https://github.com/pengsida/learning_research), which are written in Chinese. Practical advice on how to do research: how to start, how to get better, how to write.
 
-The original notes are written in Chinese. They are widely read (over 14,000 stars) and full of practical advice on how to actually do research: how to start, how to get better, how to write. This repository makes that advice readable for people who do not read Chinese.
+All ideas and examples are his. If the advice helps you, the credit is his, and [his repository](https://github.com/pengsida/learning_research) is the one to star first.
 
-## Status
+## Contents
 
-All four files are translated. Every one is a first draft and still needs a review pass by someone who reads Chinese.
+| Source | Translation | State |
+|---|---|---|
+| `README.md` | [en/readme.md](./en/readme.md) | needs review |
+| `getting_started_in_research.md` | [en/getting-started-in-research.md](./en/getting-started-in-research.md) | needs review |
+| `getting_advanced_in_research.md` | [en/getting-advanced-in-research.md](./en/getting-advanced-in-research.md) | needs review |
+| `changelog` | [en/changelog.md](./en/changelog.md) | needs review |
 
-| Source file | English |
-|---|---|
-| `README.md` | draft, needs review |
-| `getting_started_in_research.md` | draft, needs review |
-| `getting_advanced_in_research.md` | draft, needs review |
-| `changelog` | draft, needs review |
+His longer notes live on Notion, in 18 pages linked from the files above. Translations of those go in [`notion/`](./notion). Anything not translated yet is marked `(not done)` at the link.
 
-Translated files live in [`en/`](./en), one file per source file, same order.
+"Needs review" means one person translated it and nobody has checked it against the Chinese yet.
 
-## Star
+## Reading it
 
-If this translation saved you time, a star helps the next person find it.
+Read the original if you read Chinese. A translation always loses something, and his Notion pages are updated more often than this repository.
 
-Please star [the original repository](https://github.com/pengsida/learning_research) too. The advice is Prof. Peng's work. This repository only carries it into another language, so his repository is the one that deserves your star first.
-
-## Attribution
-
-All ideas, examples, and structure come from Prof. Peng Sida (彭思达). He wrote them; this repository only carries them into English. If the advice helps you, the credit is his.
-
-- Original repository: https://github.com/pengsida/learning_research
-- His longer notes on Notion: https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e
-
-Please read the original if you can read Chinese. A translation always loses something.
-
-## Related work built on the same notes
-
-[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/) turns Prof. Peng's paper-writing notes into a skill package for coding agents (Claude Code, Codex, Gemini), in English, MIT licensed. If you want a tool that helps you write rather than a guide to read, start there.
-
-## Notes on this translation
-
-The files in [`en/`](./en) hold the translation and nothing else. Anything that is my own comment sits here instead, or in a footnote marked `Translator's note`.
-
-- The changelog names his Notion documents by their Chinese titles. I render those titles in English so the entries can be told apart. They are descriptions, not official English names.
-- Chinese personal names are romanised, with the Chinese kept next to each one, so a reader can still identify the person if a romanisation is wrong.
-- `getting-started-in-research.md` carries one footnote: the original credits a course to Andrej Karpathy, while the link goes to Justin Johnson's EECS 498. The text is translated as written and the link is unchanged.
-
-## Rights
-
-The original repository has no license, so the author keeps all rights to the content. See [NOTICE.md](./NOTICE.md) for what that means here.
+For a tool rather than a guide, [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/) packages his paper-writing notes as a skill for coding agents. He links to it himself.
 
 ## Contributing
 
-Corrections are very welcome, especially from people who read Chinese. See [CONTRIBUTING.md](./CONTRIBUTING.md) for how translation decisions are made, and [GLOSSARY.md](./GLOSSARY.md) for the agreed term list.
+Clone it, fix something, send a pull request. Corrections from people who read Chinese are the most useful.
+
+The rules live in [.claude/CLAUDE.md](./.claude/CLAUDE.md), which coding agents load on their own, so an agent working in this repository already knows them. [CONTRIBUTING.md](./CONTRIBUTING.md) is the short human version and [GLOSSARY.md](./GLOSSARY.md) fixes the terms.
+
+Two things to know before editing a file in `en/` or `notion/`: those files hold the translation and nothing else, and every change is checked by a second model against the Chinese before it lands.
+
+## Rights
+
+The original has no license, so the author keeps all rights to the content. See [NOTICE.md](./NOTICE.md).

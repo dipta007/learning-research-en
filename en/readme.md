@@ -20,31 +20,31 @@ status: translated, needs review by a Chinese reader
 
 ## How to work toward becoming a Top Ph.D. Student
 
-The core ability, in my own view: a top PhD student knows how to set a long-term research goal. That goal carries important scientific value and practical value, which means finding scientific problems that are genuinely valuable in real applications. From that goal, they work out a detailed research roadmap. The several papers they write during the PhD all revolve around that goal, and the papers show clearly how far they have come along the roadmap. Make the paper demos as cool as you can (example: [a model PhD student, Sebastian Starke](https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4)).
+The core ability, in my own view: a top PhD student knows how to set a long-term research goal. That goal carries important scientific value and practical value, which means finding scientific problems that are genuinely valuable in real applications. From that goal, they work out a detailed research roadmap. The several papers they write during the PhD all revolve around that goal, and the papers show clearly how far they have come along the roadmap. Make the paper demos as cool as you can (example: [a model PhD student, Sebastian Starke](https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4) (not done)).
 
 In the actual work of research, a PhD student needs five abilities: finding important research problems, proposing solutions, running experiments, writing papers, and presenting. Here are some concrete suggestions.
 
 1. [How to get started in 3D Vision research](./getting-started-in-research.md)
 2. [How to build your research skills: finding research problems, forming ideas, running experiments, meeting your advisor](./getting-advanced-in-research.md)
-3. [How to run a research project, and the abilities a PhD student should have](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116)
+3. [How to run a research project, and the abilities a PhD student should have](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) (not done)
 4. Paper writing
-    - [How to practise writing papers](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851)
-    - [A paper writing template](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) (people inside the lab find it very useful)
-    - [The writing experience of strong researchers](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a)
-5. [How to write a rebuttal](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)
-6. [How to make slides for an academic talk](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc)
+    - [How to practise writing papers](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) (not done)
+    - [A paper writing template](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) (not done) (people inside the lab find it very useful)
+    - [The writing experience of strong researchers](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a) (not done)
+5. [How to write a rebuttal](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022) (not done)
+6. [How to make slides for an academic talk](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc) (not done)
 
 ### Slides
 
 Parts of this advice are collected in the slides and videos below.
 
 1. The 《GAMES003: Basic Research Skills》 version:
-   - [Slides: an overview of the research process, and building a view of your field](https://pengsida.net/games003/GAMES003_files/week_1.pdf), and the [course video](https://www.bilibili.com/video/BV1RitTezEa9?p=1).
-   - [Slides: how to design a technical approach](https://pengsida.net/games003/GAMES003_files/week_3.pdf), and the [course video](https://www.bilibili.com/video/BV1RitTezEa9?p=3).
-   - [Slides: improving your approach from experimental results](https://pengsida.net/games003/GAMES003_files/week_5.pdf), and the [course video](https://www.bilibili.com/video/BV1RitTezEa9?p=5).
-2. The 《learning research》 version: [slides](https://pengsida.net/files/learning_research_v4.pdf) and [talk video](https://www.bilibili.com/video/BV1DA4m1V7D3/).
-3. A version that focuses on building a view of your field and choosing a research topic (12 August 2025): [slides](https://pengsida.net/files/research_topic_selection.pdf).
-4. 《How a CCF Outstanding Doctoral Dissertation Is Made》: [slides](https://pengsida.net/files/CCF_Talk.pdf).
+   - [Slides: an overview of the research process, and building a view of your field](https://pengsida.net/games003/GAMES003_files/week_1.pdf) (not done), and the [course video](https://www.bilibili.com/video/BV1RitTezEa9?p=1).
+   - [Slides: how to design a technical approach](https://pengsida.net/games003/GAMES003_files/week_3.pdf) (not done), and the [course video](https://www.bilibili.com/video/BV1RitTezEa9?p=3).
+   - [Slides: improving your approach from experimental results](https://pengsida.net/games003/GAMES003_files/week_5.pdf) (not done), and the [course video](https://www.bilibili.com/video/BV1RitTezEa9?p=5).
+2. The 《learning research》 version: [slides](https://pengsida.net/files/learning_research_v4.pdf) (not done) and [talk video](https://www.bilibili.com/video/BV1DA4m1V7D3/).
+3. A version that focuses on building a view of your field and choosing a research topic (12 August 2025): [slides](https://pengsida.net/files/research_topic_selection.pdf) (not done).
+4. 《How a CCF Outstanding Doctoral Dissertation Is Made》: [slides](https://pengsida.net/files/CCF_Talk.pdf) (not done).
 
 Together with three other researchers ([Jun Gao](https://www.cs.toronto.edu/~jungao/), [Songyou Peng](https://pengsongyou.github.io/), and [Qianqian Wang](https://qianqianwang68.github.io/)), I opened a course on the GAMES platform: [《GAMES003: Basic Research Skills for Graphics and Vision》](https://pengsida.net/games003/).
 

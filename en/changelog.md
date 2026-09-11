@@ -59,7 +59,7 @@ status: translated, needs review by a Chinese reader
 - **21 July 2023.** In the document on building the ability to come up with ideas: added two accounts of how strong researchers work, from John Schulman and Michael Nielsen.
 - **16 July 2023.** Added a document on how to read papers effectively.
 - **5 July 2023.** Updated the document on building the ability to come up with ideas: added how strong researchers think about finding important research problems.
-- **29 June 2023.** Collected part of this repository's content into [a set of slides](https://pengsida.net/files/how_to_do_research.pdf).
+- **29 June 2023.** Collected part of this repository's content into [a set of slides](https://pengsida.net/files/how_to_do_research.pdf) (in English).
 - **21 June 2023.** Updated the paper writing template: added a way to raise a paper's impact by putting work into the experiments, that is, once the algorithm works on your target data, run it on as much new data as you can, find its limits, and draw out what it is capable of.
 - **10 June 2023.** Updated the document on building the ability to come up with ideas: added a criterion for novelty, that showing what a method can do on new data, and giving people new experimental conclusions, is itself a large contribution.
 - **7 June 2023.** Updated the review template.
