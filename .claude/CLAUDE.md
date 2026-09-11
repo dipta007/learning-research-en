@@ -49,6 +49,7 @@ Figures carry real content in his notes, so losing them loses the point of the d
 2. Redraw each one in English. Read the PNG, rebuild it, keep the same structure and reading order. The `drawio` skill is the usual tool.
 3. Keep the original beside the redrawn version, named `*-original.png`, so a reviewer can check the redraw.
 4. If a figure cannot be redrawn, embed the original and write an English caption under it. Never delete it and never leave it unmentioned.
+5. **A figure that is a scan or screenshot of someone else's publication is cited, not embedded.** Several of his figures are pages photographed out of books and other people's talk slides. His permission does not cover those authors' work, so name the source precisely enough to find it (book, chapter, page; or talk title) and say what the figure shows. This is the one case where a figure legitimately does not appear in the translation.
 
 Some attachments (`.drawio`, `.pdf`) are not downloadable anonymously: Notion returns an HTML page instead of the bytes. The fetch tool writes an HTML comment where that happens. Leave the comment in the source and note it in the pull request.
 

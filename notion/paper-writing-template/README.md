@@ -2,7 +2,7 @@
 source: notion page 论文写作模板
 source page id: c1a22465a0fa4b15a12985223916048e
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 19, the author's originals, English redraws pending
 -->
 
@@ -345,9 +345,9 @@ For a novel task, the approach is to think each of these through:
 
 1. Think through the technical challenge our pipeline solved.
 
-> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-out-of-10 improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was straightforward to come up with. What they may not realise is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
+> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was straightforward to come up with. What they may not realise is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
 
-Even if our work really is a 4-out-of-10 piece, do not write it this way.
+Even if our work really is a 4-point piece, do not write it this way.
 
 <details>
 <summary>Version 1: existing task, methods already exist.</summary>
@@ -581,7 +581,7 @@ Introduce the key innovation first, then discuss an observation that anyone can 
 <summary>Not recommended</summary>
 
 <details>
-<summary>The method is fairly simple, and you do not intend to explain your approach clearly in the introduction. You only discuss insights and the approach in the abstract, to make the reviewer feel our method is quite novel. (Generally not recommended. You should aim to explain clearly in the introduction how the core contribution actually works.)</summary>
+<summary>The method is fairly simple, and you do not intend to explain your approach clearly in the introduction. You only discuss the insights and an abstract, high-level version of the approach in the introduction, to make the reviewer feel our method is quite novel. (Generally not recommended. You should aim to explain clearly in the introduction how the core contribution actually works.)</summary>
 
 > **note** The skill in this template is how to make a simple pipeline sound novel. Note, it is not about making the insight sound novel, it is about making the pipeline steps sound novel.
 
@@ -774,7 +774,7 @@ Usually mentioned at the end of the section, or in the implementation details se
 <details>
 <summary>Drawing paper figures</summary>
 
-[Paper figure template](./review-a-paper/paper-figure-template/README.md)
+[Paper figure template](./paper-figure-template/README.md)
 
 > **note** The Method figure matters a lot. The pipeline figure in the Method has to look different from previous methods. Otherwise it gives the reader the impression that there is no novelty. If the whole pipeline (from input to output) is not very novel, the novel module should be highlighted in the pipeline figure. Another way is to draw several small figures rather than one big one, but then the paper may not look as beautiful.
 
@@ -822,7 +822,7 @@ Iterating step by step:
 > (2) How do we prove the modules in the method are effective → which ablation studies to run.
 > (3) How do we fully show the ceiling of our method → on which more challenging data to make a demo.
 
-> **note** In the text of the Experiments, the captions of the figures and tables matter most.
+> **note** In the text of the Experiments, the captions of the figures and tables are among the more important things.
 
 The Table caption and Figure caption need to state the experimental setting and the notation clearly. If there is nothing much to say, one sentence briefly describing the experimental result is fine.
 
@@ -898,7 +898,7 @@ So ablation studies usually need two parts:
 <details>
 <summary>Which applications/demos to make (this has a very large bearing on the paper's impact)</summary>
 
-[How to make an attractive demo and application](./review-a-paper/paper-figure-template/attractive-demo-and-application/README.md)
+[How to make an attractive demo and application](./attractive-demo-and-application/README.md)
 
 </details>
 
@@ -960,7 +960,7 @@ At the end of the paper, add a self-review question list in five areas. Ask ques
 1. **Contribution is not enough** (the paper brings the reader no new knowledge, which usually includes several of these: the failure cases you want to solve are very common; the proposed technique is already well-explored, and the performance improvement it brings is predictable or well-known; the technique is fairly straightforward)
 2. **The writing is unclear** (technical details are missing, so it is not reproducible; some method module lacks motivation)
 3. **The experimental results are not good enough** (only a little better than previous methods; better than previous methods, but still not good enough)
-4. **The experimental testing is not thorough** (missing ablation studies; missing important baselines; missing an important evaluation metric; the data is too easy to prove whether the method really works)
+4. **The experimental testing is not thorough** (missing ablation studies; missing important baselines; missing an important evaluation metric; the data is too simple to show whether the method really works)
 5. **There are problems with the method design** (the experimental setting is not realistic; the method has technical defects and looks unreasonable; the method is not robust and needs hyperparameter tuning per scene; the new method design brings a benefit but introduces a stronger limitation at the same time, so its net gain is negative)
 
 </details>

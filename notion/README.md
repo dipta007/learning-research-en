@@ -6,7 +6,7 @@ His Notion pages change every few weeks, so a translation here can be behind. Ev
 
 | Document | Original | Translation |
 |---|---|---|
-| A paper writing template | [Notion](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) | in progress |
+| A paper writing template | [Notion](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) | [translated](./paper-writing-template/README.md), with 6 of its sub-pages |
 | How to run a research project | [Notion](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) | not started |
 | How to build the ability to come up with ideas | [Notion](https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea) | not started |
 | How to practise writing papers | [Notion](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) | not started |
