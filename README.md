@@ -19,6 +19,12 @@ All four files are translated. Every one is a first draft and still needs a revi
 
 Translated files will live in [`en/`](./en) and [`bn/`](./bn), one file per source file, same order.
 
+## Star
+
+If this translation saved you time, a star helps the next person find it.
+
+Please star [the original repository](https://github.com/pengsida/learning_research) too. The advice is Prof. Peng's work. This repository only carries it into two more languages, so his repository is the one that deserves your star first.
+
 ## Attribution
 
 All ideas, examples, and structure come from Prof. Peng Sida (彭思达). He wrote them; this repository only carries them into two more languages. If the advice helps you, the credit is his.
