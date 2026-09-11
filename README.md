@@ -32,6 +32,18 @@ All ideas, examples, and structure come from Prof. Peng Sida (彭思达). He wro
 
 Please read the original if you can read Chinese. A translation always loses something.
 
+## Related work built on the same notes
+
+[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/) turns Prof. Peng's paper-writing notes into a skill package for coding agents (Claude Code, Codex, Gemini), in English, MIT licensed. If you want a tool that helps you write rather than a guide to read, start there.
+
+## Notes on this translation
+
+The files in [`en/`](./en) hold the translation and nothing else. Anything that is my own comment sits here instead, or in a footnote marked `Translator's note`.
+
+- The changelog names his Notion documents by their Chinese titles. I render those titles in English so the entries can be told apart. They are descriptions, not official English names.
+- Chinese personal names are romanised, with the Chinese kept next to each one, so a reader can still identify the person if a romanisation is wrong.
+- `getting-started-in-research.md` carries one footnote: the original credits a course to Andrej Karpathy, while the link goes to Justin Johnson's EECS 498. The text is translated as written and the link is unchanged.
+
 ## Rights
 
 The original repository has no license, so the author keeps all rights to the content. See [NOTICE.md](./NOTICE.md) for what that means here.
