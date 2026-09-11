@@ -2,7 +2,7 @@
 source: notion page 如何使用copilot和gpt辅助英语写作 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 如何使用copilot和gpt辅助英语写作
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 17, screenshots of his own Copilot and GPT session, used as-is
 -->
 
@@ -49,7 +49,7 @@ so the Section-granularity outline is fairly settled.
 </details>
 
 <details>
-<summary>How to write a paper's outline</summary>
+<summary>How to list a paper's outline</summary>
 
 List the outline from coarse to fine:
 
@@ -75,7 +75,7 @@ How to use Copilot and GPT to help write English paragraphs (full video). The ba
 
 2. Write paragraph by paragraph
 
-3. First list the outline of every sentence in the paragraph
+3. Make an initial list of the outline of every sentence in the paragraph
 
    <details>
    <summary>Example</summary>
@@ -124,7 +124,7 @@ How to use Copilot and GPT to help write English paragraphs (full video). The ba
 
 How to use Copilot and GPT to help write English sentences (full video). The basic process:
 
-1. First list the outline of one sentence
+1. Make an initial list of the outline of one sentence
 
    <details>
    <summary>Example</summary>

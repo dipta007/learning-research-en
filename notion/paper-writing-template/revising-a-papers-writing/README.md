@@ -2,8 +2,8 @@
 source: notion page 如何改一篇论文的写作 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 如何改一篇论文的写作
 source fetched: 2026-09-11
-status: unverified
-figures: 2, the author's originals, English redraws pending
+status: verified by fable, 2026-09-11 (findings applied)
+figures: 2, screenshots of his own GPT session, used as-is
 -->
 
 # How to Revise a Paper's Writing
@@ -31,7 +31,7 @@ For the abstract, the introduction, the method, or any single paragraph, the ste
 
 1. The paragraph to improve.
 
-   The raw text is a Method paragraph from a draft. It credits prior hierarchical Gaussian work, states that the scene is represented with Gaussian primitives, describes organising them into a tree hierarchy of `L` levels where a higher level is coarser but more efficient, says higher-level primitives are merged from lower-level ones, spells out that merging as interpolating every attribute of a level `l` primitive to obtain level `l+1`, and closes on selecting nodes to render by camera view and setting node velocity from tracking information.
+   The raw text is a Method paragraph from a draft. It credits prior hierarchical Gaussian work, states that the scene is represented with Gaussian primitives, describes organising them into a tree hierarchy of `L` levels where a higher level is coarser but more efficient, says higher-level primitives are merged from lower-level ones, spells out that merging as interpolating every attribute of a level `l` primitive to obtain level `l+1`, and closes on selecting nodes to render by camera view and manually setting node velocity from tracking information.
 
 2. Encode, turning the raw text into a high-level outline.
 
@@ -56,7 +56,7 @@ For the abstract, the introduction, the method, or any single paragraph, the ste
       > **note**
       > Can the current outline express those two points:
       > - For "the concrete design of the hierarchy tree", the current outline is fairly rough and does not explain clearly how it is designed.
-      > - For "the motivation of the hierarchy tree", the current outline does not mention it at all.
+      > - For "the motivation of the hierarchy tree", the current outline does not mention it.
 
    2. Is the logic of the outline smooth?
 
@@ -87,7 +87,7 @@ How to improve sentence flow:
 
 1. Two sentences.
 
-   The raw text is the last two sentences of the same draft paragraph: the one spelling out the attribute interpolation from level `l` to level `l+1`, followed by the one about selecting nodes by camera view and setting node velocity from tracking information.
+   The raw text is the last two sentences of the same draft paragraph: the one spelling out the attribute interpolation from level `l` to level `l+1`, followed by the one about selecting nodes by camera view and manually setting node velocity from tracking information.
 
 2. Judge whether they follow sentence flow. GPT can find where the sentence flow is unreasonable:
 

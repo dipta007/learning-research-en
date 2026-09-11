@@ -2,7 +2,7 @@
 source: notion page 高水平科研工作者的写作经验 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 高水平科研工作者的写作经验
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 2 in the source, both scans of third-party publications, cited here instead of embedded
 -->
 
@@ -19,7 +19,7 @@ figures: 2 in the source, both scans of third-party publications, cited here ins
 
 Bill Freeman, *How to write a good CVPR submission* (in English). The figure in the source is a slide from that talk, giving a three-step order for opening a paper: state the problem you address with the audience in mind, then say briefly what the other solutions are and why they are not satisfactory, then explain your own solution, compare it, and say why it is better.
 
-A copy is linked from the source repository as [`Bill_Freeman_How_to_do_research.pdf`](https://pengsida.net/files/Bill_Freeman_How_to_do_research.pdf).
+No copy of this talk is reachable from the source page. A different Freeman document, his 2013 essay *How to do research*, is linked from the source repository as [`Bill_Freeman_How_to_do_research.pdf`](https://pengsida.net/files/Bill_Freeman_How_to_do_research.pdf).
 
 </details>
 
@@ -40,7 +40,7 @@ A SIGGRAPH paper chairs' document on writing (in English). No copy is reachable 
 
 <!-- Writing_Science.pdf is not downloadable from Notion -->
 
-Joshua Schimel, *Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded*, Oxford University Press, 2012 (in English). The section he means is Chapter 13, "Flow", which opens on page 13 of that chapter and sets out two ways to create flow: writing paragraphs whose sentences all serve one coherent theme, and writing sentences that hand off from one to the next so an idea carries cleanly from start to finish.
+Joshua Schimel, *Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded*, Oxford University Press, 2012 (in English). The section he means is Chapter 13, "Flow", which sets out two ways to create flow: writing paragraphs whose sentences all serve one coherent theme, and writing sentences that hand off from one to the next so an idea carries cleanly from start to finish.
 
 The figure in the source is a scan of that page. Read it in the book.
 
