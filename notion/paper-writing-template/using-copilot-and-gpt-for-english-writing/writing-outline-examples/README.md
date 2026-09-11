@@ -2,7 +2,7 @@
 source: notion page 写作思路典例 (nested under 如何使用copilot和gpt辅助英语写作, under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 写作思路典例
 source fetched: 2026-09-11
-status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-check pending)
+status: verified by fable, 2026-09-11 (two passes, findings applied)
 -->
 
 # Worked Examples of Writing Outlines
@@ -18,7 +18,7 @@ status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-
 ### Outline at paragraph granularity
 
 1. The problem to solve: scene reconstruction -> COLMAP works very well, describe how -> COLMAP works poorly on low-textured regions like floors and walls, give the specific reason.
-2. Traditional methods: use planes to help scene reconstruction -> the pipeline is complicated, many parameters to tune -> the plane works poorly, so the reconstruction quality is poor.
+2. Traditional methods: use planes to help scene reconstruction -> the pipeline is complicated, many parameters to tune -> the plane works poorly, the reconstruction quality is poor.
 3. Recent methods: NeRF, VolSDF and NeuS work very well on object reconstruction -> experiments show that they work poorly on indoor low-textured regions -> across a large low-textured region there are many geometries that can explain the images.
 4. Our method: use semantics to help reconstruction, and optimise the semantic information while reconstructing -> `Specifically,` detect the floor and the walls and make them obey their semantic properties -> assume a Manhattan-world structure, so the normals of surface points on the floor and the walls obey the matching property; the wall normal is itself optimised -> given that the segmentation may be inaccurate, define a semantic MLP -> use multi-view consistency to improve the accuracy of the semantic segmentation, and at the same time optimise the segmentation probability with a geometric loss.
 5. Experiments.
@@ -41,7 +41,7 @@ status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-
 **Recent methods**, five sentences:
 
 1. Recent work `\cite{SRN, NeRF, IDR}` represents 3D scenes as implicit neural representations, learned from images with differentiable renderers.
-2. What IDR does -> although it produces high-quality reconstruction, it tends to fail on complex scenes -> the reason: surface rendering back-propagates gradients only at the surface point, so it is prone to local optima.
+2. What IDR does -> although it produces high-quality reconstruction, it tends to fail on complex scenes, as illustrated in `\cite{volsdf, neus}` -> the reason: surface rendering back-propagates gradients only at the surface point, so it is prone to local optima.
 3. What the volume rendering methods `\cite{unsurf, volsdf, neus}` do instead, producing gradient signal at many points along a ray -> so they handle complex scenes without extra mask supervision.
 4. The limitation this paper attacks: they still perform poorly in low-textured planar regions, with a forward reference to the paper's own experiments.
 5. The technical reason: many possible 3D representations produce the same observed images, especially in low-textured planar regions.
@@ -60,7 +60,7 @@ status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-
 1. Frame the long-standing problem `\cite{point clouds, volumetric, MVS}`: recovering the underlying 3D shape of a captured scene from images with calibrated camera poses.
 2. The two-stage pipeline, per-image depth estimation by multi-view stereo then depth fusion -> traditional multi-view stereo reconstructs very accurate shapes and is used in downstream applications `\cite{view synthesis, human reconstruction}` -> however it performs poorly on texture-less regions -> the reason: texture-less regions make dense feature matching intractable.
 3. Works that improve the pipeline with deep learning -> `\cite{gift, loftr}` improved feature matching -> MVSNet builds a cost volume to predict the depth map.
-4. Another line of works uses scene priors to help reconstruction -> using planes to help COLMAP-style scene reconstruction -> some works cited in Haoyu's earlier paper.
+4. Another line of works uses scene priors to help reconstruction -> using planes to help COLMAP's scene reconstruction -> some works cited in Haoyu's earlier paper.
 
 **Volumetric reconstruction.**
 
@@ -92,7 +92,7 @@ status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-
 
 ### Outline at sentence granularity
 
-**Problem statement and overview**, five sentences:
+**Problem statement and overview**, five items:
 
 1. The goal, given multi-view images with camera poses of an indoor scene.
 2. A pointer to the overview figure.
@@ -100,16 +100,27 @@ status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-
 4. What Section 3.2 covers and why: semantic segmentation to find floors and walls, then geometric constraints from the Manhattan-world assumption.
 5. What Section 3.3 covers and which weakness of 3.2 it answers: encoding semantics into the representation and jointly optimising them with geometry and appearance.
 
-**Volume rendering of signed distance fields**, six sentences:
+**Volume rendering of signed distance fields**, six items:
 
 1. Contrast with multi-view stereo methods: the scene is modelled as an implicit neural representation learned with a differentiable renderer.
 2. Credit the prior work the representation follows `\cite{idr, volsdf, neus}`.
 3. Describe the geometry network: a 3D point maps to a signed distance, with the defining equation, then what implements it and what the geometry feature is.
 4. Describe the colour network: which inputs it takes, with the equation, then how the normal is obtained as the gradient of the signed distance at the point.
-5. Describe training the representation with volume rendering: credit the prior work being followed `\cite{volsdf, neus}` -> for one image pixel, sample N points along its camera ray -> predict signed distance and colour per point -> convert signed distance to density with Equation 1 -> get the colour with the volume rendering equation -> state the image loss.
-6. Describe adding a depth map loss from COLMAP: report that the image loss alone reconstructs poorly, with a figure reference, and give the reason, that a view-dependent colour network can explain the images well even when the geometry is wrong -> in contrast, multi-view stereo mostly returns incomplete reconstructions but its recovered geometry is accurate -> the guidance loss using multi-view stereo depth maps, with its equation -> define each term -> state what improved and what did not, since the depth maps are themselves incomplete in texture-less planar regions, with a figure reference.
+5. Describe training the representation with volume rendering:
+   a. Credit the prior work being followed `\cite{volsdf, neus}`. ->
+   b. For one image pixel, sample N points along its camera ray. ->
+   c. Predict the signed distance and colour of each point. ->
+   d. Then convert signed distance to density with Equation 1. ->
+   e. Then get the colour with the volume rendering equation. ->
+   f. Describe the image loss.
+6. Describe using the depth map from COLMAP as a loss:
+   a. Report that the image loss alone reconstructs poorly, with a figure reference. -> The reason: the colour network is view-dependent, so inaccurate geometry can still explain the images fairly well.
+   b. In contrast, although multi-view stereo methods mostly recover only incomplete reconstructions, the geometry they do recover is accurate.
+   c. Use the depth maps from a multi-view stereo method `\cite{}` to guide the learning of the scene representation, with its equation.
+   d. Define its terms, the rendered depth from volume rendering against the depth map from multi-view stereo.
+   e. This improved the reconstruction, but since the depth maps are themselves incomplete in texture-less planar regions, performance in those regions is still limited, with a figure reference.
 
-**Semantics-guided scene reconstruction**, seventeen sentences:
+**Semantics-guided scene reconstruction**, seventeen items:
 
 1. The observation that most texture-less planar regions lie on floors and walls.
 2. What the Manhattan-world assumption says: floors and walls of indoor scenes align with three dominant directions.
@@ -129,7 +140,7 @@ status: unverified (fable pass 1 done 2026-09-11, corrections applied after, re-
 16. Note the height is also jointly optimised, then give the combined floor loss.
 17. Define its remaining term, the coefficient weight.
 
-**Joint optimisation of semantics and geometry**, eight sentences:
+**Joint optimisation of semantics and geometry**, eight items:
 
 1. State what the geometric constraints achieved.
 2. State the remaining problem: predicted 2D segmentation can be wrong in places, making the reconstruction inaccurate, with a figure reference.
