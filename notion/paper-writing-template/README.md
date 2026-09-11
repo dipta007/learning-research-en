@@ -3,7 +3,7 @@ source: notion page 论文写作模板
 source page id: c1a22465a0fa4b15a12985223916048e
 source fetched: 2026-09-11
 status: verified by fable, 2026-09-11 (findings applied)
-figures: 19, the author's originals, English redraws pending
+figures: 19 originals kept; the 4 plan-diagram pages redrawn in English as Mermaid, the other 15 are screenshots used as-is
 -->
 
 # A Paper Writing Template
@@ -17,11 +17,98 @@ The repository that turns this writing template into Vibe Writing Skills: https:
 <details>
 <summary>The paper writing plan diagram</summary>
 
-<!-- the editable 论文写作规划.drawio is not downloadable from Notion; these are its exported pages -->
-![plan page 1](./assets/2f33fe292ff1803caa1cfcdf1d47e716-page1.png)
-![plan page 2](./assets/2f33fe292ff1809c9f29eb2954c826b5-180c747c-a47d-4ecc-8520-6d9e30d25728.png)
-![plan page 3](./assets/2f33fe292ff1801e8a21d0dbdbb89bdf-83930b48-c627-4b05-aac1-630121ff5c3a.png)
-![plan page 4](./assets/2f33fe292ff180dc89eff2a8aabdb8ae-page4.png)
+<!-- the editable 论文写作规划.drawio is not downloadable from Notion; the originals are its exported pages -->
+
+Diagrams by Prof. Peng Sida, redrawn in English. Originals: [page 1](./assets/2f33fe292ff1803caa1cfcdf1d47e716-page1.png), [page 2](./assets/2f33fe292ff1809c9f29eb2954c826b5-180c747c-a47d-4ecc-8520-6d9e30d25728.png), [page 3](./assets/2f33fe292ff1801e8a21d0dbdbb89bdf-83930b48-c627-4b05-aac1-630121ff5c3a.png), [page 4](./assets/2f33fe292ff180dc89eff2a8aabdb8ae-page4.png).
+
+**The flowchart for writing a paper**
+
+```mermaid
+flowchart TD
+    A[Draw the paper's technical pipeline figure] --> B["Write the paper's key content<br/>(see the 'key content' part of the plan diagram)"]
+    B --> C["Write the Introduction's text outline<br/>(see the 'Introduction content breakdown' part)"]
+    C --> D["Draw the experiment plan diagram, organise the experiments to run<br/>(see the 'experiment content breakdown' part)"]
+    D --> E["Write the Method's text outline<br/>(see the 'Introduction content breakdown' part)"]
+    D --> P[Run verification experiments and ablation experiments in parallel]
+    E --> F[Write the Introduction and Method]
+    F --> G["Write the Experiment's text outline<br/>(see the 'Experiment content breakdown' part)"]
+    G --> H[Write the Experiment]
+    P --> H
+    H --> I[Polish the technical pipeline figure, draw the paper's teaser figure]
+    I --> J[Finish the remaining parts of the paper, and review and revise the paper repeatedly]
+```
+
+**The paper's key content, and how it maps onto the Introduction**
+
+```mermaid
+flowchart LR
+    subgraph K["The paper's key content"]
+      direction TB
+      K1[What task are we doing] --> K2[Which metric of that task are we improving]
+      K2 --> K3[The surface phenomenon of SOTA methods failing to meet the target metric]
+      K3 --> K4[The underlying technical problem behind that failure]
+      K4 --> K5["What technique is proposed to solve that technical problem.<br/>Draw a technical pipeline figure here, to help yourself fully understand the technique you propose."]
+      K5 --> K6[Why can that technique solve that technical problem]
+      K6 --> K7[Some additional technical contributions of this paper]
+    end
+    subgraph I["Breakdown of the Introduction's content"]
+      direction TB
+      I1["Part 1: introduce what task this paper does and its applications; introduce the key metric this paper cares about"]
+      I2["Part 2: introduce how SOTA methods work, and the surface phenomenon of them failing to meet the target metric, and discuss the underlying technical problem behind that failure."]
+      I3["Part 3: introduce the technical solution this paper proposes for the underlying technical problem, and discuss why that technique can solve that technical problem."]
+      I4["Part 4: introduce some additional technical contributions of this paper, introduce clearly what problem those contributions want to solve, and discuss why they can solve it."]
+      I5["Part 5: introduce which experiments the paper ran."]
+      I1 --> I2 --> I3 --> I4 --> I5
+    end
+    K1 --> I1
+    K2 --> I1
+    K3 --> I2
+    K4 --> I2
+    K5 --> I3
+    K6 --> I3
+    K7 --> I4
+```
+
+**Breakdown of the Method's content**
+
+```mermaid
+flowchart LR
+    A[Draw the paper's technical pipeline figure] -- guides --> B[Breakdown of the Method's content]
+    B --> S1["Subsection 1<br/>(technical module 1)"]
+    B --> S2["Subsection 2<br/>(technical module 2)"]
+    B --> S3["Subsection 3<br/>(technical module 3)"]
+    S1 --> M[Motivation]
+    S1 --> D[Detailed design]
+    S1 --> T[Technical advantage]
+```
+
+**The Experiment planning diagram**
+
+```mermaid
+flowchart TD
+    K[The paper's key content] -- guides --> C[Which contributions were proposed]
+    C --> C1[Contribution 1] --> V1[Verification experiment 1]
+    C --> C2[Contribution 2] --> V2[Verification experiment 2]
+    C --> C3[Contribution 3] --> V3[Verification experiment 3]
+```
+
+```mermaid
+flowchart TD
+    P[The paper's technical pipeline figure] -- guides --> M[Which technical modules were proposed]
+    M --> M1[Technical module 1] --> A1[Ablation experiment 1]
+    M --> M2[Technical module 2] --> A2[Ablation experiment 2]
+    M --> P1[Important parameter 1] --> A3[Ablation experiment 3]
+    M --> P2[Important parameter 2] --> A4[Ablation experiment 4]
+```
+
+**Breakdown of the Experiment's content**
+
+```mermaid
+flowchart TD
+    E1[Subsection for the experimental setup] --> E2[Subsection for verification experiment 1]
+    E2 --> E3[Subsection for verification experiment 2]
+    E3 --> E4[Ablation experiments]
+```
 
 </details>
 
