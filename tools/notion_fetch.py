@@ -79,7 +79,11 @@ def save_asset(block_id, src, assets_dir):
     """Returns the local filename, or None when Notion will not serve the bytes."""
     os.makedirs(assets_dir, exist_ok=True)
     name = src.split(":")[-1] if src.startswith("attachment:") else src.split("/")[-1].split("?")[0]
-    name = re.sub(r"[^\w.-]+", "_", urllib.parse.unquote(name))[:80] or f"{block_id[:8]}.bin"
+    name = re.sub(r"[^\w.-]+", "_", urllib.parse.unquote(name))[:80] or "asset.bin"
+    # full block id prefix: he reuses names like image.png across blocks, and
+    # notion gives blocks created together the same leading hex, so a short
+    # prefix still collides and silently drops a figure
+    name = f"{block_id.replace('-', '')}-{name}"
     path = os.path.join(assets_dir, name)
     if os.path.exists(path):
         return name
