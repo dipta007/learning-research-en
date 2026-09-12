@@ -13,9 +13,11 @@ All ideas and examples are his. If the advice helps you, the credit is his, and 
 | `getting_advanced_in_research.md` | [en/getting-advanced-in-research.md](./en/getting-advanced-in-research.md) | needs review |
 | `changelog` | [en/changelog.md](./en/changelog.md) | needs review |
 
-His longer notes live on Notion, in 18 pages linked from the files above. Translations of those go in [`notion/`](./notion). Anything not translated yet is marked `(not done)` at the link.
+Most of his writing lives on Notion, not in that repository. **All of his research-advice pages are now translated**: 22 top-level pages plus their sub-pages, indexed in [`notion/`](./notion).
 
-"Needs review" means one person translated it and nobody has checked it against the Chinese yet.
+His study notes, where he takes notes on other people's talks, interviews, books and papers, are linked in [`notion/not-translated.md`](./notion/not-translated.md) rather than translated. They are most of his Notion by length and little of it by use to someone learning research.
+
+"Needs review" means one person translated it and nobody has checked it against the Chinese yet. Each page in `notion/` records its own state in an HTML comment at the top, including whether a second model has checked it.
 
 ## Found a mistake? Please tell me
 
