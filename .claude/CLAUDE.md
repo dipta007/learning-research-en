@@ -151,7 +151,7 @@ A translation is not done until a second model has checked it against the source
 
 After finishing any translated file, dispatch a subagent with the Agent tool:
 
-- `model: "fable"`.
+- **A different model from the one that wrote the translation.** `model: "fable"` is the default choice. If fable is rate-limited, use `sonnet` instead; the guarantee that matters is independence, not any particular model. Record which model checked the file in its `status:` line.
 - A **fresh** agent, so omit `subagent_type` or use `general-purpose`. **Never use `subagent_type: "fork"`.** A fork inherits the context that wrote the translation and will agree with itself, which is no check at all.
 - Give it two paths, the Chinese source and the English output, and nothing else. Do not summarise what you intended, because that leads the verifier.
 
