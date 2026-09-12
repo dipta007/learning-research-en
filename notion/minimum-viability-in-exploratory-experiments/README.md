@@ -2,7 +2,7 @@
 source: notion page 探索性实验应遵循最小可行性
 source page id: 2863fe29-2ff1-8075-9413-f51ed1d1fdc3
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 0
 -->
 
@@ -19,7 +19,7 @@ Minimum viability in research means using the least resources, time and effort t
 The core importance: lower the risk, raise the efficiency. This is the most fundamental value of minimum viability. Research is by nature an exploration of the unknown, full of uncertainty and the risk of failure.
 
 - **Test the hypothesis quickly, avoid going in the wrong direction.** You may have a very clever idea that hides a fatal logical flaw, or a practical constraint you have not considered. Discovering that it simply cannot work only after investing a lot of time and effort in building a complex experimental system is an enormous waste. The minimum viability approach lets you run a simple experiment quickly and answer this question first: is this idea possible in principle? If even the simple experiment fails, you can drop it or change direction decisively, saving a lot of valuable resources.
-- **Use limited resources efficiently.** Research resources, meaning funding, equipment, student time and compute, are always scarce. Minimum viability forces you to focus on the most central question, and keeps you out of the trap of optimising details and building a perfect system early in the project. Put your good steel into the blade's edge.
+- **Use limited resources efficiently.** Research resources, meaning funding, equipment, student time and compute, are always scarce. Minimum viability forces you to focus on the most central question, and keeps you out of the trap of optimising details and building a perfect system early in the project. Put your good steel into the blade's edge, meaning spend scarce resources where they actually decide the outcome.
 - **Get feedback quickly and iterate forward.** What minimum viability produces is a first version that is crude but works. You can use it to gather preliminary data, show it to your advisor and peers, apply for preliminary funding, or find problems in the design. From that early feedback you can iterate and improve with a target in mind, keeping the research route evolving in the most efficient direction. This is a build-measure-learn loop.
 
 #### How to apply the minimum viability rule concretely when running exploratory experiments

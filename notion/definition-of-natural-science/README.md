@@ -2,7 +2,7 @@
 source: notion page 自然科学的定义（数学与科学的区别）
 source page id: 1053fe29-2ff1-8015-b2f3-cde4498a5f0f
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 0
 -->
 
@@ -20,6 +20,8 @@ What the article covers, so you know whether to follow the link:
 - The two differ in **what they study**: mathematics studies quantity and spatial relations in a symbolic language, and its objects may be real or imagined, so it is highly abstract. Science studies the phenomena of matter in nature and the laws by which things arise, develop and change, so its objects must be real, which makes it highly empirical.
 - They differ in **method**: mathematics leans on logical deduction, and every theorem must be proved deductively to enter the system. Science leans on experiment, working from hypotheses through reasoning, drawing conclusions from repeatable experiments.
 - They differ in **how reliable their conclusions are**: a mathematical theorem is generally very reliable and hard for later work to overturn, whereas a scientific conclusion is often only the truth of its era, and may stop being reliable once mathematics, instruments and evidence from other fields have moved on.
-- It argues **mathematics is the vanguard of science**, giving worked examples from physics of how the available mathematics bounded the science of its time, and notes the reverse direction too, where scientific curiosity sets new problems for mathematics, using quantum mechanics and entanglement as the case where progress waits on mathematics that does not yet exist.
+- It argues **mathematics is the vanguard of science**, citing Marx to the effect that a science only reaches real maturity once it successfully applies mathematics. Its three physics examples are that the Euclidean-geometry era could only support a statics-based science, matching Ptolemy's geocentric system; that Newton's invention of calculus allowed a science built on dynamics, giving the Copernicus-Newton system; and that non-Euclidean geometry let Einstein derive general relativity through Riemannian geometry.
+- It notes the reverse direction too, where scientific curiosity sets new problems for mathematics, using quantum mechanics and entanglement as the case where progress waits on mathematics that does not yet exist.
+- It closes on the natural bond between the two: modern science and technology owe their progress to mathematics, nearly every technical field uses it, and the better it is used the higher the technical level. Developing mathematical thinking is treated as a precondition for humans exploring and solving problems at all, from the macroscopic to the microscopic.
 
 He links this page from [the awareness and abilities page](../phd-awareness-abilities-and-research-project/README.md), under continuously improving your research taste.

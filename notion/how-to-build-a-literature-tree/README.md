@@ -2,7 +2,7 @@
 source: notion page 如何构建literature tree（如何进行literature review，构建novelty tree和challenge-insight tree）
 source page id: f8b36e48-4b34-4a28-93a9-4e4608b72ec2
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 1, a screenshot of a Deep Research session, kept as-is
 note: this page is reachable from several of his pages; this is the single canonical translation, per the one-page-one-file rule
 -->
@@ -39,8 +39,8 @@ Class 4 novelty: work that adds some modules to improve an existing pipeline.
 How to create a literature tree:
 
 1. Collect papers in the same direction.
-2. By reading the papers, work out the milestone tasks that already exist in this direction, and mark the first paper that proposed each task (class 1 novelty).
-3. Group the papers by milestone task. Work out the representative pipelines and representations, and mark the first paper that proposed each pipeline or representation (class 2 novelty).
+2. By reading the papers, sift out the milestone tasks that already exist in this direction, and mark the first paper that proposed each task (class 1 novelty).
+3. Group the papers by milestone task. Sift out the representative pipelines and representations, and mark the first paper that proposed each pipeline or representation (class 2 novelty).
 4. Subdivide further by pipeline or representation, and group the papers (class 3 novelty).
 5. As your understanding of the field grows, add new milestone tasks.
 
