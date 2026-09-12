@@ -2,7 +2,7 @@
 source: notion page 怎么找论文
 source page id: c278dab7-e476-4d61-a92c-1fd1ef3135b1
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 4, screenshots of AI tool sessions, kept as-is
 -->
 

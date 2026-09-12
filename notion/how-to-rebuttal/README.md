@@ -2,7 +2,7 @@
 source: notion page 怎么rebuttal
 source page id: af99ce47-103e-4917-b6a5-bd1fd4b3c022
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 1, his own flowchart, redrawn in English as Mermaid, original kept
 -->
 

@@ -2,7 +2,7 @@
 source: notion page 学习计划参考例子
 source page id: 8911dcc5-922b-4442-a80d-4407926e65bf
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 1, his own, kept as-is
 -->
 

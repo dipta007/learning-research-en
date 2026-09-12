@@ -2,7 +2,7 @@
 source: notion page 设备配置
 source page id: 59569d7b-6695-4578-b21b-f1dc6ea35776
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

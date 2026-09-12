@@ -2,7 +2,7 @@
 source: notion page 实验记录模板
 source page id: a7b846d0-082b-458e-8eb3-66f506f10182
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-12
+status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

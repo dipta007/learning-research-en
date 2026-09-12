@@ -2,7 +2,7 @@
 source: notion page 怎么练习写论文
 source page id: c13c7e52-aab6-4c1a-8e35-76b97fcb9851
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

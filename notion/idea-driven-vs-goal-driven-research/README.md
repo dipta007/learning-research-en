@@ -2,7 +2,7 @@
 source: notion page Idea-driven research vs. Goal-driven research
 source page id: d9c65563-26e8-4962-a2d7-ae190e2705af
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

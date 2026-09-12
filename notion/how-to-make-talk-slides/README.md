@@ -2,7 +2,7 @@
 source: notion page 如何做学术报告slides
 source page id: 810f0267-0691-444f-8c94-cc3d5b76dcbc
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (nesting confirmed against the live block tree)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader. Nesting confirmed against the live block tree.
 figures: 12, his own reference material, kept as-is
 -->
 

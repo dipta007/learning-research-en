@@ -2,7 +2,7 @@
 source: notion page 如何构建literature tree（如何进行literature review，构建novelty tree和challenge-insight tree）
 source page id: f8b36e48-4b34-4a28-93a9-4e4608b72ec2
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 1, a screenshot of a Deep Research session, kept as-is
 note: this page is reachable from several of his pages; this is the single canonical translation, per the one-page-one-file rule
 -->

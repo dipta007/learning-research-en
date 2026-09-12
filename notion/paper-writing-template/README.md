@@ -2,7 +2,7 @@
 source: notion page 论文写作模板
 source page id: c1a22465a0fa4b15a12985223916048e
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11 (findings applied)
+status: verified against the Chinese source over 6 rounds, last on 2026-09-12. Round 6 is still running, so the last completed round was not clean. Still needs review by a Chinese reader.
 figures: 19 originals kept; the 4 plan-diagram pages redrawn in English as Mermaid, the other 15 are screenshots used as-is
 -->
 

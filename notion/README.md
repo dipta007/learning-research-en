@@ -6,6 +6,10 @@ His Notion also contains study notes, where he takes notes on other people's tal
 
 His pages change every few weeks, so a translation here can be behind. Every page records the date it was fetched. When in doubt, read his original.
 
+**How far each page has been checked.** Every page has been read back against the Chinese by a fresh model, repeatedly, until a round found nothing left to fix. Each page's header says how many rounds that took: 2 for the simplest, 7 for the hardest. Those rounds found 155 real defects *after* a first pass had already been done, almost all of one kind. He writes hedged and emphatic, and the English kept coming out flat: 很 ("very"), 一些 ("some"), 需要 ("need to"), 能 ("can") and 才 ("only then") dropped one at a time until a suggestion read as an order. The renderings now fixed are in [GLOSSARY.md](../GLOSSARY.md).
+
+No human who reads Chinese has read any of this yet. That is the check still missing, and it is worth more than another model round.
+
 ## Translated
 
 | Document | Original | Translation |

@@ -2,7 +2,7 @@
 source: notion page 如何做出有影响力的工作 (nested under 怎么做吸引人的demo和application, under 论文画图模板, under 怎么审论文, under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 怎么审论文 -> 论文画图模板 -> 怎么做吸引人的demo和application -> 如何做出有影响力的工作
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11 (findings applied)
+status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 2, the author's originals, English redraws pending
 -->
 

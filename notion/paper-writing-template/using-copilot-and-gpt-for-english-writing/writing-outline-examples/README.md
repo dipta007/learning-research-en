@@ -2,7 +2,7 @@
 source: notion page 写作思路典例 (nested under 如何使用copilot和gpt辅助英语写作, under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 写作思路典例
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11 (two passes, findings applied)
+status: verified against the Chinese source over 7 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 -->
 
 # Worked Examples of Writing Outlines

@@ -2,7 +2,7 @@
 source: notion page 科研学习与课程学习的不同之处
 source page id: a3fe9f17-b8af-4655-8cd1-112627009c83
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 6 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 5 in the source. Four are screenshots of other people's documents and are described rather than copied in; one is his own and is kept.
 -->
 

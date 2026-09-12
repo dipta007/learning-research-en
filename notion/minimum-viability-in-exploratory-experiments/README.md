@@ -2,7 +2,7 @@
 source: notion page 探索性实验应遵循最小可行性
 source page id: 2863fe29-2ff1-8075-9413-f51ed1d1fdc3
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 6 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

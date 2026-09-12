@@ -2,7 +2,7 @@
 source: notion page 自然科学的定义（数学与科学的区别）
 source page id: 1053fe29-2ff1-8015-b2f3-cde4498a5f0f
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

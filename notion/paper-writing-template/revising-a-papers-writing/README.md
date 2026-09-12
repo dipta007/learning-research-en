@@ -2,7 +2,7 @@
 source: notion page 如何改一篇论文的写作 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 如何改一篇论文的写作
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11 (findings applied)
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 2, screenshots of his own GPT session, used as-is
 -->
 

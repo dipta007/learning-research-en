@@ -2,7 +2,7 @@
 source: notion page 如何有效地读论文
 source page id: d192db87-0bc6-4436-ae4a-4a590b36772a
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11
+status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 3, screenshots of an AI chat session and of his parsing tree in use, kept as-is
 -->
 

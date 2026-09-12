@@ -2,7 +2,7 @@
 source: notion page 如何找到实验不work的原因
 source page id: 1aee6e71-8de6-472f-834d-13da8f4ff097
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 5 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 6 in the source. His own decision flowchart is redrawn in English as Mermaid, original kept. The other five are screenshots of other researchers' remarks, embedded without a source link, so they are described where they appear rather than copied in.
 -->
 

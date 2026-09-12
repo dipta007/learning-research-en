@@ -2,7 +2,7 @@
 source: notion page 3.24 实验记录
 source page id: 492bf030-bc8a-48fc-be9d-fd1a246678b1
 source fetched: 2026-09-11
-status: verified by sonnet, 2026-09-12 (findings applied; nesting checked against the live block tree)
+status: verified against the Chinese source over 4 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader. Nesting checked against the live block tree.
 figures: 25 result screenshots kept as-is; 25 videos are not downloadable from Notion and are marked in place
 -->
 

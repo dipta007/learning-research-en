@@ -2,7 +2,7 @@
 source: notion page 科研上忌讳的事情有哪些
 source page id: 1fa3fe29-2ff1-807e-98c5-e3513045cbab
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-12 (findings applied)
+status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 1 in the source, a screenshot of the linked Zhihu answer, not copied in
 -->
 

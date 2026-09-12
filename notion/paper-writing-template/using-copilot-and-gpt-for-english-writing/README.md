@@ -2,7 +2,7 @@
 source: notion page 如何使用copilot和gpt辅助英语写作 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 如何使用copilot和gpt辅助英语写作
 source fetched: 2026-09-11
-status: verified by fable, 2026-09-11 (findings applied)
+status: verified against the Chinese source over 4 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 17, screenshots of his own Copilot and GPT session, used as-is
 -->
 
