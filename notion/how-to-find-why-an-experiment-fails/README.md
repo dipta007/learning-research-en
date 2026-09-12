@@ -28,7 +28,7 @@ The source embeds two screenshots of that point, without a source link.
 <details>
 <summary>The consequences of not analyzing your experimental results</summary>
 
-The project goes very slowly, quite possibly does not succeed, or gets scooped, so the time invested earlier is wasted.
+The project goes very slowly, is very likely not to succeed, or gets scooped, so the time invested earlier is wasted.
 
 The source embeds two screenshots on this point, without a source link.
 
@@ -165,7 +165,7 @@ In words:
    <details>
    <summary>Zhilin Yang's experience: iterate quickly.</summary>
 
-   His point, in summary: not every idea in research is correct, our own ideas will always turn out wrong, and most people's ideas mostly do not work. He used to write every result into a Google Spreadsheet, and noticed that roughly every four or five hundred rows, or every thousand rows, produced one positive result. So the speed at which results appear depends on the speed at which you iterate, and you have to iterate fast enough to get results fast.
+   His point, in summary: not every idea in research is correct, our own ideas will always turn out wrong, and most people's ideas mostly do not work. He used to write every result into a Google Spreadsheet, and noticed that roughly every four or five hundred rows, or every thousand rows, produced one positive result. So the speed at which results appear depends on the speed at which you iterate, and you have to iterate fast enough, and only then is it possible to get results fast.
 
    </details>
 

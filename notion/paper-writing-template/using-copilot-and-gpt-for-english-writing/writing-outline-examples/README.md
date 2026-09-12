@@ -117,7 +117,7 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
    f. Describe the image loss.
 6. Describe using the depth map from COLMAP as a loss:
    a. Report that the image loss alone reconstructs poorly, with a figure reference. -> The reason: the color network is view-dependent, so inaccurate geometry can still explain the images fairly well.
-   b. In contrast, although multi-view stereo methods mostly recover only incomplete reconstructions, the geometry they do recover is very accurate.
+   b. In contrast, although multi-view stereo methods mostly can only recover incomplete reconstructions, the geometry they do recover is very accurate.
    c. Use the depth maps from a multi-view stereo method `\cite{}` to guide the learning of the scene representation, with its equation.
    d. Define its terms, the rendered depth from volume rendering against the depth map from multi-view stereo.
    e. This improved the reconstruction, but since the depth maps are themselves incomplete in texture-less planar regions, performance in those regions is still limited, with a figure reference.

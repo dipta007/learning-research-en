@@ -32,14 +32,14 @@ He also quotes Einstein: if he had an hour to solve a problem, he would spend fi
 
 #### Question 2: about taking risks
 
-Hu asks why a candidate is not pursuing the interesting, potentially high-impact idea they had just described. The answer he is responding to is a mix of hesitation and the pull of easier work: waiting until the idea is clearer, while there is low-hanging fruit in another direction good for a couple more easy SIGGRAPH papers.
+Hu asks why a candidate is not pursuing the very interesting idea they had just described, which could possibly have a very large impact. The answer he is responding to is a mix of hesitation and the pull of easier work: waiting until the idea is clearer, while there is low-hanging fruit in another direction good for a couple more easy SIGGRAPH papers.
 
 > **note**
 > Reflection: in research, aim high, and dare to act.
 
 #### Question 3: change
 
-Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work may help more, even at the cost of giving up a problem you are already fluent in, and that the earlier knowledge is not completely wasted anyway, since the problem is being extended rather than abandoned.
+Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work may help more, even at the cost of giving up a problem you are already very practiced at, and that the earlier knowledge is not completely wasted anyway, since the problem is being extended rather than abandoned.
 
 > **note**
 > Reflection: in research, dare to embrace change.
@@ -53,7 +53,7 @@ Hu asks whether the work is just combining x from one paper with y from another,
 
 #### Question 5: about collaboration
 
-Hu asks who does the best research in the candidate's field, whether they have talked to that person, why that person is so good, and whether the candidate could be too. The answer he is responding to is shyness: not wanting to disturb others or be disturbed, preferring to stay inside one's own world.
+Hu asks who does the best research in the candidate's field, whether they have talked to that person, why that person is so good, and whether the candidate could be too. The answer he is responding to is being fairly shy: not wanting to disturb others or be disturbed, preferring to stay inside one's own world.
 
 > **note**
 > Reflection: dare to collaborate with people stronger than you.

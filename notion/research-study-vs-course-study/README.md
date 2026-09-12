@@ -42,7 +42,7 @@ In research study, make good use of all sorts of resources to learn efficiently,
 
 Course study requires competing with each other:
 
-One annoying thing about course marking is the normal distribution: in each class only the top few percent can score above 90.
+One very annoying thing about course marking is the normal distribution: in each class only the top few percent can score above 90.
 
 That setup makes high marks a limited resource. Students inside the class have to grind against each other, constantly raising their own level and overtaking others, and only then can they get a share of it.
 
@@ -61,7 +61,7 @@ A research project is something you conceive and explore yourself, not something
 
 In course study the body of knowledge is generally very complete: there are good textbooks and tutorials, every point you need to learn has been organized, and you can just learn it step by step.
 
-In research study, because what you are learning is fairly close to the frontier, the points you need are scattered. Even where a tutorial exists online, it is also very likely to be poorly organized, and cannot directly present the knowledge you need. Learning the knowledge involved in frontier research through courses and books usually needs you to learn a large amount of extra, unrelated material.
+In research study, because what you are learning is fairly close to the frontier, the points you need are very scattered. Even where a tutorial exists online, it is also very likely to be poorly organized, and cannot directly present the knowledge you need. Learning the knowledge involved in frontier research through courses and books usually needs you to learn a large amount of extra, unrelated material.
 
 > **note** In research study, your lab's advisor and senior students are a complete body of knowledge that walks.
 > You high-scoring undergraduate stars: however you normally look things up in textbooks and tutorials, treat your advisor and your senior students as the textbook and the tutorial, and ask and learn from them.

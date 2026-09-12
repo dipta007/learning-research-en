@@ -219,11 +219,11 @@ Record the lab's overall submission progress, so you know how many papers still 
 <details>
 <summary>The paper title</summary>
 
-The title matters, because different titles may well attract reviewers from different fields.
+The title matters, because different titles are very likely to attract reviewers from different fields.
 
 Before choosing a title, first write down some important keywords, then choose the title based on those keywords.
 
-The title and the phrase naming the paper's method must have concrete meaning and be informative, so that readers remember them easily. Informative includes: the technique used, the paper's task, the problem the paper solves.
+The title and the phrase naming the paper's method must have concrete meaning and be informative, and only then do readers remember them easily. Informative includes: the technique used, the paper's task, the problem the paper solves.
 
 </details>
 
@@ -365,7 +365,7 @@ Then reason forwards, listing the paper's story:
 </details>
 
 <details>
-<summary>Version 3: introduce the application of the general task first, then the specific task setting. (When the setting is fairly new, I personally recommend this one)</summary>
+<summary>Version 3: introduce the application of the general task first, then the specific task setting. (when the setting is fairly new, personally I fairly recommend this way of writing)</summary>
 
 ```latex
 % Introduce the application of the general task
@@ -415,7 +415,7 @@ For a novel task, the approach is to think each of these through:
 
 1. Think through the technical challenge our pipeline solved.
 
-> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was straightforward to come up with. What they may not realize is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
+> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
 
 Even if our work really is a 4-point piece, do not write it this way.
 
@@ -506,7 +506,7 @@ However, they [the limitation], because [xxx technical reason].
 [Example 1](https://arxiv.org/abs/2212.04965), [example 2](https://openaccess.thecvf.com/content/CVPR2021/papers/Martin-Brualla_NeRF_in_the_Wild_Neural_Radiance_Fields_for_Unconstrained_Photo_CVPR_2021_paper.pdf)
 
 ```latex
-% To achieve xx goal, several requirements must be met (or several challenges are faced).
+% To achieve xx goal, several requirements need to be met (or several challenges are faced).
 %% Example: a single-image object intrinsics paper states its goal, then says the problem is challenging for three reasons.
 
 % Describe the first point
@@ -704,7 +704,7 @@ Introduce the key innovation first, then discuss an observation that anyone can 
 Questions:
 
 1. Which modules does the paper's method have.
-2. For each module, answer three questions: this module's workflow, why this module is used, and why this module works. Organizing the answers as a mind map or a table may make it clearer.
+2. For each module, answer three questions: this module's workflow, why this module is used, and why this module works. Organizing the answers as a mind map or a table may make it somewhat clearer.
 
 The steps for writing the method:
 

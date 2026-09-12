@@ -21,12 +21,12 @@ The purpose of a discussion:
 
 A classic negative example of a "discussion": long-winded and without focus, wearing down the senior advisor's patience and wasting everyone's time.
 
-> A concrete description of what happens: during the discussion, some students, perhaps afraid that a short discussion would make them look like they had not done anything, pad out the time by presenting papers or presenting trivial experimental phenomena. (They may have hit problems and made little progress, so they think about padding the time; or they may do it for other reasons.)
+> A concrete description of what happens: during the discussion, some students, perhaps afraid that a short discussion would make them look like they had not done anything, pad out the time by presenting papers or presenting trivial experimental phenomena. (They may have hit some problems and made little progress, so they think about padding the time; or they may do it for other reasons.)
 
 What is wrong with a discussion like that:
 
 1. It stops the "discussion" putting its focus on solving the problem.
-2. A discussion without focus very much wears people's patience down, and wastes the senior advisor's time. A discussion that might have finished quickly gets dragged out to half an hour or an hour.
+2. A discussion without focus very much wears people's patience down, and wastes the senior advisor's time. A discussion that might have finished very quickly gets dragged out to half an hour or an hour.
 3. It wastes your own time. You have not let people help you effectively.
 
 The right approach:
@@ -82,7 +82,7 @@ Organize the slide content like this (do not report progress in detail):
 
    ![image.png](./assets/1543fe292ff1805e87fbd4d9ea5ef013-image.png)
 
-6. List your plan for what comes next. This lets you keep a grip on the project's planning, and lets everyone offer suggestions about that plan.
+6. List your plan for what comes next. This can let you keep a grip on the project's planning, and can let everyone offer suggestions about that plan.
 
    ![Untitled](./assets/b1920a87377e4876bd7ceb2eefc6b98e-Untitled.png)
 

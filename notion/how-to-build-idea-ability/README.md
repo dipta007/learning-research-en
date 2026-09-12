@@ -76,7 +76,7 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
    > 3. The third situation: only one or two tasks in completely different data domains, whose technical core is the same, have a decent solution.
    > 4. The fourth situation: across tasks in various different fields, there are similar technical problems but none has a fairly good solution.
    >
-   > If you meet the first two situations, you must switch to another failure case, otherwise the project will be very boring and a struggle, wasting people's time and draining their enthusiasm for research.
+   > If you meet the first two situations, you must switch to another failure case, otherwise the project will be very boring and very much a struggle, wasting people's time and draining their enthusiasm for research.
    >
    > The third situation suits a beginner. The fourth suits an expert.
 
