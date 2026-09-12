@@ -43,6 +43,21 @@ An already-English document needs no translation at all. Mark it `(in English)` 
 
 Notion sub-pages become sub-directories of their parent, mirroring his nesting. Figures live in `notion/<slug>/assets/`.
 
+### One page, one translation, keyed by page id
+
+His Notion is a graph, not a tree. Pages cross-link each other, so a naive walk writes the same page once per parent that reaches it. A single crawl produced 60 source files for 40 real pages, with one page duplicated five times.
+
+- **Deduplicate by Notion page id, never by title or path.** He has same-titled pages with different ids, and identical pages reachable by different paths.
+- Each page gets **exactly one** translated file, at one canonical path. The shallowest path wins; on a tie, use the parent that links it most prominently.
+- Everywhere else that reaches it, **link to that one file** rather than translating it again. A duplicate translation is worse than a link: the copies drift, and a reader cannot tell which is current.
+- Before translating a source file, check whether its page id already has a translation. If it does, add the link and stop.
+
+### Scope: keep anything touching research learning
+
+Anything connected to learning or doing research stays in, even loosely. His talk notes, paper notes, book notes, pipeline summaries and technical study notes all count, because they show how he reads and thinks, which is the point of the collection.
+
+The bar for leaving something out is high: it must have nothing to do with research learning at all, like a personal homepage or bio page. When unsure, translate it. Anything genuinely out goes in `notion/not-translated.md` with a link to the original, never dropped silently.
+
 Every translated file starts with an HTML comment header holding `source`, `source commit` or `source fetched`, and `status`. A stale translation is only detectable if that header is accurate.
 
 Directly under the H1, every translated file carries one line pointing at its original:

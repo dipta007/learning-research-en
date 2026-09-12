@@ -162,7 +162,27 @@ def render(blocks, node_id, out_dir, depth=0, seen=None):
     return lines
 
 
-def write_page(blocks, page_id, out_dir, manifest, max_depth):
+def load_index(out_root):
+    """id -> directory, persisted across runs. His pages cross-link, so without
+    this every parent that reaches a page writes its own copy."""
+    path = os.path.join(out_root, "pages.json")
+    if os.path.exists(path):
+        try:
+            return json.load(open(path, encoding="utf-8"))
+        except Exception:
+            pass
+    return {}
+
+
+def save_index(out_root, index):
+    json.dump(index, open(os.path.join(out_root, "pages.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+
+
+def write_page(blocks, page_id, out_dir, manifest, max_depth, index=None, out_root=None):
+    if index is not None and page_id in index and os.path.isdir(index[page_id]):
+        print(f"  = {out_dir}: already fetched at {index[page_id]}")
+        return
     root = blocks.get(page_id) or {}
     title = text_of(root)
     os.makedirs(out_dir, exist_ok=True)
@@ -174,6 +194,10 @@ def write_page(blocks, page_id, out_dir, manifest, max_depth):
                      "assets": sorted(os.listdir(os.path.join(out_dir, "assets")))
                      if os.path.isdir(os.path.join(out_dir, "assets")) else []})
     print(f"  {out_dir}: {manifest[-1]['chars']} chars, {len(manifest[-1]['assets'])} assets")
+    if index is not None:
+        index[page_id] = out_dir
+        if out_root:
+            save_index(out_root, index)
 
     for k, v in blocks.items():
         if k != page_id and v.get("type") == "page":
@@ -181,8 +205,11 @@ def write_page(blocks, page_id, out_dir, manifest, max_depth):
             child_dir = os.path.join(out_dir, slug(child_title, k[:8]))
             if any(m["id"] == k for m in manifest):
                 continue
+            if index is not None and k in index and os.path.isdir(index[k]):
+                print(f"  = {child_dir}: already fetched at {index[k]}")
+                continue
             sub = fetch_tree(k, max_depth)
-            write_page(sub, k, child_dir, manifest, max_depth)
+            write_page(sub, k, child_dir, manifest, max_depth, index, out_root)
 
 
 def main():
@@ -196,12 +223,27 @@ def main():
     blocks = fetch_tree(pid, a.depth)
     print(f"  {len(blocks)} blocks")
     manifest = []
+    os.makedirs(a.out, exist_ok=True)
+    index = load_index(a.out)
     out = os.path.join(a.out, slug(text_of(blocks.get(pid) or {}), pid[:8]))
-    write_page(blocks, pid, out, manifest, a.depth)
-    open(os.path.join(a.out, "manifest.json"), "w", encoding="utf-8").write(
-        json.dumps({"root": pid, "fetched_at": time.strftime("%Y-%m-%d"), "pages": manifest},
-                   ensure_ascii=False, indent=1))
-    print(f"\n{len(manifest)} pages, {sum(m['chars'] for m in manifest)} chars total")
+    write_page(blocks, pid, out, manifest, a.depth, index, a.out)
+    save_index(a.out, index)
+
+    # manifest accumulates across runs, keyed by id; overwriting it per run
+    # loses the page ids of everything fetched earlier
+    mpath = os.path.join(a.out, "manifest.json")
+    prev = []
+    if os.path.exists(mpath):
+        try:
+            prev = json.load(open(mpath, encoding="utf-8")).get("pages", [])
+        except Exception:
+            pass
+    merged = {m["id"]: m for m in prev}
+    merged.update({m["id"]: m for m in manifest})
+    json.dump({"fetched_at": time.strftime("%Y-%m-%d"), "pages": list(merged.values())},
+              open(mpath, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"\n{len(manifest)} new pages this run, {sum(m['chars'] for m in manifest)} chars; "
+          f"{len(merged)} pages known in total")
 
 
 if __name__ == "__main__":

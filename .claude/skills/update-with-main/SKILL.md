@@ -66,7 +66,17 @@ Changed pages are not the only drift. He adds new pages, and some are reachable 
 python3 tools/notion_map.py --depth 3
 ```
 
-Compare the result against the tables in `notion/README.md` and `notion/not-translated.md`. New on-topic pages get translated; new personal study notes get a row in `not-translated.md` with a link. If a page id in `not-translated.md` has stopped resolving, say so rather than deleting the row quietly.
+Compare the result against the tables in `notion/README.md` and `notion/not-translated.md`. If a page id in `not-translated.md` has stopped resolving, say so rather than deleting the row quietly.
+
+**Scope is wide.** Anything touching research learning stays in, even loosely: talk notes, paper notes, book notes, pipeline summaries, technical study notes. Only something with no connection at all, like a personal homepage, goes in `not-translated.md`. When unsure, translate it.
+
+**Deduplicate by page id.** A refetch will produce the same page under several parent paths, because his pages cross-link. Before translating any source file, check whether its page id already has a translation:
+
+```bash
+grep -rl "source page id: <id>" notion/
+```
+
+If one exists, link to it from the new location instead of translating it again. One page, one translated file, keyed by id and never by title or path.
 
 ## 4. Check the fetch before trusting it
 
