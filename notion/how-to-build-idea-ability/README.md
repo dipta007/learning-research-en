@@ -175,7 +175,7 @@ What will the next new hammer be? What will the next example be?
 
 </details>
 
-A point that needs particular attention: do not develop a mindset of depending on your advisor. Train the habit and the ability to do research independently. From one angle you could say this matters even more than publishing papers itself. And in fact you need this ability yourself, and only then can you have a good chance of producing a paper, otherwise the project is basically doomed.
+A point that needs particular attention: do not develop a mindset of depending on your advisor. Train the habit and the ability to do research independently. From one angle you could say this matters even more than publishing papers itself. And in fact you need this ability yourself, and only then can you very likely produce a paper, otherwise the project is basically doomed.
 
 > **note** In fact it is hard for an advisor to find time to design a project's technical details, and the student needs to realize that the only way out is to think of the solution themselves.
 

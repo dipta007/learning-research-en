@@ -141,7 +141,7 @@ The basic approach to writing in English: first write the outline, then refine t
 
 Writing a paper must be done "as if cutting, as if grinding, as if carving, as if polishing": taste it over and over, and work out whether the reader can understand it.
 
-The ability to "self-review whether your paper's writing is clear" matters a great deal. You can only know what to fix once you know there is a problem.
+The ability to "self-review whether your paper's writing is clear" is very important. You can only know what to fix once you know there is a problem.
 
 <details>
 <summary>The keys to writing a paper</summary>
@@ -219,7 +219,7 @@ Record the lab's overall submission progress, so you know how many papers still 
 <details>
 <summary>The paper title</summary>
 
-The title matters, because different titles are very likely to attract reviewers from different fields.
+The title matters a lot, because different titles are very likely to attract reviewers from different fields.
 
 Before choosing a title, first write down some important keywords, then choose the title based on those keywords.
 
@@ -354,7 +354,7 @@ Then reason forwards, listing the paper's story:
 </details>
 
 <details>
-<summary>Version 2: everyone is fairly familiar with the Task, so introduce the Application directly</summary>
+<summary>Version 2: everyone is quite familiar with the Task, so introduce the Application directly</summary>
 
 ```latex
 % Introduce the Application
@@ -380,7 +380,7 @@ This paper focuses on the specific setting of recovering/reconstructing/estimati
 </details>
 
 <details>
-<summary>Version 4: everyone is fairly familiar with the Task, so introduce the Application directly. Then, in the paper's opening paragraph, lead into the technical challenge you want to solve (the failure cases you want to solve, the task metric you want to improve) by introducing previous methods</summary>
+<summary>Version 4: everyone is quite familiar with the Task, so introduce the Application directly. Then, in the paper's opening paragraph, lead into the technical challenge you want to solve (the failure cases you want to solve, the task metric you want to improve) by introducing previous methods</summary>
 
 ```latex
 % The opening paragraph of ManhattanSDF's introduction
@@ -710,7 +710,7 @@ The steps for writing the method:
 
 1. Sketch the pipeline figure.
 2. From the pipeline figure sketch, organize the outline of the method section: which method module each sub-section writes about.
-3. Organize the outline of each subsection. Each subsection has three parts: motivation of this module, module design, technical advantages of this module. Think through the outline of each part. (Very important for explaining a pipeline module clearly)
+3. Organize the outline of each subsection. Each subsection has three parts: motivation of this module, module design, technical advantages of this module. Think through the outline of each part. (Very very important for explaining a pipeline module clearly)
 4. Start writing the actual text, module design first, so the method has some basic content.
 5. Then add motivation of this module and technical advantages of this module into the method.
 

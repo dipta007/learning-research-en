@@ -33,7 +33,7 @@ The right approach:
 
 1. If there really is no problem, please just skip the discussion and briefly sync on progress and the plan for what comes next.
 2. If you have hit a problem, list the problems to discuss and put the discussion's center of gravity on the problems you have hit. It is fine for the discussion to end very quickly. The more efficient the better.
-3. In a "discussion", do not present papers and do not present trivial experimental phenomena. Those do not show your own thinking. If you want to share a paper, share it with me at any time and I will certainly find time to read it. What does show your own thinking: intelligent, deep questions, planning for the project, and thought about the technical contribution.
+3. In a "discussion", do not present papers and do not present trivial experimental phenomena. Those will not show your own thinking. If you want to share a paper, share it with me at any time and I will certainly find time to read it. What can show your own thinking: intelligent, deep questions, planning for the project, and thought about the technical contribution.
 
 > **note** I can guarantee that in lab discussions, if a project is slow because of technical reasons, nobody will be blamed for that by the senior advisor.
 
@@ -93,4 +93,4 @@ Organize the slide content like this (do not report progress in detail):
 The lab's principles for discussion (important):
 
 1. Communicate fully. When talking, do not be afraid of the teachers or the senior students, and do not let that stop you asking questions. Ask as soon as you have a question. The lab's teachers and senior students are all very friendly and happy to answer questions. The only purpose of a discussion is to be correct and efficient, and to be able to resolve your questions about the project.
-2. Talk as equals. This is not a relationship of reporting and being reported to. If you have your own view on the research, express it. If you think a teacher or senior student has said something wrong, question and discuss it politely and properly. Do not simply believe everything teachers and senior students say, but even more, do not appear to comply while doing your own thing underneath, because that wastes a lot of discussion time and experimental cost. The lab's discussions aim at efficient, sincere communication.
+2. Talk as equals. This is not a relationship of reporting and being reported to. If you have your own view on the research, express it. If you think a teacher or senior student has said something wrong, question and discuss it politely and properly. Do not simply believe everything teachers and senior students say, but even more, do not appear to comply while doing your own thing underneath, because that will waste a lot of discussion time and experimental cost. The lab's discussions aim at efficient, sincere communication.
