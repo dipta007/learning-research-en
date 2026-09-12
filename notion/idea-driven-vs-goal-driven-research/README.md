@@ -2,7 +2,7 @@
 source: notion page Idea-driven research vs. Goal-driven research
 source page id: d9c65563-26e8-4962-a2d7-ae190e2705af
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 0
 -->
 
@@ -28,8 +28,8 @@ Advantage: it is easy to get started with. This is probably how most beginners d
 
 Disadvantages:
 
-1. Because you are following someone else, the paper's impact is limited unless the results are a large step better.
-2. It is easy to collide with someone else's idea, because other people may also be improving that same paper.
+1. Because you are following someone else, the paper's impact is limited unless the results are a good deal better.
+2. It is easy to end up with the same idea as someone else, because other people may also be improving that same paper.
 3. Because some solutions already exist, the room for innovation in the solution is limited. You need to be very clever and to have a deep insight to propose a breakthrough new technique for that task, which is fairly difficult.
 
 </details>

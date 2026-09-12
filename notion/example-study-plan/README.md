@@ -2,7 +2,7 @@
 source: notion page 学习计划参考例子
 source page id: 8911dcc5-922b-4442-a80d-4407926e65bf
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 1, his own, kept as-is
 -->
 
@@ -10,9 +10,9 @@ figures: 1, his own, kept as-is
 
 > [Original Article](https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf)
 
-The first goal: study the papers and algorithms of the static scene rendering research direction.
+The initial goal: study the papers and algorithms of the static scene rendering research direction.
 
-The next goal: study the papers and algorithms of the scene decomposition and editing research direction.
+The next goal: study the papers and algorithms of the scene decoupling and editing research direction.
 
 The plan:
 
@@ -25,6 +25,6 @@ The plan:
    1. Read [the DFF paper](https://pfnet-research.github.io/distilled-feature-fields/).
    2. Talk with the senior student, and run the DFF experiments.
    3. Study the [DFF code](https://github.com/pfnet-research/distilled-feature-fields) until you understand the DFF algorithm completely.
-   4. While running the DFF experiments, read the related papers. There is no need to read them all at once; read them closely one at a time, there is no rush.
+3. While running the DFF experiments, read the related papers. There is no need to read them all at once; read them closely one at a time, there is no rush.
 
 ![Untitled](./assets/1c48d71d3ee648d3bd0626a04fb02839-Untitled.png)
