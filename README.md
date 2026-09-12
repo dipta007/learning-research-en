@@ -17,6 +17,21 @@ His longer notes live on Notion, in 18 pages linked from the files above. Transl
 
 "Needs review" means one person translated it and nobody has checked it against the Chinese yet.
 
+## Found a mistake? Please tell me
+
+Every page here was translated once and checked by a second model. No human who reads Chinese has read any of it yet, so reader reports are the main way this gets accurate.
+
+**[Open an issue](https://github.com/dipta007/learning-research-en/issues/new)** for anything at all:
+
+- a sentence whose meaning looks wrong against the original
+- English that is technically right but hard to read
+- a missing or wrong figure, a broken link, a term used two different ways
+- anything that just reads oddly, even if you cannot say why
+
+One line is enough. "This sentence sounds off" is a useful report, and you do not need to read Chinese to file it.
+
+**Or open a pull request** and fix it directly. Small corrections are very welcome and I would rather merge your fix than debate it. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the few translation rules, mainly that a page holds the translation and nothing else.
+
 ## Reading it
 
 Read the original if you read Chinese. A translation always loses something, and his Notion pages are updated more often than this repository.
@@ -25,7 +40,7 @@ For a tool rather than a guide, [Master-cai/Research-Paper-Writing-Skills](https
 
 ## Contributing
 
-Clone it, fix something, send a pull request. Corrections from people who read Chinese are the most useful.
+Corrections from people who read Chinese are the most useful, but they are not the only useful kind. See the section above for how to report something.
 
 The rules live in [.claude/CLAUDE.md](./.claude/CLAUDE.md), which coding agents load on their own, so an agent working in this repository already knows them. [CONTRIBUTING.md](./CONTRIBUTING.md) is the short human version and [GLOSSARY.md](./GLOSSARY.md) fixes the terms.
 
