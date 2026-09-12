@@ -19,7 +19,7 @@ His notes are from reading this article by Prof. Yuanming Hu: [https://zhuanlan.
 How do you take research from the "fundamentals stage" to the "impact stage"?
 
 - **The "fundamentals stage"**: having been through it, you roughly know some of the basic craft of academia, things like doing a survey, coming up with an idea, running experiments, writing a paper and so on. At this stage, once you have an idea for a paper you can basically reliably produce a publication.
-- **The "impact stage"**: simply publishing a paper no longer satisfies you. You want to do work that genuinely has impact.
+- **The "impact stage"**: simply publishing a paper no longer satisfies you. You will want to do work that genuinely has impact.
 
 #### Question 1: whether the project means anything
 

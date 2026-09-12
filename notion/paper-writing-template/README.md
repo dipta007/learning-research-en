@@ -202,7 +202,7 @@ One month before the deadline, the method is very likely not fully settled and t
 <details>
 <summary>Managing projects with a submission progress table</summary>
 
-Record the lab's overall submission progress, so you know how many papers still need revising, and can therefore know at which point your advisor will not be able to finish revising them.
+Record the lab's overall submission progress, so you can know how many papers still need revising, and can therefore know at which point your advisor will not be able to finish revising them.
 
 | Method | Introduction | Project lead | Related work | Experiments | Abstract |
 |---|---|---|---|---|---|
@@ -710,7 +710,7 @@ The steps for writing the method:
 
 1. Sketch the pipeline figure.
 2. From the pipeline figure sketch, organize the outline of the method section: which method module each sub-section writes about.
-3. Organize the outline of each subsection. Each subsection has three parts: motivation of this module, module design, technical advantages of this module. Think through the outline of each part. (Very very important for explaining a pipeline module clearly)
+3. Organize the outline of each subsection. Each subsection has three parts: motivation of this module, module design, technical advantages of this module. Think through the outline of each part. (Very important for explaining a pipeline module clearly)
 4. Start writing the actual text, module design first, so the method has some basic content.
 5. Then add motivation of this module and technical advantages of this module into the method.
 
@@ -749,7 +749,7 @@ Module design usually has two parts:
 <details>
 <summary>How to write Module motivation</summary>
 
-Motivation is usually written in a problem-driven way: because a problem exists, we design xx to solve it.
+Motivation is usually written in a problem-driven way: because a problem exists, we need to design xx to solve it.
 
 Typical opening sentences:
 

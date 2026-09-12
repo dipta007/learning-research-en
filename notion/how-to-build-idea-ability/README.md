@@ -111,7 +111,7 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
 
 5. Validate the technical contribution on some data, and tune the results.
 
-   > **note** Do not expect that a nice-sounding paper story and an interesting application will make reviewers let our technical contribution off.
+   > **note** We cannot expect that a nice-sounding paper story and an interesting application will make reviewers let our technical contribution off.
    > See this document for details: [https://www.notion.so/pengsida/434a6b3e34d0403ca178fb0db2338232](https://www.notion.so/pengsida/434a6b3e34d0403ca178fb0db2338232)
 
 <details>
