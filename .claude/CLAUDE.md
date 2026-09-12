@@ -174,14 +174,56 @@ Fix everything it marks `contradicted` or `missing` before committing. Then set 
 
 **This step is not a formality.** On every page it has run, it found real defects: a meaning inversion, a dropped negation that reversed a rejection criterion, an invented rating scale, five invented sentences, two false claims about the source, eight dropped citations, and a fabricated citation that conflated two different papers by the same author. Assume your first pass has errors of this kind, because every previous one did.
 
-**One pass is not enough on a file you then edit.** `en/getting-started-in-research.md` took thirteen passes to reach an empty one. The counts were 9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, 0. Each fix round is new prose and needs its own check. Keep going until a pass returns nothing you can act on, and say in the `status:` line how many passes ran.
+## Verify in a loop until the page comes back clean
 
-The `notion/` pages were then re-verified the same way. Every page had had one pass; three stronger rounds found 118 more real defects, plus 10 false positives that were checked and rejected. So one pass catches roughly half of this defect class, and the second and third rounds each find more in text the previous round had just corrected. Budget for at least three rounds per page, and never describe a page as verified on the strength of one.
+**One pass is never enough.** A pass finds defects, you fix them, and the fixes are new prose that has never been checked. So verification is a loop, not a step. Run it until a round returns nothing you can act on.
 
-**Two mistakes to avoid when applying a verifier's findings.** Both happened here.
+The evidence, from this repository's own history:
 
-1. **Never trust an "applied" count.** A fix script reported `5/5 applied` while one substitution had matched an earlier, different occurrence and the flagged line was untouched. Re-grep the file for the intended result; do not read the script's own tally as proof.
-2. **Never leave a placeholder in a fix script.** Two substitutions marked "checked below" were left in and executed, rewriting a sentence about lab discussions into a different claim the source does not make, and altering a sentence the verifier never flagged. Both had to be reverted. Write the real target string or leave the entry out.
+| File set | Defects per round | Rounds to reach empty |
+|---|---|---|
+| `en/getting-started-in-research.md` | 9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, 0 | 13 |
+| `en/readme.md` | 9, 6, 9, 9, 6, 8, 0 | 7 |
+| all 32 `notion/` pages | 53, 41, 21, 28, 12, … | 5 and counting |
+
+One pass catches roughly half. Round 4 of the `notion/` sweep found *more* than round 3 (28 against 21), because that was the first round with a particle-by-particle checklist. A low count means the check was blunt as often as it means the page is nearly clean. Never describe a page as verified on one round.
+
+### The loop
+
+```
+round = 1
+pages = every page you translated or edited
+while pages is not empty:
+    dispatch fresh verifier agents over pages, batched
+    for each page:
+        triage each finding: real, or false positive checked against the source
+        apply the real ones
+        if you changed the page: it stays in pages for the next round
+        else: it leaves the loop, settled at this round
+    commit and push this round's fixes
+    round += 1
+```
+
+Rules that make the loop terminate instead of spinning:
+
+- **A page leaves the loop only on a clean round.** Clean means the verifier returned nothing, or returned only findings you rejected with a reason after checking the source yourself.
+- **A page you edit re-enters.** No exceptions. This is the whole point.
+- **Feed each round what the last one learned.** Put every settled rendering in the verifier's prompt as a fixed-renderings list, and name the known failure modes. Otherwise round N rediscovers round N-1's category instead of finding what is left.
+- **Give the verifier the settled conventions**, or it burns findings re-reporting the `> [Original Article]` line and the `<details>` toggles. See the list above.
+- **Require a Chinese quote for every finding.** That one requirement kills most false positives.
+- **Commit each round separately.** The history then shows what each round cost, and the work is never sitting uncommitted.
+- **Stop when a round is clean, not when the count looks small.** 2 is not 0.
+
+Record the result honestly in the `status:` line: how many rounds ran, and whether the last one was clean. `verified by sonnet, 2026-09-12. 13 passes; the last found nothing.` A page still mid-loop says so.
+
+### Applying findings without introducing new defects
+
+Both of these happened here and both would have shipped silently.
+
+1. **Never trust an "applied" count.** A fix script reported `5/5 applied` while one substitution had matched an earlier, different occurrence and the flagged line was untouched. Re-grep the file for the intended result. The script's own tally is not proof.
+2. **Never leave a placeholder in a fix script.** Two substitutions marked "checked below" were left in and executed, rewriting a sentence about lab discussions into a claim the source does not make. Both had to be reverted. Write the real target string or leave the entry out.
+3. **Do not apply a fix mechanically from the glossary.** `才` is "only then" standing alone, but inside `因为...才...` it is a cleft: "it is because X that Y". The mechanical version read "It may be only because they hit some problems...", which overstates. A rule applied without judgment produces stiff, wrong English.
+4. **Fixing one occurrence is not fixing the word.** When a finding names a word rendered two ways, grep every occurrence in the file and settle them all. 很大 needed four fixes, not the one that was flagged.
 
 ## Mistakes that keep recurring
 
