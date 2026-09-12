@@ -40,7 +40,7 @@ For a tool rather than a guide, [Master-cai/Research-Paper-Writing-Skills](https
 
 ## Contributing
 
-Corrections from people who read Chinese are the most useful, but they are not the only useful kind. See the section above for how to report something.
+Corrections from people who read Chinese are the most useful. See the section above for how to report something.
 
 The rules live in [.claude/CLAUDE.md](./.claude/CLAUDE.md), which coding agents load on their own, so an agent working in this repository already knows them. [CONTRIBUTING.md](./CONTRIBUTING.md) is the short human version and [GLOSSARY.md](./GLOSSARY.md) fixes the terms.
 
