@@ -52,11 +52,15 @@ His Notion is a graph, not a tree. Pages cross-link each other, so a naive walk 
 - Everywhere else that reaches it, **link to that one file** rather than translating it again. A duplicate translation is worse than a link: the copies drift, and a reader cannot tell which is current.
 - Before translating a source file, check whether its page id already has a translation. If it does, add the link and stop.
 
-### Scope: keep anything touching research learning
+### Scope: research-advice pages only
 
-Anything connected to learning or doing research stays in, even loosely. His talk notes, paper notes, book notes, pipeline summaries and technical study notes all count, because they show how he reads and thinks, which is the point of the collection.
+Translate the pages that teach how to do research: choosing a problem, running a project, reading papers, experiments, writing, figures, reviewing, rebuttals, working with an advisor, state of mind.
 
-The bar for leaving something out is high: it must have nothing to do with research learning at all, like a personal homepage or bio page. When unsure, translate it. Anything genuinely out goes in `notion/not-translated.md` with a link to the original, never dropped silently.
+**Do not translate his study notes.** Those are his notes on other people's talks, interviews, books and papers. They are linked in `notion/not-translated.md` instead. They are the majority of his Notion by character count and almost none of it by use to someone learning research, and much of their substance is material he does not own.
+
+Deciding between the two is usually easy: an advice page tells you what to do, a study note records what someone else said. When a page is genuinely both, translate the advice and cite the rest, the same as for borrowed passages inside an advice page.
+
+Anything left out gets a row in `notion/not-translated.md` with a link to the original. Never drop a page silently.
 
 Every translated file starts with an HTML comment header holding `source`, `source commit` or `source fetched`, and `status`. A stale translation is only detectable if that header is accurate.
 
