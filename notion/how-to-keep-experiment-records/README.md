@@ -22,4 +22,4 @@ An experiment record is generally organised like this. The wording does not need
 
 Example:
 
-[3.24 experiment record](https://pengsida.notion.site/492bf030bc8a48fcbe9dfd1a246678b1) (not done)
+[3.24 experiment record](https://pengsida.notion.site/492bf030bc8a48fcbe9dfd1a246678b1) ([translated](./example-record-3-24/README.md))
