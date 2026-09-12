@@ -2,7 +2,7 @@
 source: notion page 如何有效地读论文
 source page id: d192db87-0bc6-4436-ae4a-4a590b36772a
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11
 figures: 3, screenshots of an AI chat session and of his parsing tree in use, kept as-is
 -->
 
@@ -10,7 +10,7 @@ figures: 3, screenshots of an AI chat session and of his parsing tree in use, ke
 
 > [Original Article](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a)
 
-> **Translator's note.** The three figures are screenshots in Chinese: an AI chat session used while reading a paper, and his paper parsing tree in use. They are kept as they are, since there is nothing in a tool screenshot worth reconstructing. One of them also contains a figure from the NeRF paper, which is the paper being read in that example.
+> **Translator's note.** The three figures are screenshots in Chinese: an AI chat session used while reading a paper, and his paper parsing tree in use. They are kept as they are, since there is nothing in a tool screenshot worth reconstructing. One of them also contains a figure from the NeRF paper, which is the paper being read in that chat.
 
 Some students sometimes feel that "finishing a paper is the same as not having read it". You can use a paper parsing tree to solve this, turning reading a paper into answering questions, and so reading effectively.
 

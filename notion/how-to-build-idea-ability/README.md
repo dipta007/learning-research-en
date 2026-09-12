@@ -1,8 +1,9 @@
 <!--
 source: notion page 如何培养想idea的能力（选题能力和解题能力）
 source page id: da6ce171-c138-46b7-a7ff-aa7473ffa6ea
+note: the idea-driven-vs-goal-driven link uses page id d9c6556326e84962a2d7ae190e2705af, taken from a sibling page and not confirmed in an author-written source
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 6 in the source, all screenshots of other people's writing, cited here instead of embedded
 -->
 
@@ -10,7 +11,7 @@ figures: 6 in the source, all screenshots of other people's writing, cited here 
 
 > [Original Article](https://pengsida.notion.site/da6ce171c13846b7a7ffaa7473ffa6ea)
 
-> **Translator's note.** Every figure on this page is a screenshot of someone else's writing: a Zhihu answer, and two English pages by other researchers. Those are cited with their links rather than copied in, and the English ones need no translation. His own text is translated in full.
+> **Translator's note.** Every figure on this page is a screenshot of someone else's writing: four of a Zhihu answer, and two of English material by other researchers. They are not copied in. The Zhihu answer has a public link, given below. The other two have no public link, so their content is summarised where they appear. His own text is translated in full.
 >
 > One passage below is marked by him as an outdated view that he has since replaced. That marking is kept, because the change of mind is part of what the page says.
 
@@ -58,12 +59,12 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
    > **note** How to find an important research problem:
    > Think about the long-term goal of this task, and what a final form of it would look like.
    > Ask why current work only runs on this data and not on other data. You should try data covering more general cases.
-   > Aim to discover new failure cases, and improve the existing technique starting from those new failure cases. (1. New failure cases are easier to find on a new task setting or new data. 2. Exploring what a method can do on new data, so that people see new experimental conclusions, is a large contribution.)
+   > Aim to discover new failure cases, and improve the existing technique starting from those new failure cases. (1. New failure cases are easy to find on a new task setting or new data. 2. Exploring what a method can do on new data, so that people see new experimental conclusions, is a large contribution.)
 
    <details>
    <summary>What strong researchers think about "finding an important research problem"</summary>
 
-   The source shows a screenshot of another researcher's writing on this. It is cited rather than copied in, because it is not his text.
+   The source shows a screenshot of an English slide by another researcher, which has no public link. Its argument: the hardest problem a researcher has to solve is "what should I work on?". It draws progress as a sigmoid curve, and frames choosing a problem as a bet on where you currently sit on that curve.
 
    </details>
 
@@ -80,10 +81,10 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
    >
    > The third situation suits a beginner. The fourth suits an expert.
 
-4. **Solving the problem.** How to improve your ability to design a solution: [https://www.notion.so/pengsida/pipeline-997f611cd2e24ef1a62210ff099948e2](https://www.notion.so/pengsida/pipeline-997f611cd2e24ef1a62210ff099948e2)
+4. **Solving the problem.** How to improve your ability to design a solution (problem-solving ability): [https://www.notion.so/pengsida/pipeline-997f611cd2e24ef1a62210ff099948e2](https://www.notion.so/pengsida/pipeline-997f611cd2e24ef1a62210ff099948e2)
 
    <details>
-   <summary>How to improve your ability to design a solution</summary>
+   <summary>How to improve your ability to design a solution (problem-solving ability)</summary>
 
    How to propose a novel and effective technique: first you have to know which techniques exist and what problems they solve. Then combine some of them.
 
@@ -117,7 +118,7 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
 <details>
 <summary>A strong researcher's discussion of goal-driven research (this person does not recommend idea-driven research)</summary>
 
-The source shows a screenshot of another researcher's page on problem-driven research. It is already in English and is not his text, so it is cited rather than copied in. Its argument is that PhD research means finding an important open problem and making significant progress on it, that starting from method design instead leaves the underlying problem vaguely defined, and that problem-driven research instead settles the problem, its motivation, why current methods cannot solve it, and how the proposed method addresses it, before looking for a method.
+The source shows a screenshot of another researcher's page on problem-driven research. It is already in English, it is not his text, and it has no public link, so its argument is summarised here rather than copied in: PhD research means finding an important open problem and making significant progress on it, that starting from method design instead leaves the underlying problem vaguely defined, and that problem-driven research instead settles the problem, its motivation, why current methods cannot solve it, and how the proposed method addresses it, before looking for a method.
 
 <details>
 <summary>My own understanding of idea-driven research</summary>
@@ -175,11 +176,11 @@ What will the next new hammer be? What will the next example be?
 
 </details>
 
-A point that needs particular attention: do not develop a mindset of depending on your advisor. Train the habit and the ability to do research independently. From one angle you could say this matters even more than publishing papers itself. And in fact you need this ability for a paper to be at all likely, otherwise the project is basically finished.
+A point that needs particular attention: do not develop a mindset of depending on your advisor. Train the habit and the ability to do research independently. From one angle you could say this matters even more than publishing papers itself. And in fact you need this ability yourself to have a good chance of producing a paper, otherwise the project is basically doomed.
 
 > **note** In fact an advisor can hardly find time to design a project's technical details, and the student needs to realise that the only way out is to think of the solution themselves.
 
-~~If a student depends on their advisor to think of the detailed solution, that project is basically finished. Because an advisor cannot spend more than half of every day thinking about solutions, and can only give some intuitive, very rough ideas. In that situation, only the student can propose or refine a complete solution.~~
+~~If a student depends on their advisor to think of the detailed solution, that project is basically doomed. Because an advisor cannot spend more than half of every day thinking about solutions, and can only give some intuitive, very rough ideas. In that situation, only the student can propose or refine a complete solution.~~
 
 The struck-through text above is an outdated view. In my own opinion, the best advisor does research hands-on, is the student's partner, and does research together with the student. Advisor and student should compete with each other, to see who understands the research direction better.
 
@@ -195,7 +196,7 @@ On building a solution to the problem, the lab generally makes three contributio
 
 The usual division of labour between advisor and student in a research project:
 
-> **note** Notion's export scrambles this table's columns and drops the advisor cell on some rows. It is rendered here as item, advisor, student, with an empty advisor cell where the source has none.
+*Translator's note: Notion's export scrambles this table's columns and drops the advisor cell on some rows. It is rendered here as item, advisor, student, with an empty advisor cell where the source has none.*
 
 | What a research project contains | Advisor | Student |
 |---|---|---|

@@ -163,6 +163,18 @@ Fix everything it marks `contradicted` or `missing` before committing. Then set 
 
 **This step is not a formality.** On every page it has run, it found real defects: a meaning inversion, a dropped negation that reversed a rejection criterion, an invented rating scale, five invented sentences, two false claims about the source, eight dropped citations, and a fabricated citation that conflated two different papers by the same author. Assume your first pass has errors of this kind, because every previous one did.
 
+## Mistakes that keep recurring
+
+These are the error types verification has caught more than once in this repository's own translations. Check for them before you commit, not after.
+
+1. **A "cited" claim with no citation.** Twice, a figure was replaced with the words "cited rather than copied in" while no link appeared anywhere. The content was simply lost, and the file asserted otherwise. If you replace a figure with a citation, the link must sit next to the claim. If there is no public link, say so plainly and summarise what the figure shows.
+2. **Translator additions dressed as his content.** A remark of mine used his `> **note**` convention and read as his. Another added "Prof." to a page that never says it. Every insertion goes in a clearly-labelled translator's note or an italic `*Translator's note: ...*`, never his note format, and never an unlabelled fact such as a name or title. The `(in English)` / `(not done)` / `([translated])` link markers are the exception: those are this repository's own convention, documented above.
+3. **Hedge strength drifts both ways.** `容易` became "easier", adding a comparative the source lacks. `大概率` became "at all likely", weakening it. `比较好地` became "well", dropping the hedge. Translate each hedge at its exact strength; if the source has no comparative, the English gets none.
+4. **An ambiguous English idiom for a blunt Chinese one.** `基本完蛋` rendered as "basically finished", which can be read as "basically done", the opposite of doomed. For a negative idiom pick a word with only one reading.
+5. **A substituted URL with no author-side source.** Internal `./page/source.md` links have to become public URLs. One substituted page id appeared in no author-written file, only in another of our translations, which is not evidence. Find the id in a source the author wrote, or record it as unconfirmed in the metadata comment.
+6. **The same term rendered two ways on one page.** `精神内耗` was "wearing yourself out mentally" in one cell and "mental exhaustion" in the tutorial title beside it, breaking the link a reader needs. Pick one rendering per term and use `GLOSSARY.md`.
+7. **Dropped parenthetical glosses.** `（解题能力）` was dropped in three places while a sibling page kept it, leaving the set inconsistent. His parentheses are content.
+
 ## Update on every change
 
 1. The status table in the root `README.md`.

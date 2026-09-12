@@ -2,7 +2,7 @@
 source: notion page 怎么rebuttal
 source page id: af99ce47-103e-4917-b6a5-bd1fd4b3c022
 source fetched: 2026-09-11
-status: unverified
+status: verified by fable, 2026-09-11 (findings applied)
 figures: 1, his own flowchart, redrawn in English as Mermaid, original kept
 -->
 
@@ -30,13 +30,13 @@ The newer review-organising tool, based on drawio (recommended, it gives a bette
 
 <!-- Rebuttal整理模板.drawio is not downloadable from Notion -->
 
-Flowchart by Prof. Peng Sida, redrawn in English. [Original](./assets/3553fe292ff180829544f8223557b369-image.png).
+His flowchart, redrawn in English. [Original](./assets/3553fe292ff180829544f8223557b369-image.png).
 
 ```mermaid
 flowchart TD
     G["Goal of the rebuttal:<br/>reply well to the reviewers' comments,<br/>and improve the paper based on those comments"]
     P1["Precondition:<br/>understand well what the reviewer means"]
-    P2["Precondition:<br/>a reviewer's comment has context,<br/>so you need that context to understand it well"]
+    P2["Precondition:<br/>a reviewer's comment has context,<br/>so you need that context to understand it reasonably well"]
     A1["Approach 1:<br/>read the comments reviewer by reviewer,<br/>understanding each reviewer's meaning<br/>from their own context"]
     A2["Approach 2:<br/>split each reviewer's comments apart,<br/>cluster the ones that are the same,<br/>then work only on understanding the organised comments"]
     R1["Once you understand what the reviewers mean,<br/>reply to them one by one"]
