@@ -58,7 +58,29 @@ Each translated Notion page records its page id and fetch date in its header. Re
 - new figures in `assets/`, which need redrawing per the figures rules
 - sections that disappeared upstream, which should be removed here too, not silently kept
 
-## 3. Finish properly
+## 3. Pages he has added since last time
+
+Changed pages are not the only drift. He adds new pages, and some are reachable only through inline links, which the fetcher does not follow.
+
+```bash
+python3 tools/notion_map.py --depth 3
+```
+
+Compare the result against the tables in `notion/README.md` and `notion/not-translated.md`. New on-topic pages get translated; new personal study notes get a row in `not-translated.md` with a link. If a page id in `not-translated.md` has stopped resolving, say so rather than deleting the row quietly.
+
+## 4. Check the fetch before trusting it
+
+Every refetch, before translating anything from it:
+
+```bash
+grep -o '\./assets/[^)]*' .notion-cache/<slug>/source.md | sort -u | wc -l   # figure refs
+ls .notion-cache/<slug>/assets | wc -l                                       # files present
+grep -c '\[[^]]*\](http' .notion-cache/<slug>/source.md                      # inline links
+```
+
+Refs must equal files. A link count of 0 on a cross-referencing page means links were dropped again. Both failure modes have happened and both look like a clean fetch. Details in `.claude/CLAUDE.md`.
+
+## 5. Finish properly
 
 1. Verify every file you touched with a fresh fable subagent. Rules and exact instructions are in `.claude/CLAUDE.md`. A file you edited and did not verify must have its header set back to `status: unverified`.
 2. Update the status table in the root `README.md`.

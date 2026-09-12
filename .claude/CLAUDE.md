@@ -15,6 +15,21 @@ Rights are settled. Do not re-open the licensing question, do not add a license 
 5. **Plain language.** Most readers are not native English speakers. Short sentences, one idea each, common words.
 6. **Terms come from GLOSSARY.md.** Missing term? Add the row in the same change. Do not change an existing row without an issue.
 7. **Names stay as names.** People, documents, books, courses, and venues keep their original form, so a reader can search for them. A short English gloss in brackets after an opaque title is fine.
+8. **Other authors' text is cited, not reprinted.** See the section below. This governed roughly two thirds of the first page translated, so it is not an edge case.
+
+## Other authors' work inside his pages
+
+Large parts of his pages are not his writing. The `%% 例子:` lines in his LaTeX templates are verbatim sentences and whole paragraphs lifted from published papers (Neural Body, deep snake, ManhattanSDF, DreamBooth and others). One entire sub-page is the sentence-by-sentence draft of a published paper. Some figures are pages scanned out of books.
+
+His permission covers his notes. It cannot cover those authors' work. So:
+
+- **Translate all of his own prose and all of his scaffolding in full.** The LaTeX comment structure is his, and his comments inside it get translated.
+- **For each borrowed passage, say what the slot does and name the source.** For example: `%% Example: Neural Body (Peng et al., CVPR 2021) states its key idea in one line, integrating observations over video frames.` The instructional point of those lines is *where to look and what shape the sentence takes*, which survives citation intact.
+- **Never reprint the paragraph.** Do not paraphrase it closely either; that is the same reproduction with extra steps.
+- **If you cannot identify the paper confidently, describe the slot without naming one.** Do not guess an author. A wrong citation is worse than none, and this has already happened once: two different Bill Freeman documents were conflated.
+- Say what you did in the page's `Translator's note`, so a reader knows why the examples are citations and where to read them.
+
+An already-English document needs no translation at all. Mark it `(in English)` and link it.
 
 ## Layout
 
@@ -30,6 +45,16 @@ Notion sub-pages become sub-directories of their parent, mirroring his nesting. 
 
 Every translated file starts with an HTML comment header holding `source`, `source commit` or `source fetched`, and `status`. A stale translation is only detectable if that header is accurate.
 
+Directly under the H1, every translated file carries one line pointing at its original:
+
+```
+> [Original Article](https://pengsida.notion.site/<page-id>)
+```
+
+Use the page id of the page you actually translated, which is the one in `.notion-cache/manifest.json`. He sometimes has two pages with the same title and different ids, so the id he links to elsewhere is not always the one you fetched.
+
+His pages repeat a `文档汇总（GitHub Repo）` line on nearly every page. Drop it. The original-article line above replaces it, and repeating one URL on every page is noise. This is a deliberate exception to "never cut", and the only one.
+
 ## How to link a Notion document
 
 Keep the author's original link, then add ours in brackets. The original is the source of truth; ours is the convenience.
@@ -39,7 +64,15 @@ Keep the author's original link, then add ours in brackets. The original is the 
 [How to make slides for an academic talk](https://pengsida.notion.site/slid...) (not done)
 ```
 
-Write `(not done)` for anything not yet translated. Never leave a bare link that implies a translation exists.
+Three markers, and every link to one of his documents carries exactly one:
+
+| Marker | When |
+|---|---|
+| `([translated](./path/README.md))` | a translation exists here |
+| `(not done)` | his document, not translated yet |
+| `(in English)` | already in English, so there is nothing to translate |
+
+Never leave a bare link that implies a translation exists. Check the language before writing `(in English)`: download the file and look. The languages in this repo were established with `pdftotext`, not guessed.
 
 ## Figures
 
@@ -47,9 +80,10 @@ Figures carry real content in his notes, so losing them loses the point of the d
 
 1. Download them with the fetch tool. Notion serves images through its image proxy, so they arrive as PNGs.
 2. Redraw diagrams in English. Read the PNG, rebuild it, keep the same structure and reading order. The `drawio` skill is the usual tool. This applies to real diagrams, like the writing plan diagram. Screenshots of a tool's output, such as his Copilot and GPT session captures, are used directly with no redraw: there is nothing in them worth reconstructing.
-3. Keep the original beside the redrawn version, named `*-original.png`, so a reviewer can check the redraw.
-4. If a figure cannot be redrawn, embed the original and write an English caption under it. Never delete it and never leave it unmentioned.
-5. **A figure that is a scan or screenshot of someone else's publication is cited, not embedded.** Several of his figures are pages photographed out of books and other people's talk slides. His permission does not cover those authors' work, so name the source precisely enough to find it (book, chapter, page; or talk title) and say what the figure shows. This is the one case where a figure legitimately does not appear in the translation.
+3. **Prefer Mermaid or a markdown table over a redrawn image.** His flowcharts and trees became Mermaid blocks, and his review checklist became a markdown table. Both render on GitHub, stay diffable in git, and cost nothing to correct later. Reach for an image only when the figure is genuinely pictorial.
+4. Keep the original beside the redraw and link it, crediting him on the redraw, so a reviewer can check your work.
+5. If a figure cannot be redrawn, embed the original and write an English caption under it. Never delete it and never leave it unmentioned.
+6. **A figure that is a scan or screenshot of someone else's publication is cited, not embedded.** Several of his figures are pages photographed out of books and other people's talk slides. His permission does not cover those authors' work, so name the source precisely enough to find it (book, chapter, page; or talk title) and say what the figure shows. This is the one case where a figure legitimately does not appear in the translation.
 
 Some attachments (`.drawio`, `.pdf`) are not downloadable anonymously: Notion returns an HTML page instead of the bytes. The fetch tool writes an HTML comment where that happens. Leave the comment in the source and note it in the pull request.
 
@@ -60,6 +94,37 @@ python3 tools/notion_fetch.py <notion-page-id> --out .notion-cache --depth 3
 ```
 
 Writes `.notion-cache/<slug>/source.md`, its assets, and a manifest. `.notion-cache/` is gitignored on purpose: **never commit the Chinese source.** This repository holds translations and its own notes, nothing else.
+
+### Always sanity-check a fetch before translating from it
+
+The fetcher has silently lost content three separate times. Each bug looked like a clean fetch. Run these every time:
+
+```bash
+# figures: unique references must equal files actually downloaded
+grep -o '\./assets/[^)]*' .notion-cache/<slug>/source.md | sort -u | wc -l
+ls .notion-cache/<slug>/assets | wc -l
+
+# inline links: if this is 0 on a page full of cross-references, links were dropped
+grep -c '\[[^]]*\](http' .notion-cache/<slug>/source.md
+```
+
+The three bugs, so you recognise a recurrence:
+
+1. Assets were named by filename, and he reuses `image.png` across many blocks, so figures overwrote each other. Fixed by prefixing the block id.
+2. A short block-id prefix still collided, because Notion gives blocks created in one batch the same leading hex. Fixed by using the full id. Before this, 15 figures on one page collapsed into 2 files.
+3. Inline links live in the rich-text annotation array, not the text, so every link he wrote inside prose was dropped. 33 on one page. Fixed in `seg_text`.
+
+**Never estimate a page's size from a shallow fetch.** Content sits inside collapsed toggles that need deep per-block fetching. One page measured 1,376 characters shallow and 36,092 deep, a 26x undercount.
+
+### Finding pages he has added
+
+`tools/notion_fetch.py` follows child-page blocks. It does not follow pages he links only inline, and several pages are reachable only that way. To find them:
+
+```bash
+python3 tools/notion_map.py --depth 3
+```
+
+Anything new and on-topic gets translated. Anything that is his personal study notes goes in `notion/not-translated.md` with a link, not translated.
 
 ## Verify every translation with a fresh subagent
 
@@ -77,7 +142,11 @@ Ask it to report, section by section:
 - any English sentence with no counterpart in the source, which breaks rule 2
 - any figure present in the source but absent from the translation
 
-Fix everything it marks `contradicted` or `missing` before committing. Then set the file header to `status: verified by fable, <date>`. If the check did not run, the header must say `status: unverified`. Never claim a verification that did not happen.
+Fix everything it marks `contradicted` or `missing` before committing. Then set the file header to `status: verified by fable, <date>`. If the check did not run, the header must say `status: unverified`. Never claim a verification that did not happen. If you fix things *after* a pass, the pass no longer covers the file: either re-run it or set the status back.
+
+**Batch it.** One agent given seven source-and-output pairs died on a 429 rate limit partway through. Three or four short pages per agent works; a long page gets its own.
+
+**This step is not a formality.** On every page it has run, it found real defects: a meaning inversion, a dropped negation that reversed a rejection criterion, an invented rating scale, five invented sentences, two false claims about the source, eight dropped citations, and a fabricated citation that conflated two different papers by the same author. Assume your first pass has errors of this kind, because every previous one did.
 
 ## Update on every change
 
