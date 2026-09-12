@@ -2,7 +2,7 @@
 source: notion page 科研学习与课程学习的不同之处
 source page id: a3fe9f17-b8af-4655-8cd1-112627009c83
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 6 in the source. Five are screenshots of other people's documents and are described rather than copied in; one is his own and is kept.
 -->
 
@@ -10,12 +10,12 @@ figures: 6 in the source. Five are screenshots of other people's documents and a
 
 > [Original Article](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83)
 
-> **Translator's note.** Five of the six figures are screenshots of other people's material: a strong researcher's research-teaching document, Xiangyang Shen's research experience, and Feynman on research. None has a public link, so each is described where it appears rather than copied in. His own text is translated in full.
+> **Translator's note.** Four of the five figures are screenshots of other people's material: a strong researcher's research-teaching document, Prof. Xiangyang Shen's research experience, and Feynman on research. The source embeds them without giving a source link, so each is described where it appears rather than copied in. His own text is translated in full.
 
 <details>
 <summary>This document is mainly summarised from a strong researcher's research-teaching document</summary>
 
-The source shows two screenshots of that document. Neither has a public link.
+The source embeds two screenshots of that document, without a source link.
 
 </details>
 
@@ -40,13 +40,13 @@ In research study, make good use of every resource to learn efficiently, distill
 <details>
 <summary>Difference 3</summary>
 
-**Course study requires competing with each other.**
+Course study requires competing with each other:
 
 One annoying thing about course marking is the normal distribution: in each class only the top few percent can score above 90.
 
 That setup makes high marks a limited resource. Students inside the class have to grind against each other, constantly raising their own level and overtaking others, to get a share of it.
 
-**Research study does not require competing with each other.**
+Research study does not require competing with each other:
 
 In research you work on your own paper. You are creating new value, not fighting over some limited resource.
 
@@ -64,7 +64,7 @@ In course study the body of knowledge is generally very complete: there are good
 In research study, because what you are learning is fairly close to the frontier, the points you need are scattered. Even where a tutorial exists online, it may be poorly organised and may not present what you actually need. Learning the knowledge involved in frontier research through courses and books usually means learning a large amount of extra, unrelated material.
 
 > **note** In research study, your lab's advisor and senior students are a complete body of knowledge that walks.
-> Undergraduates with high marks: however you normally look things up in textbooks and tutorials, treat your advisor and your senior students as the textbook and the tutorial, and ask and learn from them.
+> You high-scoring undergraduate stars: however you normally look things up in textbooks and tutorials, treat your advisor and your senior students as the textbook and the tutorial, and ask and learn from them.
 
 </details>
 
@@ -73,8 +73,8 @@ In research study, because what you are learning is fairly close to the frontier
 
 Research and course study differ a great deal.
 
-- **Course study**: a course problem always has an answer, and the teacher already knows it, so they can make the course structured and help you reach the answer step by step.
-- **Research**: on this problem, you yourself are quite likely the person who knows the most and has thought the deepest, beyond your own advisor. The advisor does not know the correct solution, and can only explore it together with you.
+- Course study: a course problem always has an answer, and the teacher already knows it, so they can make the course structured and help you reach the answer step by step.
+- Research: on this problem, you yourself are quite likely the person who knows the most and has thought the deepest, beyond your own advisor. The advisor does not know the correct solution, and can only explore it together with you.
 
 That fact means you have to solve the problem independently.
 
@@ -119,14 +119,14 @@ Learning knowledge may be very hard at first, but if you keep at it you will see
 
 ![Untitled](./assets/55bec4bd972a4d539af6fb76130170e6-Untitled.png)
 
-Feynman on a truth in research: the source shows a screenshot of this, with no public link.
+Feynman on a truth in research: the source embeds a screenshot of this, without a source link.
 
 Reference material:
 
 <details>
-<summary>Xiangyang Shen's research experience</summary>
+<summary>Prof. Xiangyang Shen's research experience</summary>
 
-The source shows a screenshot of it, with no public link.
+The source embeds a screenshot of it, without a source link.
 
 </details>
 

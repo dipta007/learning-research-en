@@ -2,7 +2,7 @@
 source: notion page 从面试问题的角度反思科研的宝贵品质
 source page id: 1d13fe29-2ff1-80de-91af-cb7f2eb57b69
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 0
 -->
 
@@ -23,7 +23,7 @@ How do you take research from the "fundamentals stage" to the "impact stage"?
 
 #### Question 1: whether the project means anything
 
-Hu asks why someone would keep working on something that is not important and is unlikely to lead to important things. He follows it with a harder version: that the direction has seen no new progress for years because the field stopped caring about the problem and the strongest people left, so the chance of impact is gone, and does the candidate know that? Against an answer of "I try not to think about it, I just want to get the paper out", he asks whether a paper nobody cares about needs to be published at all.
+Hu asks why someone would keep working on something that is not important and is unlikely to lead to important things. He follows it with a harder version: that the direction has seen no new progress for years because the field stopped caring about the problem and the strongest people left, so there is not much chance of impact left, and does the candidate know that? Against an answer of "I try not to think about it, I just want to get the paper out", he asks whether a paper nobody cares about needs to be published at all.
 
 He also quotes Einstein: if he had an hour to solve a problem, he would spend fifty-five minutes thinking about the problem and five minutes thinking about solutions.
 
@@ -46,7 +46,7 @@ Hu asks whether the candidate has considered switching problems. Against the wor
 
 #### Question 4: solving the problem at its root
 
-Hu asks whether the work is just combining x from one paper with y from another, leaving the system more complex without improving the result fundamentally, and then asks what an ideal paper would look like and how the candidate would get there. The answer he records is that the candidate had never thought about it.
+Hu asks whether the work is just combining x from one paper with y from another, leaving the system more complex without improving the result fundamentally, and then asks what an ideal paper would look like and how the candidate would get there. The answer he records concedes it is a good question, and that the candidate had never thought about it.
 
 > **note**
 > Reflection: in research, solve problems from first principles. Patching things can solve some problems in the short term, but in the long term it is certain to be superseded.

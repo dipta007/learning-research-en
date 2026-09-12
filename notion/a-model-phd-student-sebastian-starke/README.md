@@ -2,7 +2,7 @@
 source: notion page 博士生的楷模：Sebastian Starke
 source page id: 1713fe29-2ff1-808e-b33b-e93ea2d79ad9
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 0
 -->
 
@@ -31,7 +31,7 @@ Having studied and summarised Sebastian Starke's research style carefully, I ref
 3. **Lacking the awareness to solve a problem to 99 percent.** After finishing Neural Body, I had raised rendering quality to a watchable level. At the time I was chasing what looked fancy, and went straight on to the animatable human problem. For those two years people from industry often raised with me that dynamic human rendering quality urgently needed improving, and unfortunately I did not go and solve it. Looking back, in the dynamic human reconstruction field I only published a few papers without really solving anything, and became someone who "only knows how to publish papers, with no real contribution to industry".
 4. **Wasting time on problems that already have an answer.** Deep Snake, which I did in my second year, was aimed at a problem that the earlier paper Curve-GCN had already solved fairly well, and I was only patching things on top. It feels pointless now, and in fact I was full of self-doubt while doing it. A project like that can only drain a person's enthusiasm for research: all cost, no benefit.
 5. **Reading too narrowly, accumulating too little technique.** I did not have this problem myself, but I have seen students without the habit of reading papers widely, which is a great shame.
-6. **Not trying new techniques.** During my PhD some new techniques rose, such as Transformer, diffusion models and video models. My thinking then was strange: I always felt emerging techniques were hype, which was frankly a Qing-dynasty mindset, and I spent a lot of time on small patches to the existing technical framework. Had I treated emerging techniques as a source of hope and looked at whether they could solve some hard problems in my own field, I should have produced better work. In fact my PVNet and Neural Body are exactly examples of using emerging techniques well, but at the time I had no idea why they were strong. Producing those two pieces of work was entirely down to Prof. Zhou's good supervision: he gave me good problems and was firm that I should not use the old technical approach.
+6. **Not trying new techniques early.** During my PhD some new techniques rose, such as Transformer, diffusion models and video models. My thinking then was strange: I always felt emerging techniques were hype, which was frankly a Qing-dynasty mindset, and I spent a lot of time on small patches to the existing technical framework. Had I treated emerging techniques as a source of hope and looked at whether they could solve some hard problems in my own field, I should have produced better work. In fact my PVNet and Neural Body are exactly examples of using emerging techniques well, but at the time I had no idea why they were strong. Producing those two pieces of work was entirely down to Prof. Zhou's good supervision: he gave me good problems and was firm that I should not use the old technical approach.
 
 Writing this article, I summarised where Sebastian succeeded, and also reflected on many mistakes I made myself. I hope I can learn more actively from the strong people ahead of me, put my effort into solving important problems, and always be on the front line of trying new techniques.
 
