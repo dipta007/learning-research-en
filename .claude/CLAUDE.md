@@ -178,6 +178,15 @@ These are the error types verification has caught more than once in this reposit
 5. **A substituted URL with no author-side source.** Internal `./page/source.md` links have to become public URLs. One substituted page id appeared in no author-written file, only in another of our translations, which is not evidence. Find the id in a source the author wrote, or record it as unconfirmed in the metadata comment.
 6. **The same term rendered two ways on one page.** `精神内耗` was "wearing yourself out mentally" in one cell and "mental exhaustion" in the tutorial title beside it, breaking the link a reader needs. Pick one rendering per term and use `GLOSSARY.md`.
 7. **Dropped parenthetical glosses.** `（解题能力）` was dropped in three places while a sibling page kept it, leaving the set inconsistent. His parentheses are content.
+8. **Counts written by eye instead of measured.** Three separate `figures:` claims in metadata headers were wrong, every time by exactly one. Never type a count you have not measured:
+
+   ```bash
+   grep -c '!\[' .notion-cache/<slug>/source.md      # figures in the source
+   grep -c '!\[' notion/<page>/README.md             # figures embedded here
+   ```
+
+   When auditing counts across the repo, resolve each page to its source **by page id, not by title**. Duplicate caches of the same page exist at different fetch depths, and a shallower copy reports fewer figures, which makes a correct page look wrong. That false positive has already happened once.
+9. **Claims of exactness that are not exact.** A note promised command blocks "reproduced exactly as written" while non-breaking spaces had been flattened to ordinary ones, and promised "three worth knowing about" while a fourth and worse hazard went undisclosed: a line whose quote opens straight and closes curly, so a shell hangs waiting for input. If you promise completeness, count first; if you promise byte-identity, diff first.
 
 ## Update on every change
 

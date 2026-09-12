@@ -2,8 +2,8 @@
 source: notion page 如何高效地讨论
 source page id: d697ef57-8d78-4c86-9d4f-8314f0d617da
 source fetched: 2026-09-11
-status: unverified
-figures: 10 in the source. Eight are his own slide-template screenshots and are kept. Two are screenshots of a linked Xiaohongshu post and are not copied in.
+status: verified by sonnet, 2026-09-12 (findings applied)
+figures: 9 in the source. Seven are his own slide-template screenshots and are kept. Two are screenshots of a linked Xiaohongshu post and are not copied in.
 -->
 
 # How to Hold an Efficient Discussion
@@ -44,7 +44,7 @@ From this post: [http://xhslink.com/VBCUFC](http://xhslink.com/VBCUFC)
 
 The source includes two screenshots of that post. They are not copied in here.
 
-The post contrasts two PhD students, written by their supervisor. The one they rate highly does his own thinking when he is stuck, analysing possible causes and proposing options rather than arriving empty-handed; asks around and distils knowledge from other people; structures a meeting clearly, saying what the results are, what problem came up, what it might be caused by, what has already been tried and what might come next; is strong experimentally, solving a problem in a week when given two candidate directions; and is curious, actually going to read papers on a concept mentioned in passing and coming back with a view.
+The post contrasts two PhD students, written by their supervisor. The one they rate highly does his own thinking when he is stuck, analysing the possible causes himself and then either proposing a possible solution or asking the supervisor whether they know a better way to solve it; asks around and distils knowledge from other people; structures a meeting clearly, saying what the results are, what problem came up, what it might be caused by, what has already been tried and what might come next; is strong experimentally, solving a problem in a week when given two candidate directions; and is curious, actually going to read papers on a concept mentioned in passing and coming back with a view.
 
 The one they rate poorly reports rather than discusses every week; is weak experimentally, with a list of activity but no progress; lacks his own thinking, answering "I don't know" about causes and showing a program log with nothing added when asked what the problem is; and puts little time into research, going quiet when pointed at a clearer paper in a neighbouring area and later saying he was too busy.
 
@@ -92,5 +92,5 @@ Organise the slide content like this (do not report progress in detail):
 
 The lab's principles for discussion (important):
 
-1. **Communicate fully.** When talking, do not be afraid of the teachers or the senior students, and do not let that stop you asking questions. Ask as soon as you have a question. The lab's teachers and senior students are all very friendly and happy to answer questions. The only purpose of a discussion is to be correct and efficient, and to resolve your questions about the project.
-2. **Talk as equals.** This is not a relationship of reporting and being reported to. If you have your own view on the research, express it. If you think a teacher or senior student has said something wrong, question and discuss it politely and properly. Do not simply believe everything teachers and senior students say, but even more, do not appear to comply while doing your own thing underneath, because that wastes a lot of discussion time and experimental cost. The lab's discussions aim at efficient, sincere communication.
+1. Communicate fully. When talking, do not be afraid of the teachers or the senior students, and do not let that stop you asking questions. Ask as soon as you have a question. The lab's teachers and senior students are all very friendly and happy to answer questions. The only purpose of a discussion is to be correct and efficient, and to resolve your questions about the project.
+2. Talk as equals. This is not a relationship of reporting and being reported to. If you have your own view on the research, express it. If you think a teacher or senior student has said something wrong, question and discuss it politely and properly. Do not simply believe everything teachers and senior students say, but even more, do not appear to comply while doing your own thing underneath, because that wastes a lot of discussion time and experimental cost. The lab's discussions aim at efficient, sincere communication.

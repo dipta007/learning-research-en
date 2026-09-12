@@ -2,7 +2,7 @@
 source: notion page 设备配置
 source page id: 59569d7b-6695-4578-b21b-f1dc6ea35776
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 0
 -->
 
@@ -10,8 +10,9 @@ figures: 0
 
 > [Original Article](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776)
 
-> **Translator's note.** Every command block is reproduced exactly as written, including its typos, because silently "fixing" a command someone will paste is worse than leaving it. Three worth knowing about before you paste:
+> **Translator's note.** Command blocks are reproduced as written, including their typos, because silently "fixing" a command someone will paste is worse than leaving it. The only change is that a few non-breaking spaces used as comment padding became ordinary spaces, which affects nothing. Four things worth knowing before you paste:
 >
+> - The `python -c "import torch; print(torch.version.cuda)”` line opens with a straight quote and closes with a curly one (`”`, U+201D), so the quote never closes and a shell will sit waiting for more input. This is the one that fails quietly; the other three fail loudly.
 > - `cacdt /path_to_cuda_your_using/version.txt` should be `cat`.
 > - `setw- g mouse-resize-pane` should be `setw -g`.
 > - `chsh -s /usr/bin/zsh  #更改默认shellOx` has a stray `Ox` at the end of the comment.

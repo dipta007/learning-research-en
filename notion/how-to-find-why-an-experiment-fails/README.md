@@ -2,15 +2,15 @@
 source: notion page 如何找到实验不work的原因
 source page id: 1aee6e71-8de6-472f-834d-13da8f4ff097
 source fetched: 2026-09-11
-status: unverified
-figures: 7 in the source. His own decision flowchart is redrawn in English as Mermaid, original kept. The other six are screenshots of other researchers' remarks with no public link, so they are described where they appear rather than copied in.
+status: verified by sonnet, 2026-09-12 (findings applied)
+figures: 6 in the source. His own decision flowchart is redrawn in English as Mermaid, original kept. The other five are screenshots of other researchers' remarks, embedded without a source link, so they are described where they appear rather than copied in.
 -->
 
 # How to Find Why an Experiment Does Not Work
 
 > [Original Article](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097)
 
-> **Translator's note.** Six of the seven figures are screenshots of other researchers' remarks, taken from talks and documents with no public link. They are not copied in; each is described by what the heading above it says it supports. His own flowchart is redrawn in English, with the original linked.
+> **Translator's note.** Five of the six figures are screenshots of other researchers' remarks, taken from talks and documents that the source embeds without a link. They are not copied in; each is described by what the heading above it says it supports. His own flowchart is redrawn in English, with the original linked.
 >
 > One long passage in the source quotes Zhilin Yang verbatim. Its substance is given here with attribution rather than reproduced in full.
 
@@ -19,9 +19,9 @@ figures: 7 in the source. His own decision flowchart is redrawn in English as Me
 Note that the goal of this document is not to propose a novel idea. It is limited to finding why an experiment does not work.
 
 <details>
-<summary>Strong researchers have said that "discovering why an experiment does not work" is an important research ability for a PhD student</summary>
+<summary>A strong researcher has said that "discovering why an experiment does not work" is an important research ability for a PhD student</summary>
 
-The source shows two screenshots of researchers making this point. Neither has a public link.
+The source embeds two screenshots of that point, without a source link.
 
 </details>
 
@@ -30,7 +30,7 @@ The source shows two screenshots of researchers making this point. Neither has a
 
 The project goes very slowly, quite possibly does not succeed, or gets scooped, so the time invested earlier is wasted.
 
-The source shows two screenshots on this point. Neither has a public link.
+The source embeds two screenshots on this point, without a source link.
 
 </details>
 
@@ -106,7 +106,7 @@ In words:
       1. It may be a bug in the code.
 
          <details>
-         <summary>How to check for bugs in the code. See this document for details: 调试九法 <a href="https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf">https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf</a></summary>
+         <summary>How to check for bugs in the code. See this document for details: 调试九法 (Nine Rules of Debugging) <a href="https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf">https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf</a></summary>
 
          (empty in the source)
 
@@ -139,7 +139,7 @@ In words:
       1. It may be a bug in the code.
 
          <details>
-         <summary>How to check for bugs in the code. See this document for details: 调试九法 <a href="https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf">https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf</a></summary>
+         <summary>How to check for bugs in the code. See this document for details: 调试九法 (Nine Rules of Debugging) <a href="https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf">https://www.notion.so/pengsida/debug-1b69debf803a4c268fc8a09a9a748bbf</a></summary>
 
          (empty in the source)
 
@@ -172,7 +172,7 @@ In words:
    <details>
    <summary>Note that quick iteration rests on effective experiments. Running experiments blindly may make things worse.</summary>
 
-   A strong researcher's discussion of "effective experiments" versus "blind experiments". The source shows a screenshot of it, with no public link.
+   A strong researcher's discussion of "effective experiments" versus "blind experiments". The source embeds a screenshot of it, without a source link.
 
    </details>
 

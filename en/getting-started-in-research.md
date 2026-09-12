@@ -34,7 +34,7 @@ Three things to do in this stage:
 
 3. While you study, sit in on a senior student's research project and on our weekly discussions, so you see what research really looks like day to day. [This document](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) (not done) lays out the workflow of a research project, along with the abilities it takes and tutorials for each of them. When your algorithm foundation and your experimental skills are strong enough, the lab will try giving you some experiments from our projects to help with. That is where doing research really starts. Taking part in a project means reading papers and running experiments.
 
-This is also a good stage to get comfortable with some [common tools and configurations](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776) (not done), collected by [He Xingyi](https://github.com/hxy-123) from our lab.
+This is also a good stage to get comfortable with some [common tools and configurations](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776) ([translated](../notion/machine-setup/README.md)), collected by [He Xingyi](https://github.com/hxy-123) from our lab.
 
 ## Stage three
 
