@@ -26,7 +26,7 @@ The core importance: lower the risk, raise the efficiency. This is the most fund
 
 The core idea: test whether the idea is feasible at the lowest cost.
 
-**Step one: define the standard for "feasible" (make the goal explicit).**
+**Step one: define the standard for "feasibility" (make the goal explicit).**
 
 Before starting any experiment, you have to answer clearly: what is this minimal experiment testing? What is the standard for success?
 

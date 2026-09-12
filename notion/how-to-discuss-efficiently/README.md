@@ -21,7 +21,7 @@ The purpose of a discussion:
 
 A classic negative example of a "discussion": long-winded and without focus, wearing down the senior advisor's patience and wasting everyone's time.
 
-> A concrete description of what happens: during the discussion, some students, perhaps afraid that a short discussion would make them look like they had not done anything, pad out the time by presenting papers or presenting trivial experimental phenomena. (They may have hit some problems and made little progress, so they think about padding the time; or they may do it for other reasons.)
+> A concrete description of what happens: during the discussion, some students, perhaps afraid that a short discussion would make them look like they had not done anything, pad out the time by presenting papers or presenting trivial experimental phenomena. (It may be because they hit some problems and made little progress that they think about padding the time, or because of other considerations that they do it.)
 
 What is wrong with a discussion like that:
 
@@ -58,7 +58,7 @@ How to hold an efficient discussion:
 
    These are the slides from an earlier project, for reference: [https://docs.google.com/presentation/d/19JDX9zjA4Ew3IkDxTlZfvAXiXs1CrHaevJLKBULwjZM/edit?usp=sharing](https://docs.google.com/presentation/d/19JDX9zjA4Ew3IkDxTlZfvAXiXs1CrHaevJLKBULwjZM/edit?usp=sharing)
 
-It does not have to be slides. If you find Notion or Wolai convenient, using those is fine too. The point is to match the format of a discussion.
+It does not have to be slides. If you find Notion or Wolai convenient, using those is quite good too. The point is to match the format of a discussion.
 
 Organize the slide content like this (do not report progress in detail):
 

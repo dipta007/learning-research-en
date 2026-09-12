@@ -174,7 +174,14 @@ Fix everything it marks `contradicted` or `missing` before committing. Then set 
 
 **This step is not a formality.** On every page it has run, it found real defects: a meaning inversion, a dropped negation that reversed a rejection criterion, an invented rating scale, five invented sentences, two false claims about the source, eight dropped citations, and a fabricated citation that conflated two different papers by the same author. Assume your first pass has errors of this kind, because every previous one did.
 
-**One pass is not enough on a file you then edit.** The four files in `en/` took four passes. Pass one found 9 defects, pass two found 6 more in the corrected text, pass three found 9 more. Each fix round is new prose and needs its own check. Keep going until a pass returns nothing you can act on, and say in the `status:` line how many passes ran.
+**One pass is not enough on a file you then edit.** `en/getting-started-in-research.md` took thirteen passes to reach an empty one. The counts were 9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, 0. Each fix round is new prose and needs its own check. Keep going until a pass returns nothing you can act on, and say in the `status:` line how many passes ran.
+
+The `notion/` pages were then re-verified the same way. Every page had had one pass; three stronger rounds found 118 more real defects, plus 10 false positives that were checked and rejected. So one pass catches roughly half of this defect class, and the second and third rounds each find more in text the previous round had just corrected. Budget for at least three rounds per page, and never describe a page as verified on the strength of one.
+
+**Two mistakes to avoid when applying a verifier's findings.** Both happened here.
+
+1. **Never trust an "applied" count.** A fix script reported `5/5 applied` while one substitution had matched an earlier, different occurrence and the flagged line was untouched. Re-grep the file for the intended result; do not read the script's own tally as proof.
+2. **Never leave a placeholder in a fix script.** Two substitutions marked "checked below" were left in and executed, rewriting a sentence about lab discussions into a different claim the source does not make, and altering a sentence the verifier never flagged. Both had to be reverted. Write the real target string or leave the entry out.
 
 ## Mistakes that keep recurring
 

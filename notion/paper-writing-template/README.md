@@ -128,7 +128,7 @@ flowchart TD
 
 > **note**
 > The key to a paper getting good reviews: make the paper beautiful and well presented, so the first impression is that this paper is very high class.
-> How to make a paper look beautiful and high class at first glance:
+> How to make a paper look very beautiful and very high class at first glance:
 > 1. A good-looking teaser figure and pipeline figure.
 > 2. Good-looking tables and result figures.
 > 3. Tidy typesetting.
@@ -161,7 +161,7 @@ The ability to "self-review whether your paper's writing is clear" matters a gre
 1. Read the paragraph from the reader's point of view. Several things can be checked:
    1. Does this paragraph have one clear theme?
    2. Does the first sentence of the paragraph make clear what the paragraph is about?
-   3. Can the reader understand every noun (every concept) in the sentences? Is it self-contained?
+   3. Can the reader understand every noun (every concept) in the sentences? Can it be self-contained?
       <details>
       <summary>When will a reader fail to understand a noun in a sentence</summary>
 
@@ -188,14 +188,14 @@ The ability to "self-review whether your paper's writing is clear" matters a gre
 <details>
 <summary>The key time points for writing a paper (plan from one month before the deadline)</summary>
 
-One month before the deadline, the method is probably not fully settled and the experiments are not all finished. But the paper's story is basically settled, so you can start writing and start planning what to do.
+One month before the deadline, the method is very likely not fully settled and the experiments are not all finished. But the paper's story is basically settled, so you can start writing and start planning what to do.
 
-> **note** Writing the paper a month early saves time later, makes the whole thing easier on yourself, and helps you think about which experiments to run.
+> **note** Writing the paper a month early saves time later, makes doing the paper somewhat easier on yourself, and helps you think about which experiments to run.
 
 | What to write | Time point |
 |---|---|
 | 1. Organize the existing story, including the core contribution, each module of the method and its motivation.<br>2. List the comparison experiments and ablation studies to run.<br>3. Write a first draft of the introduction this week. | Four weeks before the deadline |
-| Ideally settle the method this week.<br>1. Draw the pipeline figure sketch clearly and settle it.<br>2. Once the pipeline figure is confirmed, write a first draft of the method. At minimum the method's frame is settled this week, so the method can be started. If the details of the method are not settled, write `\todo{}` in the matching places and leave them for now, but at least get the frame of the method written.<br><br>By the end of this week, the first drafts of the introduction and method must go to your advisor, otherwise your advisor probably cannot finish revising the paper. (Imagine your advisor starting to revise ten very incomplete papers in the last few days. What kind of hellish experience is that? If you faced that yourself, how would you feel?) | Three weeks before the deadline |
+| Ideally settle the method this week.<br>1. Draw the pipeline figure sketch clearly and settle it.<br>2. Once the pipeline figure is confirmed, write a first draft of the method. At minimum the method's frame is settled this week, so the method can be started. If the details of the method are not settled, write `\todo{}` in the matching places and leave them for now, but at least get the frame of the method written.<br><br>By the end of this week, the first drafts of the introduction and method must go to your advisor, otherwise your advisor is very likely not able to finish revising the paper. (Imagine your advisor starting to revise ten very incomplete papers in the last few days. What kind of hellish experience is that? If you faced that yourself, how would you feel?) | Three weeks before the deadline |
 | Write first drafts of the experiments, abstract and related work this week. | Two weeks before the deadline |
 | Revise the paper, polish the pipeline figure and the teaser, make the demo. | The last week before the deadline |
 
@@ -848,7 +848,7 @@ Usually mentioned at the end of the section, or in the implementation details se
 
 > **note** The Method figure matters a lot. The pipeline figure in the Method has to look different from previous methods. Otherwise it gives the reader the impression that there is no novelty. If the whole pipeline (from input to output) is not very novel, the novel module should be highlighted in the pipeline figure. Another way is to draw several small figures rather than one big one, but then the paper may not look as beautiful.
 
-The pipeline figure is not there to make the reader understand, it is there to highlight novelty. The text of the Method is what makes the reader understand.
+The pipeline figure is not there to make the reader understand, it is there to highlight novelty. Only the text of the Method is what makes the reader understand.
 
 The positive examples are NSFF and KiloNeRF, the negative example is AniSDF.
 
@@ -892,13 +892,13 @@ Iterating step by step:
 > (2) How do we prove the modules in the method are effective → which ablation studies to run.
 > (3) How do we fully show the ceiling of our method → on which more challenging data to make a demo.
 
-> **note** In the text of the Experiments, the captions of the figures and tables are among the more important things.
+> **note** In the text of the Experiments, the captions of the figures and tables are fairly important.
 
 The Table caption and Figure caption need to state the experimental setting and the notation clearly. If there is nothing much to say, one sentence briefly describing the experimental result is fine.
 
 The content of a Caption should not discuss the experimental results at length, since that easily repeats the main text.
 
-> **note** A typesetting tip for experiment figures and tables: a single-column figure or table looks better in the right column of the paper, because people's reading habit is to look for the first line of text at the top left.
+> **note** A typesetting tip for experiment figures and tables: a single-column figure or table looks fairly good in the right column of the paper, because people's reading habit is to look for the first line of text at the top left.
 
 <details>
 <summary>Which comparison experiments to run</summary>

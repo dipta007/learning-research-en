@@ -59,7 +59,7 @@ A research project is something you conceive and explore yourself, not something
 <details>
 <summary>Difference 4: the body of knowledge</summary>
 
-In course study the body of knowledge is generally very complete: there are good textbooks and tutorials, every point you need to learn has been organized, and you can just learn it step by step.
+In course study the body of knowledge is generally very complete: there are very good textbooks and tutorials, every point you need to learn has been organized, and you can just learn it step by step.
 
 In research study, because what you are learning is fairly close to the frontier, the points you need are very scattered. Even where a tutorial exists online, it is also very likely to be poorly organized, and cannot directly present the knowledge you need. Learning the knowledge involved in frontier research through courses and books usually needs you to learn a large amount of extra, unrelated material.
 
@@ -85,7 +85,7 @@ That fact means you have to solve the problem independently.
 
 Unlike course study, where homework usually goes wrong only a few times, a research experiment is very likely to fail dozens of times or more. Most research results come from iterating through a large number of failed experiments.
 
-When an experiment fails, you cannot simply say the solution does not work and swap in another one, as you might in a course. Research requires analyzing why the current experiment does not work.
+When an experiment fails, you cannot simply say the solution does not work and directly swap in another one, as you might in a course. Research requires analyzing why the current experiment does not work.
 
 Become someone who dares to fail, and analyze the reason for failure from the failed results, so as to improve the current solution.
 

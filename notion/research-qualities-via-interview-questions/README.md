@@ -32,7 +32,7 @@ He also quotes Einstein: if he had an hour to solve a problem, he would spend fi
 
 #### Question 2: about taking risks
 
-Hu asks why a candidate is not pursuing the very interesting idea they had just described, which could possibly have a very large impact. The answer he is responding to is a mix of hesitation and the pull of easier work: waiting until the idea is clearer, while there is low-hanging fruit in another direction good for a couple more easy SIGGRAPH papers.
+Hu asks why a candidate is not pursuing the very interesting idea they had just described, which could possibly have a very large impact. The answer he is responding to is a mix of hesitation and the pull of easier work: waiting until the idea is clearer, while there is some low-hanging fruit in another direction good for a couple more easy SIGGRAPH papers.
 
 > **note**
 > Reflection: in research, aim high, and dare to act.
@@ -53,7 +53,7 @@ Hu asks whether the work is just combining x from one paper with y from another,
 
 #### Question 5: about collaboration
 
-Hu asks who does the best research in the candidate's field, whether they have talked to that person, why that person is so good, and whether the candidate could be too. The answer he is responding to is being fairly shy: not wanting to disturb others or be disturbed, preferring to stay inside one's own world.
+Hu asks who does the best research in the candidate's field, whether they have talked to that person, why that person can do so well, and whether the candidate could too. The answer he is responding to is being fairly shy: not wanting to disturb others or be disturbed, preferring to stay inside one's own world.
 
 > **note**
 > Reflection: dare to collaborate with people stronger than you.

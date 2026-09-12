@@ -29,6 +29,8 @@ One row per term, so the same idea reads the same way everywhere. Add a row the 
 
 Keep each hedge at its own strength, and keep the two apart. Verification caught them collapsing into each other twice.
 
+This table is the main defence against the defect that dominates this repository. Across 17 verification rounds it has been the same thing again and again: he writes hedged and emphatic, and the English comes out neutral and absolute. Each dropped particle looks trivial on its own. Together they rewrite his voice. Read this table before translating, and check the finished text against it afterwards.
+
 | Chinese | English |
 |---|---|
 | 推荐 | it is recommended that |
@@ -52,6 +54,36 @@ Keep each hedge at its own strength, and keep the two apart. Verification caught
 | 需要 | need to (keep it; 还需要看 is "you also need to watch", not "also watch"). Before a noun, 需要的能力 is "the abilities needed", not "the abilities it takes" |
 | 老师 | Prof. (see the note below) |
 | 教授 | Prof. |
+| 很 | very. **The single most-dropped word in this repository.** 很挣扎, 很烦, 很散, 很怪, 很没意思, 很有意思, 很大, 很快, 很熟练, 很高级, 很懂, 很straightforward all lost it. He writes emphatically; without 很 he reads flat |
+| 有些 | some |
+| 极强 | extremely strong (one rendering, not "very strong" a clause later) |
+| 才 / 才能 | only then. A necessary condition, not a loose cause. "so that readers remember them" loses it; "and only then do readers remember them" keeps it |
+| 才有可能 | only then is it possible |
+| 应该 | should, for obligation. **But for a confident inference it is "must have"**: 应该把技术栈都摸了遍 is "must have worked through", not the weaker "seems to have" |
+| 能 / 可以 | can. Dropped in a dozen places, turning his abilities into flat certainties |
+| 只能 | can only |
+| 没什么 | hardly any (not "fine") |
+| 各种 | all sorts of (not "every", which claims exhaustiveness) |
+| 完全 | completely (one rendering, not "fully" then "purely") |
+| 直接 | directly |
+| 始终 | always |
+| 等 / 等等 | and so on. Marks the list as open; dropping it makes the list read complete |
+| 经验 | experience (not "advice") |
+| 敢于 | dare to (not "willing to", which is mere consent) |
+| 一阵 | for a while (marks an ad hoc, unstructured effort) |
+| 增加 | increase (not "strengthen", which shifts from more to better) |
+| 核心 | core |
+| 根本 | fundamentally |
+| 巨大 | huge |
+| 喷 | slam. A harsh word. "Complain" drains the feeling that is his stated reason for the advice |
+| 多 (after a number) | more than (a lower bound, not "about") |
+| 以求 | so as to (a purpose, not "until", which is a duration) |
+| 时间上 | time-wise |
+| 容易 | easy. No comparative unless 更 is present, so not "easier" |
+| 作业 | assignments (not "assignment code") |
+| 应用 | application |
+| 科研项目 | research project (keep 科研) |
+| 写论文 | writing the paper |
 
 ## 老师 becomes "Prof."
 

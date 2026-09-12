@@ -95,7 +95,7 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
 
    The combination cannot be a completely A-plus-B combination of the form input → A → intermediate output → B → output, that is, a completely concatenated combination. The combination needs to be a creative one.
 
-   Under normal circumstances, directly concatenating two methods will not solve the problem anyway; otherwise the problem would have no technical challenge.
+   Under normal circumstances, directly concatenating two methods cannot solve the problem anyway; otherwise the problem would have no technical challenge.
 
    <details>
    <summary>The overwhelming majority of new techniques are examples of this (can you name a counterexample?)</summary>
@@ -146,7 +146,7 @@ Some people like to chase new techniques, single-mindedly tuning a new technique
 <details>
 <summary>A special case for coming up with ideas (important!! this case easily produces influential papers)</summary>
 
-When a new hammer appears, it is very much worth taking that new hammer to one of the milestone tasks on your own roadmap, because that easily produces influential work.
+When a new hammer appears, it is very much worth taking that new hammer to a certain milestone task on your own roadmap, because that easily produces influential work.
 
 > **note** Note, this is not about improving things within the new hammer's own task setting (for example tuning view synthesis results on NeRF's datasets within NeRF's task setting). It is about taking the new hammer to solve the problems in the milestone tasks you are working on. That is still goal-driven research.
 
@@ -175,7 +175,7 @@ What will the next new hammer be? What will the next example be?
 
 </details>
 
-A point that needs particular attention: do not develop a mindset of depending on your advisor. Train the habit and the ability to do research independently. From one angle you could say this matters even more than publishing papers itself. And in fact you need this ability yourself to have a good chance of producing a paper, otherwise the project is basically doomed.
+A point that needs particular attention: do not develop a mindset of depending on your advisor. Train the habit and the ability to do research independently. From one angle you could say this matters even more than publishing papers itself. And in fact you need this ability yourself, and only then can you have a good chance of producing a paper, otherwise the project is basically doomed.
 
 > **note** In fact it is hard for an advisor to find time to design a project's technical details, and the student needs to realize that the only way out is to think of the solution themselves.
 
@@ -190,7 +190,7 @@ The lab's experience in developing students' independent research ability, while
 On building a solution to the problem, the lab generally makes three contributions:
 
 1. Preventing the student's thinking from falling into a local minimum, encouraging and prompting the student to think more divergently and list more candidate solutions.
-2. When the student's proposed solution has a technical flaw, or needs so many handcrafted tricks that its applicability is too narrow, the lab generally points out the matching problem and gives other possible rough solutions for the student to refine.
+2. When the student's proposed solution has a technical flaw, or needs so many handcrafted tricks that its applicability is too narrow, the lab generally will point out the matching problem and will give other possible rough solutions for the student to refine.
 3. Helping the student improve their proposed solution, making it more beautiful.
 
 The usual division of labour between advisor and student in a research project:
@@ -211,7 +211,7 @@ The usual division of labour between advisor and student in a research project:
 | 10. Run experiments to tune the solution until it works | | Student |
 | 11. Think about what to do next | | Student |
 | 12. Get clear on what to do next | Advisor (supporting) | Student (leading) |
-| 13. Set your paper's important internal deadlines from the paper's own deadline (comparison experiments, ablation study, introduction writing, method writing, abstract writing, experiment writing, related work writing). Normally, start writing at least one month before the deadline. | Advisor (supporting) | Student (leading) |
+| 13. Set a few important internal deadlines for your paper from the paper's own deadline (comparison experiments, ablation study, introduction writing, method writing, abstract writing, experiment writing, related work writing). Normally, start writing at least one month before the deadline. | Advisor (supporting) | Student (leading) |
 | 14. Write the paper | | Student |
 | 15. Review the paper (list the missing experiments and the writing problems it has) | The advisor's contribution here is very large. The lab will suggest some interesting experiments, applications and demos, aiming to pick out every problem and give suggestions for improvement. | Student |
 | 16. Revise the paper | Advisor (supporting) | Student (leading) |
