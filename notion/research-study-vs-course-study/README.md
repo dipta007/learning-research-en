@@ -3,7 +3,7 @@ source: notion page 科研学习与课程学习的不同之处
 source page id: a3fe9f17-b8af-4655-8cd1-112627009c83
 source fetched: 2026-09-11
 status: verified by sonnet, 2026-09-12 (findings applied)
-figures: 6 in the source. Five are screenshots of other people's documents and are described rather than copied in; one is his own and is kept.
+figures: 5 in the source. Four are screenshots of other people's documents and are described rather than copied in; one is his own and is kept.
 -->
 
 # How Research Study Differs from Course Study
