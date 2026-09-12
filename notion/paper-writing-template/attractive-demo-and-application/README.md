@@ -12,7 +12,7 @@ figures: 1, the author's original, English redraw pending
 
 Why make an attractive demo and application: to increase the paper's impact and its citation count.
 
-The principle: make the demo and application for the downstream research community, and analyse carefully what that community is interested in.
+The principle: make the demo and application for the downstream research community, and analyze carefully what that community is interested in.
 
 Once the algorithm works on your target data, run experiments on as much new and more challenging data as you can, see the limits of the algorithm, and dig out its potential. Everyone very much wants to see what an algorithm can achieve, and this is a large contribution.
 
@@ -30,7 +30,7 @@ Example 3: vid2avatar ran experiments on in-the-wild data, which dug out the alg
 </details>
 
 <details>
-<summary>A student in the group summarised why running experiments on more challenging new data has very large impact</summary>
+<summary>A student in the group summarized why running experiments on more challenging new data has very large impact</summary>
 
 ![IMG_7918.JPG](./assets/9adfaf84b49a4b6f8ee1bbd918445013-IMG_7918.jpg)
 

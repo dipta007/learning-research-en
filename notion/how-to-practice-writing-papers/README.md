@@ -6,11 +6,11 @@ status: verified by fable, 2026-09-12 (findings applied)
 figures: 0
 -->
 
-# How to Practise Writing Papers
+# How to Practice Writing Papers
 
 > [Original Article](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851)
 
-There are three routes. In essence all of them train your ability to summarise and to express your ideas logically.
+There are three routes. In essence all of them train your ability to summarize and to express your ideas logically.
 
 1. Read one paper a day, then write a summary of it in your own words:
    1. Describe the paper's novelty in one sentence.

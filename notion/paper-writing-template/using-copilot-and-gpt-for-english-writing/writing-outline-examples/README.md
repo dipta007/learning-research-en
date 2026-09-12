@@ -22,7 +22,7 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 1. The problem to solve: scene reconstruction -> COLMAP works very well, describe how -> COLMAP works poorly on low-textured regions like floors and walls, give the specific reason.
 2. Traditional methods: use planes to help scene reconstruction -> the pipeline is complicated, many parameters to tune -> the plane works poorly, the reconstruction quality is poor.
 3. Recent methods: NeRF, VolSDF and NeuS work very well on object reconstruction -> experiments show that they work poorly on indoor low-textured regions -> across a large low-textured region there are many geometries that can explain the images.
-4. Our method: use semantics to help reconstruction, and optimise the semantic information while reconstructing -> `Specifically,` detect the floor and the walls and make them obey their semantic properties -> assume a Manhattan-world structure, so the normals of surface points on the floor and the walls obey the matching property; the wall normal is itself optimised -> given that the segmentation may be inaccurate, define a semantic MLP -> use multi-view consistency to improve the accuracy of the semantic segmentation, and at the same time optimise the segmentation probability with a geometric loss.
+4. Our method: use semantics to help reconstruction, and optimize the semantic information while reconstructing -> `Specifically,` detect the floor and the walls and make them obey their semantic properties -> assume a Manhattan-world structure, so the normals of surface points on the floor and the walls obey the matching property; the wall normal is itself optimized -> given that the segmentation may be inaccurate, define a semantic MLP -> use multi-view consistency to improve the accuracy of the semantic segmentation, and at the same time optimize the segmentation probability with a geometric loss.
 5. Experiments.
 
 ### Outline at sentence granularity
@@ -37,7 +37,7 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 
 1. To overcome that problem, some methods use the planar prior to help reconstruction.
 2. How they use the planar prior.
-3. How the plane is modelled: triangulation `\cite{planar prior}`, superpixel `\cite{tapa}`, or learning-based plane segmentation methods `\cite{}`.
+3. How the plane is modeled: triangulation `\cite{planar prior}`, superpixel `\cite{tapa}`, or learning-based plane segmentation methods `\cite{}`.
 4. The limitation: they improve performance, but when depth estimation or plane segmentation is inaccurate they tend to perform poorly.
 
 **Recent methods**, five sentences:
@@ -51,9 +51,9 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 **Our method**, four sentences:
 
 1. What is proposed, in one sentence: an implicit neural representation encoding both geometry and semantics, for 3D reconstruction of indoor scenes.
-2. The innovation in one sentence: use the semantic properties of planar regions to resolve reconstruction ambiguity, while optimising the estimated plane segmentation from geometric properties.
-3. `Specifically,` how it works: an MLP predicts signed distance and colour for any 3D point, and given floor and wall segmentation, the signed distance field is forced to respect the matching geometric structure under the Manhattan-world assumption.
-4. The follow-up problem and its answer: because inaccurate segmentation could mislead the optimisation, a further network predicts a semantic label per 3D point, jointly optimised through the geometric loss.
+2. The innovation in one sentence: use the semantic properties of planar regions to resolve reconstruction ambiguity, while optimizing the estimated plane segmentation from geometric properties.
+3. `Specifically,` how it works: an MLP predicts signed distance and color for any 3D point, and given floor and wall segmentation, the signed distance field is forced to respect the matching geometric structure under the Manhattan-world assumption.
+4. The follow-up problem and its answer: because inaccurate segmentation could mislead the optimization, a further network predicts a semantic label per 3D point, jointly optimized through the geometric loss.
 
 ## Related work
 
@@ -90,7 +90,7 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 2. Overview of our method.
 3. Volume rendering of signed distance fields.
 4. Semantics-guided scene reconstruction.
-5. Joint optimisation of semantics and geometry.
+5. Joint optimization of semantics and geometry.
 
 ### Outline at sentence granularity
 
@@ -98,25 +98,25 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 
 1. The goal, given multi-view images with camera poses of an indoor scene.
 2. A pointer to the overview figure.
-3. What Section 3.1 covers: representing geometry and appearance with signed distance and colour fields, learned from images by volume rendering.
+3. What Section 3.1 covers: representing geometry and appearance with signed distance and color fields, learned from images by volume rendering.
 4. What Section 3.2 covers and why: semantic segmentation to find floors and walls, then geometric constraints from the Manhattan-world assumption.
-5. What Section 3.3 covers and which weakness of 3.2 it answers: encoding semantics into the representation and jointly optimising them with geometry and appearance.
+5. What Section 3.3 covers and which weakness of 3.2 it answers: encoding semantics into the representation and jointly optimizing them with geometry and appearance.
 
 **Volume rendering of signed distance fields**, six items:
 
-1. Contrast with multi-view stereo methods: the scene is modelled as an implicit neural representation learned with a differentiable renderer.
+1. Contrast with multi-view stereo methods: the scene is modeled as an implicit neural representation learned with a differentiable renderer.
 2. Credit the prior work the representation follows `\cite{idr, volsdf, neus}`.
 3. Describe the geometry network: a 3D point maps to a signed distance, with the defining equation, then what implements it and what the geometry feature is.
-4. Describe the colour network: which inputs it takes, with the equation, then how the normal is obtained as the gradient of the signed distance at the point.
+4. Describe the color network: which inputs it takes, with the equation, then how the normal is obtained as the gradient of the signed distance at the point.
 5. Describe training the representation with volume rendering:
    a. Credit the prior work being followed `\cite{volsdf, neus}`. ->
    b. For one image pixel, sample N points along its camera ray. ->
-   c. Predict the signed distance and colour of each point. ->
+   c. Predict the signed distance and color of each point. ->
    d. Then convert signed distance to density with Equation 1. ->
-   e. Then get the colour with the volume rendering equation. ->
+   e. Then get the color with the volume rendering equation. ->
    f. Describe the image loss.
 6. Describe using the depth map from COLMAP as a loss:
-   a. Report that the image loss alone reconstructs poorly, with a figure reference. -> The reason: the colour network is view-dependent, so inaccurate geometry can still explain the images fairly well.
+   a. Report that the image loss alone reconstructs poorly, with a figure reference. -> The reason: the color network is view-dependent, so inaccurate geometry can still explain the images fairly well.
    b. In contrast, although multi-view stereo methods mostly recover only incomplete reconstructions, the geometry they do recover is accurate.
    c. Use the depth maps from a multi-view stereo method `\cite{}` to guide the learning of the scene representation, with its equation.
    d. Define its terms, the rendered depth from volume rendering against the depth map from multi-view stereo.
@@ -133,22 +133,22 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 7. Introduce a predefined learnable normal for supervising the walls.
 8. The wall loss, aligning or making vertical the normals of wall surface points against that learnable normal, with its equation.
 9. Define its terms, the surface normal being the gradient of the signed distance at the point.
-10. Note that the learnable normal is randomly initialised, jointly optimised with the network parameters, and converges stably to the ground-truth normal in experiments.
+10. Note that the learnable normal is randomly initialised, jointly optimized with the network parameters, and converges stably to the ground-truth normal in experiments.
 11. The floor assumption, alignment with the z-axis, correct in most scenes, and the floor normal loss.
 12. Define its terms.
 13. An extra geometric constraint, that floor surface points share one height, with its equation.
 14. Define its terms, including the learnable scalar for floor height.
 15. How that height is initialised, by clustering multi-view stereo point clouds in the floor region.
-16. Note the height is also jointly optimised, then give the combined floor loss.
+16. Note the height is also jointly optimized, then give the combined floor loss.
 17. Define its remaining term, the coefficient weight.
 
-**Joint optimisation of semantics and geometry**, eight items:
+**Joint optimization of semantics and geometry**, eight items:
 
 1. State what the geometric constraints achieved.
 2. State the remaining problem: predicted 2D segmentation can be wrong in places, making the reconstruction inaccurate, with a figure reference.
-3. The fix in one sentence: optimise the input semantic information together with scene geometry and appearance.
+3. The fix in one sentence: optimize the input semantic information together with scene geometry and appearance.
 4. Credit the prior work `\cite{semantic nerf}` and state the mechanism: also predict semantic logits for any 3D point.
 5. Describe what the logits represent: softmax over them gives the probability of the point being floor, wall or background, with the defining equation and what implements it.
-6. Describe how the logits are rendered: volume rendering into 2D image space as with the image, the per-pixel equation, then softmax normalisation into multi-class probabilities.
-7. Describe the joint optimisation with the normal, and its motivation: fold the class probabilities into the geometric losses from the previous section, give the combined loss, define its terms, then explain why it works, that a wrong segmentation makes its loss term unstable, so the optimiser drives that probability down and the wrong supervision signal is suppressed.
+6. Describe how the logits are rendered: volume rendering into 2D image space as with the image, the per-pixel equation, then softmax normalization into multi-class probabilities.
+7. Describe the joint optimization with the normal, and its motivation: fold the class probabilities into the geometric losses from the previous section, give the combined loss, define its terms, then explain why it works, that a wrong segmentation makes its loss term unstable, so the optimizer drives that probability down and the wrong supervision signal is suppressed.
 8. Describe learning the logits with a rendering loss: the supervision from the input segmentation with its equation, its terms, the observation that a 3D region is classified correctly in most camera views, and the conclusion that learning semantics in 3D naturally exploits multi-view consistency.

@@ -13,7 +13,7 @@ figures: 5 in the source. Four are screenshots of other people's documents and a
 > **Translator's note.** Four of the five figures are screenshots of other people's material: a strong researcher's research-teaching document, Prof. Xiangyang Shen's research experience, and Feynman on research. The source embeds them without giving a source link, so each is described where it appears rather than copied in. His own text is translated in full.
 
 <details>
-<summary>This document is mainly summarised from a strong researcher's research-teaching document</summary>
+<summary>This document is mainly summarized from a strong researcher's research-teaching document</summary>
 
 The source embeds two screenshots of that document, without a source link.
 
@@ -59,9 +59,9 @@ A research project is something you conceive and explore yourself, not something
 <details>
 <summary>Difference 4: the body of knowledge</summary>
 
-In course study the body of knowledge is generally very complete: there are good textbooks and tutorials, every point you need to learn has been organised, and you can just learn it step by step.
+In course study the body of knowledge is generally very complete: there are good textbooks and tutorials, every point you need to learn has been organized, and you can just learn it step by step.
 
-In research study, because what you are learning is fairly close to the frontier, the points you need are scattered. Even where a tutorial exists online, it may be poorly organised and may not present what you actually need. Learning the knowledge involved in frontier research through courses and books usually means learning a large amount of extra, unrelated material.
+In research study, because what you are learning is fairly close to the frontier, the points you need are scattered. Even where a tutorial exists online, it may be poorly organized and may not present what you actually need. Learning the knowledge involved in frontier research through courses and books usually means learning a large amount of extra, unrelated material.
 
 > **note** In research study, your lab's advisor and senior students are a complete body of knowledge that walks.
 > You high-scoring undergraduate stars: however you normally look things up in textbooks and tutorials, treat your advisor and your senior students as the textbook and the tutorial, and ask and learn from them.
@@ -85,9 +85,9 @@ That fact means you have to solve the problem independently.
 
 Unlike course study, where homework usually goes wrong only a few times, a research experiment may well fail dozens of times or more. Most research results come from iterating through a large number of failed experiments.
 
-When an experiment fails, you cannot simply say the solution does not work and swap in another one, as you might in a course. Research requires analysing why the current experiment does not work.
+When an experiment fails, you cannot simply say the solution does not work and swap in another one, as you might in a course. Research requires analyzing why the current experiment does not work.
 
-Become willing to fail, and analyse the reason for failure from the failed results, so as to improve the current solution.
+Become willing to fail, and analyze the reason for failure from the failed results, so as to improve the current solution.
 
 </details>
 

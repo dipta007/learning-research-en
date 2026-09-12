@@ -39,7 +39,7 @@ The line of thinking for academic talk slides:
 9. An outlook on future work.
 
 <details>
-<summary>Material that needs organising</summary>
+<summary>Material that needs organizing</summary>
 
 ![Untitled](./assets/c5db4099604740f29406806ea5fbeffa-Untitled.png)
 

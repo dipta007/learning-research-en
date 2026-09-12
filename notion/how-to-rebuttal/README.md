@@ -24,9 +24,9 @@ For examples of the language style above, see this file:
 The concrete rebuttal process:
 
 <details>
-<summary>First, organise the content of the reviews</summary>
+<summary>First, organize the content of the reviews</summary>
 
-The newer review-organising tool, based on drawio (recommended, it gives a better overall view and is easier to read):
+The newer review-organizing tool, based on drawio (recommended, it gives a better overall view and is easier to read):
 
 <!-- Rebuttal整理模板.drawio is not downloadable from Notion -->
 
@@ -38,7 +38,7 @@ flowchart TD
     P1["Precondition:<br/>understand well what the reviewer means"]
     P2["Precondition:<br/>a reviewer's comment has context,<br/>so you need that context to understand it reasonably well"]
     A1["Approach 1:<br/>read the comments reviewer by reviewer,<br/>understanding each reviewer's meaning<br/>from their own context"]
-    A2["Approach 2:<br/>split each reviewer's comments apart,<br/>cluster the ones that are the same,<br/>then work only on understanding the organised comments"]
+    A2["Approach 2:<br/>split each reviewer's comments apart,<br/>cluster the ones that are the same,<br/>then work only on understanding the organized comments"]
     R1["Once you understand what the reviewers mean,<br/>reply to them one by one"]
     R2["Pull out the parts of the replies that are the same<br/>across reviewers, forming Common Questions,<br/>to shorten the rebuttal"]
     A1 -- fits --> P2
@@ -48,11 +48,11 @@ flowchart TD
 ```
 
 <details>
-<summary>The Excel-based review-organising tool</summary>
+<summary>The Excel-based review-organizing tool</summary>
 
 [https://docs.google.com/spreadsheets/d/1TS2l5SrbExHxA1i_xrm2Sbd5dz_uS4CqAjoAskiZNX0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1TS2l5SrbExHxA1i_xrm2Sbd5dz_uS4CqAjoAskiZNX0/edit?usp=sharing)
 
-A blank review-organising template:
+A blank review-organizing template:
 
 [https://docs.google.com/spreadsheets/d/17sH8sMqroFrmLKfogcC-9AyJpWKi8Ugru1NoKtFAIDo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/17sH8sMqroFrmLKfogcC-9AyJpWKi8Ugru1NoKtFAIDo/edit?usp=sharing)
 

@@ -6,7 +6,7 @@ status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 2, kept as-is
 -->
 
-# Template for Analysing a Project's Core Technical Problems
+# Template for Analyzing a Project's Core Technical Problems
 
 > [Original Article](https://pengsida.notion.site/1753fe292ff180948215cf82cd2b30ae)
 
@@ -35,7 +35,7 @@ What key need does this project want to meet: xx
 #### Overall project plan
 
 - [ ] 1. Build a baseline, run it, and see how far its results are from the key need.
-- [ ] 2. Analyse the underlying technical problem causing that gap.
+- [ ] 2. Analyze the underlying technical problem causing that gap.
 - [ ] 3. Design an idea for solving the problem from first principles.
 - [ ] 4. Run exploratory experiments.
 

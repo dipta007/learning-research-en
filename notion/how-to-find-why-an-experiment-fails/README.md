@@ -26,7 +26,7 @@ The source embeds two screenshots of that point, without a source link.
 </details>
 
 <details>
-<summary>The consequences of not analysing your experimental results</summary>
+<summary>The consequences of not analyzing your experimental results</summary>
 
 The project goes very slowly, quite possibly does not succeed, or gets scooped, so the time invested earlier is wasted.
 
@@ -35,7 +35,7 @@ The source embeds two screenshots on this point, without a source link.
 </details>
 
 <details>
-<summary>How to find why the current experiment does not work. This document is mainly summarised from a strong researcher's <a href="http://people.csail.mit.edu/billf/www/papers/doresearch.pdf">research teaching document</a>.</summary>
+<summary>How to find why the current experiment does not work. This document is mainly summarized from a strong researcher's <a href="http://people.csail.mit.edu/billf/www/papers/doresearch.pdf">research teaching document</a>.</summary>
 
 The flowchart, redrawn in English. [Original](./assets/465263f68cc84a80953866e72a98d5f7-Untitled.png).
 
@@ -77,7 +77,7 @@ In words:
 
    </details>
 
-3. Analyse the technical cause of the performance gap between the "version that works" and the "version that does not work". (That is, analyse the technical cause of the performance gap between the good cases and the failure cases.)
+3. Analyze the technical cause of the performance gap between the "version that works" and the "version that does not work". (That is, analyze the technical cause of the performance gap between the good cases and the failure cases.)
 
    <details>
    <summary>What to do when it is a "version that works" versus a "version that does not work"</summary>
@@ -98,7 +98,7 @@ In words:
 
       </details>
 
-   2. Once you have found the single factor causing the failure, analyse the technical cause. List as many possibilities as you can. Then put those possibilities in order.
+   2. Once you have found the single factor causing the failure, analyze the technical cause. List as many possibilities as you can. Then put those possibilities in order.
 
       <details>
       <summary>How to do it</summary>
@@ -123,15 +123,15 @@ In words:
 
       </details>
 
-   Here you can only stare at the experimental phenomena and the algorithm and analyse the causes. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
+   Here you can only stare at the experimental phenomena and the algorithm and analyze the causes. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
 
    </details>
 
    <details>
    <summary>What to do when it is "good cases" versus "failure cases"</summary>
 
-   1. Find the data matching the good cases and the failure cases, and analyse the characteristics of that data. Which aspect of the data caused the performance gap?
-   2. Analyse what the technical cause behind the data difference is. List as many possibilities as you can. Then put those possibilities in order.
+   1. Find the data matching the good cases and the failure cases, and analyze the characteristics of that data. Which aspect of the data caused the performance gap?
+   2. Analyze what the technical cause behind the data difference is. List as many possibilities as you can. Then put those possibilities in order.
 
       <details>
       <summary>How to do it</summary>
@@ -156,7 +156,7 @@ In words:
 
       </details>
 
-   Here you can only stare at the experimental phenomena and the algorithm and analyse the causes. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
+   Here you can only stare at the experimental phenomena and the algorithm and analyze the causes. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
 
    </details>
 

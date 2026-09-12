@@ -19,7 +19,7 @@ A full screen recording of using Copilot and GPT to help write an Introduction: 
 <details>
 <summary>What an outline is</summary>
 
-An outline means the way the author organises the article's content during writing.
+An outline means the way the author organizes the article's content during writing.
 
 A paper has outlines at several granularities:
 

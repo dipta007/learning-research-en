@@ -32,7 +32,7 @@ How to increase your own paper's citation count:
    1. Increase the paper's readership: make a beautiful project page and demo, and promote your work on social media.
    2. Increase the use of the paper's algorithm: open-source the code as early as possible, and maintain the code's README well and reply to code Issues.
 
-What kind of behaviour leads to a very low citation count:
+What kind of behavior leads to a very low citation count:
 
 1. Not promoting your own paper, and not putting the paper on arXiv.
 2. Not open-sourcing the paper's code, so nobody can use the paper's tool.

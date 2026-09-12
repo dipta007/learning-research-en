@@ -19,7 +19,7 @@ The repository that turns this writing template into Vibe Writing Skills: https:
 
 <!-- the editable 论文写作规划.drawio is not downloadable from Notion; the originals are its exported pages -->
 
-Diagrams by Prof. Peng Sida, redrawn in English. Originals: [page 1](./assets/2f33fe292ff1803caa1cfcdf1d47e716-page1.png), [page 2](./assets/2f33fe292ff1809c9f29eb2954c826b5-180c747c-a47d-4ecc-8520-6d9e30d25728.png), [page 3](./assets/2f33fe292ff1801e8a21d0dbdbb89bdf-83930b48-c627-4b05-aac1-630121ff5c3a.png), [page 4](./assets/2f33fe292ff180dc89eff2a8aabdb8ae-page4.png).
+Diagrams by Prof. Sida Peng, redrawn in English. Originals: [page 1](./assets/2f33fe292ff1803caa1cfcdf1d47e716-page1.png), [page 2](./assets/2f33fe292ff1809c9f29eb2954c826b5-180c747c-a47d-4ecc-8520-6d9e30d25728.png), [page 3](./assets/2f33fe292ff1801e8a21d0dbdbb89bdf-83930b48-c627-4b05-aac1-630121ff5c3a.png), [page 4](./assets/2f33fe292ff180dc89eff2a8aabdb8ae-page4.png).
 
 **The flowchart for writing a paper**
 
@@ -27,7 +27,7 @@ Diagrams by Prof. Peng Sida, redrawn in English. Originals: [page 1](./assets/2f
 flowchart TD
     A[Draw the paper's technical pipeline figure] --> B["Write the paper's key content<br/>(see the 'key content' part of the plan diagram)"]
     B --> C["Write the Introduction's text outline<br/>(see the 'Introduction content breakdown' part)"]
-    C --> D["Draw the experiment plan diagram, organise the experiments to run<br/>(see the 'experiment content breakdown' part)"]
+    C --> D["Draw the experiment plan diagram, organize the experiments to run<br/>(see the 'experiment content breakdown' part)"]
     D --> E["Write the Method's text outline<br/>(see the 'Introduction content breakdown' part)"]
     D --> P[Run verification experiments and ablation experiments in parallel]
     E --> F[Write the Introduction and Method]
@@ -115,7 +115,7 @@ flowchart TD
 | Steps for writing a paper | The matching tutorial |
 |---|---|
 | 1. Sketch a clear pipeline figure | a. [Paper figure template (not public)](https://pengsida.notion.site/0051678d2df74d73ae236b9b44875193?pvs=25) ([translated](./paper-figure-template/README.md)) |
-| 2. Sort out the paper's story, write an outline for the Introduction, and organise the comparison experiments and ablation studies to run | a. [How to sort out a paper's story](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#e9ac9d2730e244b09ff448bc90db7378)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to organise the experiments to run](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#b0e7940f3b8b4a3e951ec672eaf4632e) |
+| 2. Sort out the paper's story, write an outline for the Introduction, and organize the comparison experiments and ablation studies to run | a. [How to sort out a paper's story](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#e9ac9d2730e244b09ff448bc90db7378)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to organize the experiments to run](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#b0e7940f3b8b4a3e951ec672eaf4632e) |
 | 3. Outline the Method, then write the Method while running experiments | a. [How to write the Method](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#7a54f95f28334ff7b6b6912fd48566dd)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md)) |
 | 4. Revise the Introduction and Method while running experiments | a. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
 | 5. Once the experiments are mostly done, outline the Experiments, then write it | a. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>b. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to draw experiment tables](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#13d3fe292ff18085ac3ae97c82c431dc) |
@@ -194,7 +194,7 @@ One month before the deadline, the method is probably not fully settled and the 
 
 | What to write | Time point |
 |---|---|
-| 1. Organise the existing story, including the core contribution, each module of the method and its motivation.<br>2. List the comparison experiments and ablation studies to run.<br>3. Write a first draft of the introduction this week. | Four weeks before the deadline |
+| 1. Organize the existing story, including the core contribution, each module of the method and its motivation.<br>2. List the comparison experiments and ablation studies to run.<br>3. Write a first draft of the introduction this week. | Four weeks before the deadline |
 | Ideally settle the method this week.<br>1. Draw the pipeline figure sketch clearly and settle it.<br>2. Once the pipeline figure is confirmed, write a first draft of the method. At minimum the method's frame is settled this week, so the method can be started. If the details of the method are not settled, write `\todo{}` in the matching places and leave them for now, but at least get the frame of the method written.<br><br>By the end of this week, the first drafts of the introduction and method must go to your advisor, otherwise your advisor probably cannot finish revising the paper. (Imagine your advisor starting to revise ten very incomplete papers in the last few days. What kind of hellish experience is that? If you faced that yourself, how would you feel?) | Three weeks before the deadline |
 | Write first drafts of the experiments, abstract and related work this week. | Two weeks before the deadline |
 | Revise the paper, polish the pipeline figure and the teaser, make the demo. | The last week before the deadline |
@@ -254,7 +254,7 @@ The key is to answer each of the following questions before writing:
 </details>
 
 <details>
-<summary>Version 2: introduce the technical challenge, then one or two sentences on the insight that solves it, then one sentence on the technical contribution that realises the insight. (I personally recommend this one)</summary>
+<summary>Version 2: introduce the technical challenge, then one or two sentences on the insight that solves it, then one sentence on the technical contribution that realizes the insight. (I personally recommend this one)</summary>
 
 ```latex
 \section{Abstract}
@@ -270,7 +270,7 @@ The key is to answer each of the following questions before writing:
 %% Example: the diffusion paper proposes guidance using depth estimated from the model's own internal representations.
 %% Example: Neural Body states its key idea in one line, integrating observations over video frames.
 
-% One or two sentences on the technical contribution that realises the insight. Normally you just name the technique, without walking through each step. That name has to be understandable, with no sense of a jump. This ability matters a lot for writing a good abstract.
+% One or two sentences on the technical contribution that realizes the insight. Normally you just name the technique, without walking through each step. That name has to be understandable, with no sense of a jump. This ability matters a lot for writing a good abstract.
 %% Example: the diffusion paper names a label-efficient depth estimation framework, then two guidance techniques used at sampling time.
 %% Example: Neural Body names its contribution, a human body representation whose per-frame neural representations share one set of latent codes anchored to a deformable mesh.
 
@@ -432,7 +432,7 @@ For a novel task, the approach is to think each of these through:
 
 1. Think through the technical challenge our pipeline solved.
 
-> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was straightforward to come up with. What they may not realise is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
+> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was straightforward to come up with. What they may not realize is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
 
 Even if our work really is a 4-point piece, do not write it this way.
 
@@ -502,7 +502,7 @@ These methods [describe what they do].
 
 %% Discuss the technical challenge they face (introduce the limitation and the technical reason)
 %% Example 1, deep snake: many variants exist, but they are prone to local optima because the objective functions are handcrafted and typically nonconvex.
-%% Example 2, ManhattanSDF: they optimise per-view depth maps rather than the full 3D scene model, so depth and plane segmentation stay inconsistent across views, with a forward reference to its own experiments.
+%% Example 2, ManhattanSDF: they optimize per-view depth maps rather than the full 3D scene model, so depth and plane segmentation stay inconsistent across views, with a forward reference to its own experiments.
 However, they [the limitation], because [xxx technical reason].
 
 % One or two sentences discussing a class of recent method 2, then discuss the technical challenge they face (this needs to lead into the technical challenge we solved)
@@ -575,7 +575,7 @@ The basic idea is illustrated in [xxx Figure].
 Our innovation is in [one sentence introducing our key novelty].
 
 % Say what is actually done
-%% Example: Neural Body anchors latent codes to the vertices of a deformable human model, transforms the code locations by the human pose, then regresses density and colour for any 3D point from those codes, learning codes and network jointly across all frames.
+%% Example: Neural Body anchors latent codes to the vertices of a deformable human model, transforms the code locations by the human pose, then regresses density and color for any 3D point from those codes, learning codes and network jointly across all frames.
 Specifically, [say what is actually done].
 
 % Introduce our method's advantage (what is the fundamental reason it works, what is the benefit relative to previous methods.)
@@ -721,13 +721,13 @@ Introduce the key innovation first, then discuss an observation that anyone can 
 Questions:
 
 1. Which modules does the paper's method have.
-2. For each module, answer three questions: this module's workflow, why this module is used, and why this module works. Organising the answers as a mind map or a table may make it clearer.
+2. For each module, answer three questions: this module's workflow, why this module is used, and why this module works. Organizing the answers as a mind map or a table may make it clearer.
 
 The steps for writing the method:
 
 1. Sketch the pipeline figure.
-2. From the pipeline figure sketch, organise the outline of the method section: which method module each sub-section writes about.
-3. Organise the outline of each subsection. Each subsection has three parts: motivation of this module, module design, technical advantages of this module. Think through the outline of each part. (Very important for explaining a pipeline module clearly)
+2. From the pipeline figure sketch, organize the outline of the method section: which method module each sub-section writes about.
+3. Organize the outline of each subsection. Each subsection has three parts: motivation of this module, module design, technical advantages of this module. Think through the outline of each part. (Very important for explaining a pipeline module clearly)
 4. Start writing the actual text, module design first, so the method has some basic content.
 5. Then add motivation of this module and technical advantages of this module into the method.
 
@@ -781,7 +781,7 @@ Typical opening sentences:
 <details>
 <summary>How to check whether your Method is easy-to-understand</summary>
 
-1. Outline level: after finishing the paper, summarise the Method's outline again and see whether the thinking flows.
+1. Outline level: after finishing the paper, summarize the Method's outline again and see whether the thinking flows.
 2. Paragraph level: the first sentence of a paragraph must tell people what the paragraph is about, and one paragraph must express one thing well.
 3. Sentence level:
    1. Check carefully whether the motivation of every sentence in the Method is clear. Keep the reader clear at all times about one thing: why the "content" in this sentence has to be carried out.
@@ -808,7 +808,7 @@ Typical opening sentences:
 %% Example: a pose estimation paper states that given an image, the task is to detect objects and estimate their orientations and translations in 3D space.
 
 % One or two sentences introducing the paper's core contribution
-%% Example: NSFF (Li et al., CVPR 2021) says it builds on prior static-scene work, adds the notion of time, and estimates 3D motion by explicitly modelling forward and backward scene flow as dense 3D vector fields.
+%% Example: NSFF (Li et al., CVPR 2021) says it builds on prior static-scene work, adds the notion of time, and estimates 3D motion by explicitly modeling forward and backward scene flow as dense 3D vector fields.
 %% Example: deep snake credits the prior work it follows, then states that it segments by deforming an initial contour to match the object boundary.
 %% Example: a pose paper credits recent two-stage methods, detecting 2D keypoints with CNNs then computing pose with PnP, and states its own innovation, a new keypoint representation plus a modified PnP.
 
@@ -817,10 +817,10 @@ Typical opening sentences:
 
 % What Section 3.1 describes
 %% Example: Neural Body starts from structured latent codes attached to a deformable human model's surface, with the section reference.
-%% Example: an MLP maps paper first describes modelling 3D scenes with MLP maps, with the section reference.
+%% Example: an MLP maps paper first describes modeling 3D scenes with MLP maps, with the section reference.
 
 % What Section 3.2 describes
-%% Example: Neural Body obtains the latent code anywhere near the surface by a code diffusion process, then decodes density and colour, with the section references.
+%% Example: Neural Body obtains the latent code anywhere near the surface by a code diffusion process, then decodes density and color, with the section references.
 %% Example: the MLP maps paper then discusses representing volumetric video with dynamic MLP maps, with the section reference.
 
 % What Section 3.3 describes
@@ -852,7 +852,7 @@ The basic outline:
 <details>
 <summary>Implementation details</summary>
 
-Hyperparameters such as the number of network layers and the feature vector dimension; implementation details such as coordinate transforms and coordinate normalisation.
+Hyperparameters such as the number of network layers and the feature vector dimension; implementation details such as coordinate transforms and coordinate normalization.
 
 Usually mentioned at the end of the section, or in the implementation details section.
 
@@ -895,7 +895,7 @@ Iterating step by step:
 
 ![image.png](./assets/13d3fe292ff180809fcefc90d9d09f1e-image.png)
 
-4. Colour the highlighted numbers
+4. Color the highlighted numbers
 
 ![image.png](./assets/13d3fe292ff18042869dc3502b33ada3-image.png)
 
@@ -997,7 +997,7 @@ So ablation studies usually need two parts:
 > **note** To write good Related work, the steps are:
 > (1) First, list the papers that are fairly related to your paper's method. (The most important part of Related work. If it is not discussed, some reviewers will reject the paper on that alone.)
 > (2) Then, based on the paper's research direction and algorithmic technique, decide which topics the Related work should discuss, and list the papers to discuss under each topic.
-> (3) Finally, based on the papers listed in the first two steps, organise the outline of the related work.
+> (3) Finally, based on the papers listed in the first two steps, organize the outline of the related work.
 
 </details>
 
@@ -1011,7 +1011,7 @@ Limitations usually describe limitations caused by the task goal or the task set
 <details>
 <summary>Example</summary>
 
-1. A limitation sentence of this shape: common videos run for more than a few minutes, but this work only handles videos of 100 to 300 frames, which is relatively short and limits the applications, and modelling a long volumetric video remains an interesting problem.
+1. A limitation sentence of this shape: common videos run for more than a few minutes, but this work only handles videos of 100 to 300 frames, which is relatively short and limits the applications, and modeling a long volumetric video remains an interesting problem.
 
 </details>
 

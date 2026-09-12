@@ -20,7 +20,7 @@ figures: 2, screenshots of his own GPT session, used as-is
 For the abstract, the introduction, the method, or any single paragraph, the steps for improving its outline are:
 
 1. **Encode**: turn the raw text into a high-level outline.
-2. **Analyse at the level of the outline**: answer the following two questions, in order to find where the logic of the outline is unreasonable:
+2. **Analyze at the level of the outline**: answer the following two questions, in order to find where the logic of the outline is unreasonable:
    1. Does this outline express the content you want to express?
    2. Is the logic of the outline smooth?
 3. **Improve at the level of the outline**: fix the unreasonable parts by editing the outline.
@@ -31,20 +31,20 @@ For the abstract, the introduction, the method, or any single paragraph, the ste
 
 1. The paragraph to improve.
 
-   The raw text is a Method paragraph from a draft. It credits prior hierarchical Gaussian work, states that the scene is represented with Gaussian primitives, describes organising them into a tree hierarchy of `L` levels where a higher level is coarser but more efficient, says higher-level primitives are merged from lower-level ones, spells out that merging as interpolating every attribute of a level `l` primitive to obtain level `l+1`, and closes on selecting nodes to render by camera view and manually setting node velocity from tracking information.
+   The raw text is a Method paragraph from a draft. It credits prior hierarchical Gaussian work, states that the scene is represented with Gaussian primitives, describes organizing them into a tree hierarchy of `L` levels where a higher level is coarser but more efficient, says higher-level primitives are merged from lower-level ones, spells out that merging as interpolating every attribute of a level `l` primitive to obtain level `l+1`, and closes on selecting nodes to render by camera view and manually setting node velocity from tracking information.
 
 2. Encode, turning the raw text into a high-level outline.
 
    ```
    High-level outline:
    1. We use gaussian primitives as the scene representation.
-   2. We organise the gaussian primitives into a tree-based hierarchy; a higher level has coarser visual quality but higher efficiency.
+   2. We organize the gaussian primitives into a tree-based hierarchy; a higher level has coarser visual quality but higher efficiency.
    3. The gaussian primitives of a higher level are merged from the lower level.
    4. Specifically, we obtain the level l+1 gaussian primitives by interpolating the level l gaussian primitives.
    5. According to the camera view, we progressively select nodes.
    ```
 
-3. Analyse at the level of the outline, answering the following two questions:
+3. Analyze at the level of the outline, answering the following two questions:
 
    1. Does this outline express the content you want to express?
 

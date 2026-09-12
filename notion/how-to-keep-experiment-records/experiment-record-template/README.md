@@ -22,9 +22,9 @@ What kind of data the experiment was run on, and what was changed in the algorit
 
 Record both the results where performance is good and the results where it is poor, including visual results and quantitative results.
 
-### Analyse the experimental results, and the possible causes
+### Analyze the experimental results, and the possible causes
 
-Observe whether the results match your expectation. If they do not, you need to [analyse why the experiment does not work](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097) ([translated](../../how-to-find-why-an-experiment-fails/README.md)).
+Observe whether the results match your expectation. If they do not, you need to [analyze why the experiment does not work](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097) ([translated](../../how-to-find-why-an-experiment-fails/README.md)).
 
 ### The experiments to run next
 

@@ -42,7 +42,7 @@ Advantages:
 1. It is easier to produce a breakthrough innovation, because you are no longer a follow-up but a leader.
 2. Your own research has more motivation and a big picture, which makes it easier to attract other people.
 3. The research is more continuous and forms a coherent body.
-4. You can organise a team, with people solving the tasks on the roadmap separately.
+4. You can organize a team, with people solving the tasks on the roadmap separately.
 
 Disadvantages:
 

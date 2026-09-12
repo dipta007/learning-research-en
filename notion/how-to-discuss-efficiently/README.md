@@ -10,7 +10,7 @@ figures: 9 in the source. Seven are his own slide-template screenshots and are k
 
 > [Original Article](https://pengsida.notion.site/d697ef578d784c869d4f8314f0d617da)
 
-> **Translator's note.** One section of the source draws on a linked Xiaohongshu post, including two screenshots of it and a contrast between two PhD students written in that author's first person. That material is summarised with the link rather than reproduced, since it is not his writing. Everything else here is his, translated in full, with his own slide screenshots kept.
+> **Translator's note.** One section of the source draws on a linked Xiaohongshu post, including two screenshots of it and a contrast between two PhD students written in that author's first person. That material is summarized with the link rather than reproduced, since it is not his writing. Everything else here is his, translated in full, with his own slide screenshots kept.
 
 The purpose of a discussion:
 
@@ -32,7 +32,7 @@ What is wrong with a discussion like that:
 The right approach:
 
 1. If there really is no problem, just skip the discussion and briefly sync on progress and the plan for what comes next.
-2. If you have hit a problem, list the problems to discuss and put the discussion's centre of gravity on the problems you have hit. It is fine for the discussion to end very quickly. The more efficient the better.
+2. If you have hit a problem, list the problems to discuss and put the discussion's center of gravity on the problems you have hit. It is fine for the discussion to end very quickly. The more efficient the better.
 3. In a "discussion", do not present papers and do not present trivial experimental phenomena. Those do not show your own thinking. If you want to share a paper, share it with me at any time and I will certainly find time to read it. What does show your own thinking: intelligent, deep questions, planning for the project, and thought about the technical contribution.
 
 > **note** I can guarantee that in lab discussions, if a project is slow because of technical reasons, nobody will be blamed for that by the senior advisor.
@@ -44,7 +44,7 @@ From this post: [http://xhslink.com/VBCUFC](http://xhslink.com/VBCUFC)
 
 The source includes two screenshots of that post. They are not copied in here.
 
-The post contrasts two PhD students, written by their supervisor. The one they rate highly does his own thinking when he is stuck, analysing the possible causes himself and then either proposing a possible solution or asking the supervisor whether they know a better way to solve it; asks around and distils knowledge from other people; structures a meeting clearly, saying what the results are, what problem came up, what it might be caused by, what has already been tried and what might come next; is strong experimentally, solving a problem in a week when given two candidate directions; and is curious, actually going to read papers on a concept mentioned in passing and coming back with a view.
+The post contrasts two PhD students, written by their supervisor. The one they rate highly does his own thinking when he is stuck, analyzing the possible causes himself and then either proposing a possible solution or asking the supervisor whether they know a better way to solve it; asks around and distils knowledge from other people; structures a meeting clearly, saying what the results are, what problem came up, what it might be caused by, what has already been tried and what might come next; is strong experimentally, solving a problem in a week when given two candidate directions; and is curious, actually going to read papers on a concept mentioned in passing and coming back with a view.
 
 The one they rate poorly reports rather than discusses every week; is weak experimentally, with a list of activity but no progress; lacks his own thinking, answering "I don't know" about causes and showing a program log with nothing added when asked what the problem is; and puts little time into research, going quiet when pointed at a clearer paper in a neighbouring area and later saying he was too busy.
 
@@ -60,7 +60,7 @@ How to hold an efficient discussion:
 
 It does not have to be slides. If you find Notion or Wolai convenient, using those is fine too. The point is to match the format of a discussion.
 
-Organise the slide content like this (do not report progress in detail):
+Organize the slide content like this (do not report progress in detail):
 
 1. One slide that makes the overview of this discussion clear. State the project's progress in three sentences or fewer, and list the problems to be discussed.
 
