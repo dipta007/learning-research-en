@@ -10,11 +10,11 @@ figures: 1, the author's original, English redraw pending
 
 > [Original Article](https://pengsida.notion.site/d820794145a041be9599e45dc0cdb3b5)
 
-Why make an attractive demo and application: to increase the paper's impact and its citation count.
+Why make an attractive demo and application: [to increase the paper's impact and its citation count](https://pengsida.notion.site/e94fd42c49614acc98d8457cf00d5903?pvs=25) ([translated](./how-to-do-influential-work/README.md)).
 
-The principle: make the demo and application for the downstream research community, and analyze carefully what that community is interested in.
+The principle: you should make the demo and application for the downstream research community, and analyze carefully what that community is interested in.
 
-Once the algorithm works on your target data, run experiments on as much new and more challenging data as you can, see the limits of the algorithm, and dig out its potential. Everyone very much wants to see what an algorithm can achieve, and this is a large contribution.
+Once the algorithm works on your target data, run experiments on as much new and more challenging data as you can, see the limits of the algorithm, and dig out its potential. Everyone very much wants to see what degree an algorithm can achieve, and this is a very large contribution.
 
 <details>
 <summary>Examples</summary>

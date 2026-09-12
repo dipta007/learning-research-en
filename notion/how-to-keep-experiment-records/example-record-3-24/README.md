@@ -29,7 +29,7 @@ Found that swapping it in does not work well. Found the results are very poor.
 
 ### 1. Edge flickering
 
-1. Adding a mask solves it, but it also depends on time.
+1. Adding a mask can solve it, but it is also related to time.
 
 <!-- video not downloadable: step00000000.mp4 -->
 <!-- video not downloadable: step00000000.mp4 -->
@@ -142,7 +142,7 @@ KPlanes IBR Joint Training
 
 1. Joint training has flickering.
 2. Single-frame joint training also has flickering.
-3. The src inp looks fine.
+3. The src inp looks to have hardly any problem.
 4. It is not caused by random source images.
 
 <!-- video not downloadable: step00000000.mp4 -->

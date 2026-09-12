@@ -62,7 +62,7 @@ List the outline from coarse to fine:
 
 [Worked examples of writing outlines](./writing-outline-examples/README.md)
 
-How to use Copilot and GPT to help write English paragraphs (full video). The basic process:
+How to use Copilot and GPT to help write English paragraphs ([full video](https://www.bilibili.com/video/BV1PP4Le6EcW)). The basic process:
 
 1. List the basic outline of the whole Introduction
 
@@ -122,7 +122,7 @@ How to use Copilot and GPT to help write English paragraphs (full video). The ba
 
    </details>
 
-How to use Copilot and GPT to help write English sentences (full video). The basic process:
+How to use Copilot and GPT to help write English sentences ([full video](https://www.bilibili.com/video/BV1pkxDeqE1t)). The basic process:
 
 1. Make an initial list of the outline of one sentence
 
@@ -142,7 +142,7 @@ How to use Copilot and GPT to help write English sentences (full video). The bas
 
    </details>
 
-3. The vocabulary Copilot gives is not necessarily accurate, so polish it with GPT's help
+3. The vocabulary Copilot gives is not necessarily accurate, so you need to polish it with GPT's help
 
    1. Approach 1: mixing Chinese and English, ask it directly to improve the English sentence (useful)
 
@@ -154,7 +154,7 @@ How to use Copilot and GPT to help write English sentences (full video). The bas
 
       </details>
 
-   2. Approach 2: ask about individual words
+   2. Approach 2: ask about words
 
       <details>
       <summary>Example</summary>

@@ -31,7 +31,7 @@ Then the plugins.
 
 **1. Copying the shell configuration between machines**: [https://github.com/rutchkiwi/copyzshell](https://github.com/rutchkiwi/copyzshell)
 
-If a machine already has an oh my zsh configuration and a new machine needs configuring, then as long as zsh is present you do not need to run the steps below again. Do not install oh my zsh; just transfer it. If you do install it, it cannot be overwritten directly, which is a nuisance. Just transfer it instead. If you need to add the machine's port, see the issue.
+If a machine already has an oh my zsh configuration and a new machine needs configuring, then as long as zsh is present you do not need to run the few steps below again. Do not install oh my zsh; just transfer it. If you do install it, it cannot be overwritten directly, which is fairly troublesome. Just transfer it instead. If you need to add the machine's port, see the issue.
 
 **2. Command highlighting and command syntax checking (must install)**: [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
@@ -41,7 +41,7 @@ If a machine already has an oh my zsh configuration and a new machine needs conf
 
 If the completion shows the line you want, select it directly with ctrl+f.
 
-If you need to show all the options: pressing tab once only shows all the options and you still have to type manually; pressing tab twice lets you select an option with the arrow keys.
+If you need to show all the options: pressing tab once only shows all the options and you still need to type manually; pressing tab twice lets you select an option directly with the arrow keys.
 
 **4. fzf together with history (must install).**
 
@@ -57,7 +57,7 @@ chsh -s /usr/bin/zsh  #更改默认shellOx
 
 (In order: list all shells; show the shell currently in use; change the default shell.)
 
-If changing the default shell needs a password and you do not know it, a good way round it is to add the line `zsh` at the end of `~/.bashrc`. That starts zsh directly, and once started it will run `~/.zshrc` once.
+If changing the default shell needs a password and you do not know it, a fairly good way round it is to add the line `zsh` at the end of `~/.bashrc`. That starts zsh directly, and once started it will run `~/.zshrc` once.
 
 ### Some commonly used tools
 
@@ -258,7 +258,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-$CUDA_VER/lib64:$LD_LIBRARY_PATH
 
 The paths below should follow where cuda actually is. Finally `source ~/.zshrc` to enable it.
 
-The matter of matching cuda versions: the major versions of pytorch, of cudatoolkit, and of the cuda the system uses all have to match.
+The matter of matching cuda versions: the major versions of pytorch, of cudatoolkit, and of the cuda the system uses all need to match.
 
 ```
 python -c "import torch; print(torch.version.cuda)”    #查看pytorch的版本
@@ -291,7 +291,7 @@ chmod 755 ~/.ssh                  #修改.ssh目录权限755
 
 (The comment: change the `.ssh` directory permissions to 755.)
 
-Or the copy went wrong, in which case it is better to rsync your machine's `id_rsa.pub` to the target machine first, then:
+Or the copy went wrong, in which case it is suggested that you first rsync your machine's `id_rsa.pub` to the target machine, then:
 
 ```
 cat temp.pub >> authorized_keys

@@ -76,7 +76,7 @@ Learning PowerPoint: [https://www.notion.so/pengsida/PPT-f1e4f77f0f3943e39dd1210
 
 </details>
 
-An academic talk slides template: [https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPwBpdn0u1bOA6m2VzN67Mw4](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPwBpdn0u1bOA6m2VzN67Mw4) (a DingTalk mind map. DingTalk's document sharing does not support sharing directly with outsiders, so permission has to be requested separately.)
+An academic talk slides template: [https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPwBpdn0u1bOA6m2VzN67Mw4](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPwBpdn0u1bOA6m2VzN67Mw4) (a DingTalk mind map. DingTalk's document sharing does not support sharing directly with outsiders, so permission needs to be requested separately.)
 
 <details>
 <summary>Another line of thinking for an academic talk</summary>
@@ -84,6 +84,6 @@ An academic talk slides template: [https://alidocs.dingtalk.com/i/nodes/QOG9lyrg
 Start from the application scenario, dig the research goal out of it, then talk about the research content, and finally talk about the scientific problem.
 
 > **note** This differs from talking about the research goal first and then what applications it has.
-> The style of this kind of talk focuses on one application scenario, then digs the research goal and the research content out of it.
+> The style of this kind of talk focuses on a certain application scenario, then digs the research goal and the research content out of it.
 
 </details>

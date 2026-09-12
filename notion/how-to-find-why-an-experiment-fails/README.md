@@ -16,7 +16,7 @@ figures: 6 in the source. His own decision flowchart is redrawn in English as Me
 
 > **note** Only by finding why an experiment does not work can you improve the current method effectively.
 
-Note that the goal of this document is not to propose a novel idea. It is limited to finding why an experiment does not work.
+Please note that the goal of this document is not to propose a novel idea. It is limited to finding why an experiment does not work.
 
 <details>
 <summary>A strong researcher has said that "discovering why an experiment does not work" is an important research ability for a PhD student</summary>
@@ -94,7 +94,7 @@ In words:
 
       Add only one factor at a time, and find the factor that causes the failure. The more isolated that factor is, the better.
 
-      A strong researcher's advice: as you do experiments, only change one thing at a time, so you know what the outcome of the experiment means.
+      A strong researcher's experience: as you do experiments, only change one thing at a time, so you know what the outcome of the experiment means.
 
       </details>
 
@@ -123,7 +123,7 @@ In words:
 
       </details>
 
-   Here you can only stare at the experimental phenomena and the algorithm and analyze the causes. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
+   Here you can only stare at the experimental phenomena and the algorithm and analyze the causes for a while. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
 
    </details>
 
@@ -145,7 +145,7 @@ In words:
 
          </details>
 
-      2. It may be that the algorithm really does have a problem. Four possibilities: (1) the hyperparameters are not set correctly. (2) The algorithm is missing a few tricks, so it does not work on this data. (3) The algorithm itself really is no good, so it does not work on this data. (4) The data is too hard, and you could switch to simpler data.
+      2. It may be that the algorithm really does have a problem. Four possibilities for a problem in the algorithm: (1) the hyperparameters are not set correctly. (2) The algorithm is missing a few tricks, so it does not work on this data. (3) The algorithm itself really is no good, so it does not work on this data. (4) The data is too hard, and you could switch to simpler data.
 
          <details>
          <summary>How to look for the problem in the algorithm</summary>
@@ -156,7 +156,7 @@ In words:
 
       </details>
 
-   Here you can only stare at the experimental phenomena and the algorithm and analyze the causes. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
+   Here you can only stare at the experimental phenomena and the algorithm and analyze the causes for a while. I do not have a general method for this yet. I strongly recommend discussing it a lot with your advisor and fellow students here.
 
    </details>
 
@@ -165,7 +165,7 @@ In words:
    <details>
    <summary>Zhilin Yang's experience: iterate quickly.</summary>
 
-   His point, in summary: not every idea in research is correct, and most people's ideas mostly do not work. He used to write every result into a Google Spreadsheet, and noticed that roughly every four or five hundred to a thousand rows produced one positive result. So the speed at which results appear depends on the speed at which you iterate, and you have to iterate fast enough to get results fast.
+   His point, in summary: not every idea in research is correct, our own ideas will always turn out wrong, and most people's ideas mostly do not work. He used to write every result into a Google Spreadsheet, and noticed that roughly every four or five hundred rows, or every thousand rows, produced one positive result. So the speed at which results appear depends on the speed at which you iterate, and you have to iterate fast enough to get results fast.
 
    </details>
 
@@ -180,7 +180,7 @@ In words:
 
 5. Propose a solution aimed at the technical cause of the failure cases. (You need to build your own armoury, knowing which techniques exist in the academic world. [Building a literature tree](https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2?pvs=25) can help you build that armoury.)
 
-Confirm regularly that you are on the right track: is the current algorithmic thinking really correct? Avoid falling into a local minimum. I recommend talking things over with fellow students often.
+Confirm regularly that you are on the right track: is the current algorithmic thinking really correct? Avoid falling into local minima. I recommend talking things over with fellow students often.
 
 </details>
 

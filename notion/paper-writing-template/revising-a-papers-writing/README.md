@@ -70,7 +70,7 @@ For the abstract, the introduction, the method, or any single paragraph, the ste
 
 </details>
 
-#### Improving sentence flow
+#### Improving sentence flow (sentence smoothness)
 
 The definition of sentence flow: the logic between two sentences is coherent, with no sudden jump.
 

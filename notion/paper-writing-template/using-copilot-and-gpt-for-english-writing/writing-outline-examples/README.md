@@ -19,7 +19,7 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 
 ### Outline at paragraph granularity
 
-1. The problem to solve: scene reconstruction -> COLMAP works very well, describe how -> COLMAP works poorly on low-textured regions like floors and walls, give the specific reason.
+1. The problem to solve: scene reconstruction -> COLMAP works very well, describe the concrete method -> COLMAP works poorly on low-textured regions like floors and walls, give the concrete reason.
 2. Traditional methods: use planes to help scene reconstruction -> the pipeline is complicated, many parameters to tune -> the plane works poorly, the reconstruction quality is poor.
 3. Recent methods: NeRF, VolSDF and NeuS work very well on object reconstruction -> experiments show that they work poorly on indoor low-textured regions -> across a large low-textured region there are many geometries that can explain the images.
 4. Our method: use semantics to help reconstruction, and optimize the semantic information while reconstructing -> `Specifically,` detect the floor and the walls and make them obey their semantic properties -> assume a Manhattan-world structure, so the normals of surface points on the floor and the walls obey the matching property; the wall normal is itself optimized -> given that the segmentation may be inaccurate, define a semantic MLP -> use multi-view consistency to improve the accuracy of the semantic segmentation, and at the same time optimize the segmentation probability with a geometric loss.
@@ -67,19 +67,19 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 **Volumetric reconstruction.**
 
 1. These methods predict the properties of points in 3D space directly.
-2. What Atlas does.
-3. What NeuralRecon does -> it reaches real-time reconstruction.
+2. Concretely what Atlas does.
+3. Concretely what NeuralRecon does -> it reaches real-time reconstruction.
 4. They represent scenes with discretised voxels, so memory consumption is high.
 5. Recent methods `\cite{occupancy network, deepsdf, SRN, nerf, IDR, volsdf, neus}` represent scenes with neural implicit representations.
-6. What IDR does.
-7. What NeuS does.
+6. Concretely what IDR does.
+7. Concretely what NeuS does.
 8. They mostly present results on scenes with rich textures.
 
 **Semantic segmentation.**
 
 1. Deep learning based methods achieve impressive progress on semantic segmentation.
 2. 2D semantic segmentation: what the CNN-based methods `\cite{deeplab, pspnet, ade20k, other work}` do -> how some methods use transformers to improve performance.
-3. 3D semantic segmentation: `\cite{pointnet, pointnet++, other work}` develop networks for different representations of 3D data -> what `\cite{semantic nerf}` does.
+3. 3D semantic segmentation: `\cite{pointnet, pointnet++, other work}` develop networks for different representations of 3D data -> concretely what `\cite{semantic nerf}` does.
 4. Some methods exploit the relationship between 2D and 3D to improve the performance of both.
 
 ## Method
@@ -117,7 +117,7 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
    f. Describe the image loss.
 6. Describe using the depth map from COLMAP as a loss:
    a. Report that the image loss alone reconstructs poorly, with a figure reference. -> The reason: the color network is view-dependent, so inaccurate geometry can still explain the images fairly well.
-   b. In contrast, although multi-view stereo methods mostly recover only incomplete reconstructions, the geometry they do recover is accurate.
+   b. In contrast, although multi-view stereo methods mostly recover only incomplete reconstructions, the geometry they do recover is very accurate.
    c. Use the depth maps from a multi-view stereo method `\cite{}` to guide the learning of the scene representation, with its equation.
    d. Define its terms, the rendered depth from volume rendering against the depth map from multi-view stereo.
    e. This improved the reconstruction, but since the depth maps are themselves incomplete in texture-less planar regions, performance in those regions is still limited, with a figure reference.

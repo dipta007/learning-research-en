@@ -58,7 +58,7 @@ A blank review-organizing template:
 
 </details>
 
-> **note** Answer this question clearly: why did the reviewer give this particular score?
+> **note** Answer this question clearly: why did the reviewer give this current score?
 
 </details>
 

@@ -24,7 +24,7 @@ The source embeds two screenshots of that document, without a source link.
 
 Course study may build a habit: finish learning a course, then use the course knowledge to do the homework.
 
-Research study means learning the algorithm and using the algorithm at the same time, learning it through using it. Make good use of ChatGPT. (By analogy with course study, it is like starting the homework before you have learned the course material, then looking the material up as you go. GPT is a superb retrieval engine.)
+Research study means learning the algorithm and using the algorithm at the same time, learning it through using it. Make good use of ChatGPT. (By analogy with course study, it is like starting the homework before you have learned the course material, then looking the material up as you go. GPT is a super retrieval engine.)
 
 </details>
 
@@ -33,7 +33,7 @@ Research study means learning the algorithm and using the algorithm at the same 
 
 In course study, because the course requires that you not copy answers and that you finish the homework alone as far as possible, you may build the habit of working a problem or an algorithm out entirely by yourself.
 
-In research study, make good use of every resource to learn efficiently, distilling knowledge from all sorts of places. See this document for details: [https://www.notion.so/pengsida/903b997097d343dbaba6d5e0780eab0f](https://www.notion.so/pengsida/903b997097d343dbaba6d5e0780eab0f)
+In research study, make good use of all sorts of resources to learn efficiently, distilling knowledge from all sorts of places. See this document for details: [https://www.notion.so/pengsida/903b997097d343dbaba6d5e0780eab0f](https://www.notion.so/pengsida/903b997097d343dbaba6d5e0780eab0f)
 
 </details>
 
@@ -44,7 +44,7 @@ Course study requires competing with each other:
 
 One annoying thing about course marking is the normal distribution: in each class only the top few percent can score above 90.
 
-That setup makes high marks a limited resource. Students inside the class have to grind against each other, constantly raising their own level and overtaking others, to get a share of it.
+That setup makes high marks a limited resource. Students inside the class have to grind against each other, constantly raising their own level and overtaking others, and only then can they get a share of it.
 
 Research study does not require competing with each other:
 
@@ -61,7 +61,7 @@ A research project is something you conceive and explore yourself, not something
 
 In course study the body of knowledge is generally very complete: there are good textbooks and tutorials, every point you need to learn has been organized, and you can just learn it step by step.
 
-In research study, because what you are learning is fairly close to the frontier, the points you need are scattered. Even where a tutorial exists online, it may be poorly organized and may not present what you actually need. Learning the knowledge involved in frontier research through courses and books usually means learning a large amount of extra, unrelated material.
+In research study, because what you are learning is fairly close to the frontier, the points you need are scattered. Even where a tutorial exists online, it is also very likely to be poorly organized, and cannot directly present the knowledge you need. Learning the knowledge involved in frontier research through courses and books usually needs you to learn a large amount of extra, unrelated material.
 
 > **note** In research study, your lab's advisor and senior students are a complete body of knowledge that walks.
 > You high-scoring undergraduate stars: however you normally look things up in textbooks and tutorials, treat your advisor and your senior students as the textbook and the tutorial, and ask and learn from them.
@@ -74,7 +74,7 @@ In research study, because what you are learning is fairly close to the frontier
 Research and course study differ a great deal.
 
 - Course study: a course problem always has an answer, and the teacher already knows it, so they can make the course structured and help you reach the answer step by step.
-- Research: on this problem, you yourself are quite likely the person who knows the most and has thought the deepest, beyond your own advisor. The advisor does not know the correct solution, and can only explore it together with you.
+- Research: on this problem, we ourselves are very likely the people who know the most and have thought the deepest, beyond our own advisor. The advisor does not know the correct solution, and can only explore it together with you.
 
 That fact means you have to solve the problem independently.
 
@@ -83,11 +83,11 @@ That fact means you have to solve the problem independently.
 <details>
 <summary>Mental preparation for running experiments</summary>
 
-Unlike course study, where homework usually goes wrong only a few times, a research experiment may well fail dozens of times or more. Most research results come from iterating through a large number of failed experiments.
+Unlike course study, where homework usually goes wrong only a few times, a research experiment is very likely to fail dozens of times or more. Most research results come from iterating through a large number of failed experiments.
 
 When an experiment fails, you cannot simply say the solution does not work and swap in another one, as you might in a course. Research requires analyzing why the current experiment does not work.
 
-Become willing to fail, and analyze the reason for failure from the failed results, so as to improve the current solution.
+Become someone who dares to fail, and analyze the reason for failure from the failed results, so as to improve the current solution.
 
 </details>
 
@@ -107,7 +107,7 @@ Doing homework in a course usually requires not looking at the answer, and ideal
 
 Research is very different.
 
-In research, when thinking of a solution, first go and feel for the shoulders of giants. See whether an existing algorithm can solve the problem, then see whether a nearby algorithm can.
+In research, when thinking of a solution, you need to first go and feel for the shoulders of giants. See whether an existing algorithm can solve the problem, then see whether a nearby algorithm can.
 
 > **note** In research, search first, then re-search. The ability to search for nearby algorithms matters a great deal.
 
@@ -115,7 +115,7 @@ Zhilin Yang's view: the essence of technique is combining methods, combining sma
 
 </details>
 
-Learning knowledge may be very hard at first, but if you keep at it you will see the flywheel effect that people themselves have.
+Learning knowledge may be very hard at first, but if you keep at it you can see the flywheel effect that people themselves have.
 
 ![Untitled](./assets/55bec4bd972a4d539af6fb76130170e6-Untitled.png)
 

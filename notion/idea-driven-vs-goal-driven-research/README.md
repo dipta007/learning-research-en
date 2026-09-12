@@ -30,7 +30,7 @@ Disadvantages:
 
 1. Because you are following someone else, the paper's impact is limited unless the results are a good deal better.
 2. It is easy to end up with the same idea as someone else, because other people may also be improving that same paper.
-3. Because some solutions already exist, the room for innovation in the solution is limited. You need to be very clever and to have a deep insight to propose a breakthrough new technique for that task, which is fairly difficult.
+3. Because some solutions already exist, the room for innovation in the solution is limited. You need to be very clever and to have a very deep insight to propose a breakthrough new technique for that task, which is fairly difficult.
 
 </details>
 
@@ -39,8 +39,8 @@ Disadvantages:
 
 Advantages:
 
-1. It is easier to produce a breakthrough innovation, because you are no longer a follow-up but a leader.
-2. Your own research has more motivation and a big picture, which makes it easier to attract other people.
+1. It is easy to produce a breakthrough innovation, because you are no longer a follow-up but a leader.
+2. Your own research has more motivation and a big picture, which makes it easy to attract other people.
 3. The research is more continuous and forms a coherent body.
 4. You can organize a team, with people solving the tasks on the roadmap separately.
 

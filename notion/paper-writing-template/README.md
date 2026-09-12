@@ -127,7 +127,7 @@ flowchart TD
 | 11. Review and revise the paper, again and again | a. [How to review a paper](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4559fe4c3acd463983a11f9140994c3d) ([translated](./review-a-paper/README.md))<br>b. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
 
 > **note**
-> The key to a paper getting good reviews: make the paper beautiful and well presented, so the first impression is that this paper is high class.
+> The key to a paper getting good reviews: make the paper beautiful and well presented, so the first impression is that this paper is very high class.
 > How to make a paper look beautiful and high class at first glance:
 > 1. A good-looking teaser figure and pipeline figure.
 > 2. Good-looking tables and result figures.
@@ -254,7 +254,7 @@ The key is to answer each of the following questions before writing:
 </details>
 
 <details>
-<summary>Version 2: introduce the technical challenge, then one or two sentences on the insight that solves it, then one sentence on the technical contribution that realizes the insight. (I personally recommend this one)</summary>
+<summary>Version 2: introduce the technical challenge, then one or two sentences on the insight that solves it, then one sentence on the technical contribution that realizes the insight. (personally I fairly recommend this way of writing)</summary>
 
 ```latex
 \section{Abstract}
@@ -382,23 +382,6 @@ This paper focuses on the specific setting of recovering/reconstructing/estimati
 <details>
 <summary>Version 4: everyone is fairly familiar with the Task, so introduce the Application directly. Then, in the paper's opening paragraph, lead into the technical challenge you want to solve (the failure cases you want to solve, the task metric you want to improve) by introducing previous methods</summary>
 
-> **note** Personally I feel it is quite good for the first paragraph of the introduction to state clearly what you want to solve, rather than taking several paragraphs of previous methods to lead into the technical challenge.
-
-But the situation has to suit it, and that is fairly rare. Usually you need several paragraphs of previous methods to lead into the technical challenge.
-
-Introduction writing that suits version 4:
-
-First part (introduce the task and application. Lead directly into the technical challenge by introducing previous methods 1)
-→ second part (previous methods 2 try to solve this challenge, but have problems)
-→ third part (our method)
-
-Introduction writing in the normal case:
-
-First part (introduce the task and application)
-→ second part (previous methods 1, but they have xx limitation)
-→ third part (previous methods 2, but they have xx limitation. Only here is the technical challenge we want to solve brought out)
-→ fourth part (our method)
-
 ```latex
 % The opening paragraph of ManhattanSDF's introduction
 % The opening paragraph of Deep Snake's introduction
@@ -445,7 +428,7 @@ Even if our work really is a 4-point piece, do not write it this way.
 %% Example: a human capture paper points to the inherent ambiguity of acquiring geometry, materials and motion from images.
 This problem is particularly challenging due to several factors, including [xxx reason], [xxx reason], and [xxx reason].
 
-% One or two sentences introducing a class of traditional methods, then discuss the technical challenge they face (if traditional methods exist, discuss them, to show we know this field well)
+% One or two sentences introducing a class of traditional methods, then discuss the technical challenge they face (if traditional methods exist, we need to discuss them, to show we know this field very well)
 %% Introduce the traditional method
 %% Example: a pose paper notes that traditional methods establish correspondences between the object image and the object model.
 To overcome these challenges, traditional methods [describe what they do], [what they achieve].
@@ -786,7 +769,7 @@ Typical opening sentences:
 3. Sentence level:
    1. Check carefully whether the motivation of every sentence in the Method is clear. Keep the reader clear at all times about one thing: why the "content" in this sentence has to be carried out.
    2. Check carefully that the sentences flow between each other. (For what flow means, see [that document](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a), [translated](./writing-experience-of-strong-researchers/README.md).)
-   3. Check carefully whether the terms in the paper are consistent, and try not to keep changing them.
+   3. Check carefully whether the terms in the paper are consistent, and as far as possible do not keep changing them.
 
 </details>
 
@@ -887,11 +870,11 @@ Iterating step by step:
 
 ![image.png](./assets/1af3fe292ff1805e8696ce9b5e60aac9-image.png)
 
-2. Avoid vertical lines where possible, and do not join vertical and horizontal lines: change `hline` in LaTeX to `toprule`, `midrule`, `bottomrule`
+2. As far as possible do not use vertical lines, and do not join vertical and horizontal lines: change `hline` in LaTeX to `toprule`, `midrule`, `bottomrule`
 
 ![image.png](./assets/13d3fe292ff180c1bd58f6799d9e65ed-image.png)
 
-3. Avoid horizontal lines where possible, since they disturb the eye
+3. As far as possible do not use horizontal lines, since they disturb the eye
 
 ![image.png](./assets/13d3fe292ff180809fcefc90d9d09f1e-image.png)
 

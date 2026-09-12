@@ -52,4 +52,4 @@ How to create a challenge-insight tree:
 Example: [a literature tree and challenge-insight tree for the inverse rendering field](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPwBpdn0u1B3aO2PVzN67Mw4). (A DingTalk mind map. DingTalk's document sharing does not support sharing directly with outsiders, so permission has to be requested separately. That mind map is only an example and will not be updated later.)
 
 > **note** The text and the example above are somewhat abstract, and may not fully convey what I mean.
-> Because a literature review is the key to coming up with ideas, I recommend talking a lot with the senior students in your lab about how to do one.
+> Because a literature review is the key to coming up with ideas, It is suggested that you talk a lot with the senior students in your lab about how to do one.

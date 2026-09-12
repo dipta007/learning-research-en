@@ -113,7 +113,7 @@ The core technical problem behind that limitation: xx
 
 #### Breaking the problem down
 
-The key to solving the core technical problem is solving the following problems:
+The key to solving the core technical problem is solving the following few problems:
 
 1. xx
 2. xx

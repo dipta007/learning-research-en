@@ -12,18 +12,18 @@ figures: 0
 
 > **Translator's note.** He says at the top that this page is his notes from reading Yuanming Hu's article, and that the questions below are ones Hu put to candidates in a Meshy scholarship defence. The questions and the answers are therefore Hu's material, not his. Each question is given here as what it asks, with a link to the original article, and **his own reflection after each one is translated in full**, since that is his contribution and the actual takeaway.
 
-His notes are from reading this article by Yuanming Hu: [https://zhuanlan.zhihu.com/p/1893638374646079902](https://zhuanlan.zhihu.com/p/1893638374646079902)
+His notes are from reading this article by Prof. Yuanming Hu: [https://zhuanlan.zhihu.com/p/1893638374646079902](https://zhuanlan.zhihu.com/p/1893638374646079902)
 
 #### The core question
 
 How do you take research from the "fundamentals stage" to the "impact stage"?
 
-- **The "fundamentals stage"**: having been through it, you roughly know the basic craft of academia, things like doing a survey, coming up with an idea, running experiments, writing a paper. At this stage, once you have an idea for a paper you can reliably produce a publication.
+- **The "fundamentals stage"**: having been through it, you roughly know some of the basic craft of academia, things like doing a survey, coming up with an idea, running experiments, writing a paper and so on. At this stage, once you have an idea for a paper you can basically reliably produce a publication.
 - **The "impact stage"**: simply publishing a paper no longer satisfies you. You want to do work that genuinely has impact.
 
 #### Question 1: whether the project means anything
 
-Hu asks why someone would keep working on something that is not important and is unlikely to lead to important things. He follows it with a harder version: that the direction has seen no new progress for years because the field stopped caring about the problem and the strongest people left, so there is not much chance of impact left, and does the candidate know that? Against an answer of "I try not to think about it, I just want to get the paper out", he asks whether a paper nobody cares about needs to be published at all.
+Hu asks why someone would keep working on something that is not important and is unlikely to lead to important things. He follows it with a harder version: that the direction has seen no new progress for years because the field stopped caring about the problem and the strongest people all went off to work on other things, so there is not much chance of impact left, and does the candidate know that? Against an answer of "I try as far as possible not to think about it, I just want to get the paper out", he asks whether a paper nobody cares about needs to be published at all.
 
 He also quotes Einstein: if he had an hour to solve a problem, he would spend fifty-five minutes thinking about the problem and five minutes thinking about solutions.
 
@@ -39,7 +39,7 @@ Hu asks why a candidate is not pursuing the interesting, potentially high-impact
 
 #### Question 3: change
 
-Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work probably helps more, even at the cost of giving up a problem you are already fluent in, and that the earlier knowledge is not wasted anyway, since the problem is being extended rather than abandoned.
+Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work may help more, even at the cost of giving up a problem you are already fluent in, and that the earlier knowledge is not completely wasted anyway, since the problem is being extended rather than abandoned.
 
 > **note**
 > Reflection: in research, dare to embrace change.
