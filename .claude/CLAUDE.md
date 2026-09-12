@@ -14,7 +14,7 @@ Rights are settled. Do not re-open the licensing question, do not add a license 
 4. **Never drop a figure.** See the figures section below.
 5. **Plain language.** Most readers are not native English speakers. Short sentences, one idea each, common words.
 6. **Terms come from GLOSSARY.md.** Missing term? Add the row in the same change. Do not change an existing row without an issue.
-7. **Names stay as names.** People, documents, books, courses, and venues keep their original form, so a reader can search for them. A short English gloss in brackets after an opaque title is fine.
+7. **Names stay as names.** People, documents, books, courses, and venues keep their original form, so a reader can search for them. A short English gloss in brackets after an opaque title is fine. For a person, use the form in `GLOSSARY.md`: given name, family name, then the Chinese characters, the same way in every file. Use the name someone publishes under. The author is `Sida Peng`, not `Peng Sida`; his own page titles him that way, and reversing it breaks the search a reader would run.
 8. **Other authors' text is cited, not reprinted.** See the section below. This governed roughly two thirds of the first page translated, so it is not an edge case.
 
 ## Other authors' work inside his pages
@@ -160,6 +160,13 @@ Ask it to report, section by section:
 - each claim as `supported`, `contradicted`, or `missing`
 - any English sentence with no counterpart in the source, which breaks rule 2
 - any figure present in the source but absent from the translation
+- **added intensifiers, contrasts, and actors.** The words that keep slipping in are "genuinely", "real", "clearly", "rather than", "instead of", and a place or person the Chinese sentence does not name, such as "in your lab". Each is small, each is plausible, and each is still an addition.
+- **hedge drift in either direction**, checked against the hedge table in `GLOSSARY.md`
+- **a cut alternative.** `掌握/熟悉` gives two verbs and only "master" survived. A slash in the Chinese means both halves are content.
+- **a parenthetical attached to the wrong item, or widened.** `（闫令琪老师开的课）` sits on GAMES202 alone; "Both are taught by Prof. Lingqi Yan" widened it to cover GAMES101 too, which the source does not say.
+- **the same Chinese word rendered two ways in one file.** `一定` was "some" in one line and "a certain amount of" four lines later.
+
+**Tell the verifier this repository's settled conventions, or it will report them as defects.** List the `> [Original Article]` line, the three link markers, the top-of-file HTML comment block, a translated HTML comment in the body, the hedge table renderings, the name format, and an English colon standing where the Chinese has a colon. A first pass that omitted the `> [Original Article]` line reported it as added content in all four files, which is four wasted findings. Also require it to quote the Chinese for every finding; that alone kills most false positives.
 
 Fix everything it marks `contradicted` or `missing` before committing. Then set the file header to `status: verified by fable, <date>`. If the check did not run, the header must say `status: unverified`. Never claim a verification that did not happen. If you fix things *after* a pass, the pass no longer covers the file: either re-run it or set the status back.
 
@@ -167,13 +174,15 @@ Fix everything it marks `contradicted` or `missing` before committing. Then set 
 
 **This step is not a formality.** On every page it has run, it found real defects: a meaning inversion, a dropped negation that reversed a rejection criterion, an invented rating scale, five invented sentences, two false claims about the source, eight dropped citations, and a fabricated citation that conflated two different papers by the same author. Assume your first pass has errors of this kind, because every previous one did.
 
+**One pass is not enough on a file you then edit.** The four files in `en/` took four passes. Pass one found 9 defects, pass two found 6 more in the corrected text, pass three found 9 more. Each fix round is new prose and needs its own check. Keep going until a pass returns nothing you can act on, and say in the `status:` line how many passes ran.
+
 ## Mistakes that keep recurring
 
 These are the error types verification has caught more than once in this repository's own translations. Check for them before you commit, not after.
 
 1. **A "cited" claim with no citation.** Twice, a figure was replaced with the words "cited rather than copied in" while no link appeared anywhere. The content was simply lost, and the file asserted otherwise. If you replace a figure with a citation, the link must sit next to the claim. If there is no public link, say so plainly and summarise what the figure shows.
-2. **Translator additions dressed as his content.** A remark of mine used his `> **note**` convention and read as his. Another added "Prof." to a page that never says it. Every insertion goes in a clearly-labelled translator's note or an italic `*Translator's note: ...*`, never his note format, and never an unlabelled fact such as a name or title. The `(in English)` / `(not done)` / `([translated])` link markers are the exception: those are this repository's own convention, documented above.
-3. **Hedge strength drifts both ways.** `容易` became "easier", adding a comparative the source lacks. `大概率` became "at all likely", weakening it. `比较好地` became "well", dropping the hedge. Translate each hedge at its exact strength; if the source has no comparative, the English gets none.
+2. **Translator additions dressed as his content.** A remark of mine used his `> **note**` convention and read as his. Another added "Prof." to a page that gave the name no honorific at all. That is different from rendering his 老师 or 教授 as "Prof.", which is translating an honorific he wrote and is settled in `GLOSSARY.md`. Inventing one is the mistake. Every insertion goes in a clearly-labelled translator's note or an italic `*Translator's note: ...*`, never his note format, and never an unlabelled fact such as a name or title. The `(in English)` / `(not done)` / `([translated])` link markers are the exception: those are this repository's own convention, documented above.
+3. **Hedge strength drifts both ways.** `容易` became "easier", adding a comparative the source lacks. `大概率` became "at all likely", weakening it. `比较好地` became "well", dropping the hedge. `推荐` and `建议` both became bare imperatives, turning his suggestions into orders, six times in one short file. `比较好的情况` became "the better case", which reads as a comparison of two named cases rather than a relative degree. Translate each hedge at its exact strength; if the source has no comparative, the English gets none. `GLOSSARY.md` has a hedge table with the settled rendering for each one. This is the single most frequent defect found so far, so read that table before translating and check against it afterwards.
 4. **An ambiguous English idiom for a blunt Chinese one.** `基本完蛋` rendered as "basically finished", which can be read as "basically done", the opposite of doomed. For a negative idiom pick a word with only one reading.
 5. **A substituted URL with no author-side source.** Internal `./page/source.md` links have to become public URLs. One substituted page id appeared in no author-written file, only in another of our translations, which is not evidence. Find the id in a source the author wrote, or record it as unconfirmed in the metadata comment.
 6. **The same term rendered two ways on one page.** `精神内耗` was "wearing yourself out mentally" in one cell and "mental exhaustion" in the tutorial title beside it, breaking the link a reader needs. Pick one rendering per term and use `GLOSSARY.md`.

@@ -1,27 +1,35 @@
 # learning_research, in English
 
-An English translation of [Prof. Peng Sida's open research notes](https://github.com/pengsida/learning_research), which are written in Chinese. Practical advice on how to do research: how to start, how to get better, how to write.
+An English translation of [Prof. Sida Peng's open research notes](https://github.com/pengsida/learning_research), which are written in Chinese. Practical advice on how to do research: how to start, how to get better, how to write.
 
 All ideas and examples are his. If the advice helps you, the credit is his, and [his repository](https://github.com/pengsida/learning_research) is the one to star first.
 
+## No license, on purpose
+
+His repository has no license, so he keeps all rights to the content. This translation carries no license over that text either, and there is no `LICENSE` file here deliberately.
+
+Read it freely. Do not relicense it, repackage it, or sell it. To reuse it beyond reading, ask him. [NOTICE.md](./NOTICE.md) is the full statement, including that any request from him about this repository will be followed.
+
 ## Contents
 
-| Source | Translation | State |
-|---|---|---|
-| `README.md` | [en/readme.md](./en/readme.md) | needs review |
-| `getting_started_in_research.md` | [en/getting-started-in-research.md](./en/getting-started-in-research.md) | needs review |
-| `getting_advanced_in_research.md` | [en/getting-advanced-in-research.md](./en/getting-advanced-in-research.md) | needs review |
-| `changelog` | [en/changelog.md](./en/changelog.md) | needs review |
+| Source | Translation | Checked by a second model | Read by a Chinese reader |
+|---|---|---|---|
+| `README.md` | [en/readme.md](./en/readme.md) | 7 passes, last one clean | not yet |
+| `getting_started_in_research.md` | [en/getting-started-in-research.md](./en/getting-started-in-research.md) | 13 passes, last one clean | not yet |
+| `getting_advanced_in_research.md` | [en/getting-advanced-in-research.md](./en/getting-advanced-in-research.md) | 1 pass, clean | not yet |
+| `changelog` | [en/changelog.md](./en/changelog.md) | 2 passes, last one clean | not yet |
 
 Most of his writing lives on Notion, not in that repository. **All of his research-advice pages are now translated**: 22 top-level pages plus their sub-pages, indexed in [`notion/`](./notion).
 
 His study notes, where he takes notes on other people's talks, interviews, books and papers, are linked in [`notion/not-translated.md`](./notion/not-translated.md) rather than translated. They are most of his Notion by length and little of it by use to someone learning research.
 
-"Needs review" means one person translated it and nobody has checked it against the Chinese yet. Each page in `notion/` records its own state in an HTML comment at the top, including whether a second model has checked it.
+A "pass" is a fresh model reading the English against the Chinese and reporting every difference it can quote both sides of. Passes repeat because each round of fixes is new prose that needs its own check. On the longest file above, the passes found 9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, then 0 defects. The late ones were small: a dropped "can", one Chinese word rendered two ways, a quantifier lost in one sentence and kept in the next.
+
+Each page in `notion/` records its own state in an HTML comment at the top. Those pages had **one pass each**, not thirteen. On the evidence above, one pass catches maybe half of this kind of defect, so expect more small errors in `notion/` than in `en/`.
 
 ## Found a mistake? Please tell me
 
-Every page here was translated once and checked by a second model. No human who reads Chinese has read any of it yet, so reader reports are the main way this gets accurate.
+Every page here was translated by a model and checked by a second one. No human who reads Chinese has read any of it yet, so reader reports are the main way this gets accurate.
 
 **[Open an issue](https://github.com/dipta007/learning-research-en/issues/new)** for anything at all:
 
@@ -47,7 +55,3 @@ Corrections from people who read Chinese are the most useful. See the section ab
 The rules live in [.claude/CLAUDE.md](./.claude/CLAUDE.md), which coding agents load on their own, so an agent working in this repository already knows them. [CONTRIBUTING.md](./CONTRIBUTING.md) is the short human version and [GLOSSARY.md](./GLOSSARY.md) fixes the terms.
 
 Two things to know before editing a file in `en/` or `notion/`: those files hold the translation and nothing else, and every change is checked by a second model against the Chinese before it lands.
-
-## Rights
-
-The original has no license, so the author keeps all rights to the content. See [NOTICE.md](./NOTICE.md).

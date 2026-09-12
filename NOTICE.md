@@ -2,7 +2,7 @@
 
 ## The original work
 
-The source is https://github.com/pengsida/learning_research by Prof. Peng Sida (彭思达).
+The source is https://github.com/pengsida/learning_research by Prof. Sida Peng (彭思达).
 
 Every idea, example, and structural choice in the translated files is his. This repository only carries that work into English.
 
