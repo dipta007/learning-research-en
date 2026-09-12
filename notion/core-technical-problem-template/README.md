@@ -2,7 +2,7 @@
 source: notion page Project核心技术问题分析模板
 source page id: 1753fe29-2ff1-8094-8215-cf82cd2b30ae
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied)
 figures: 2, kept as-is
 -->
 
@@ -12,7 +12,7 @@ figures: 2, kept as-is
 
 > **Translator's note.** This is a fill-in template; `xx` marks a blank he leaves for you. One section contains a long AI-generated explanation of the Einstein quotation, pasted in from a chat session. Its substance is condensed here rather than translated line by line, since it is generated filler around a single point.
 
-> The top-level project design content of this document has moved into the strategic planning PPT.
+> The top-level project design content of this document has moved into the strategic planning diagram PPT.
 > This document is mainly for recording the concrete planning during a project's execution, the problems met, the techniques proposed, and the experiment records.
 
 #### Project setting
@@ -130,9 +130,10 @@ Solution 2: xx
 > Solving the problem means we have to out-grind the researchers who came before, and have a better answer than they do on this problem.
 > There are two ways:
 > 1. There is a new technical advance, or a technique from another field, or an old technique nobody has dug into, and we can take the dividend of that fresh technique to surpass those before us.
+>
+> ![image.png](./assets/1bd3fe292ff18095940becd20dc635a3-image.png)
+>
 > 2. Genuinely be cleverer than the people before us, meaning researchers worldwide, and invent a new technical paradigm ourselves.
-
-![image.png](./assets/1bd3fe292ff18095940becd20dc635a3-image.png)
 
 In this research direction, which new techniques, techniques from other fields, or old techniques nobody has dug into do we have that our predecessors did not (the key to doing the project well):
 

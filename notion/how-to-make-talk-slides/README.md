@@ -2,13 +2,15 @@
 source: notion page 如何做学术报告slides
 source page id: 810f0267-0691-444f-8c94-cc3d5b76dcbc
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (nesting confirmed against the live block tree)
 figures: 12, his own reference material, kept as-is
 -->
 
 # How to Make Slides for an Academic Talk
 
 > [Original Article](https://pengsida.notion.site/810f02670691444f8c94cc3d5b76dcbc)
+
+> **Translator's note.** The outline below is nested as it is in his live Notion block tree. Notion's export flattens that nesting, so a flat copy of the source will not show it.
 
 > **note** Before making the slides, answer a few questions first:
 > 1. Which pieces of work are you going to present? They need to solve problems in the same research direction.

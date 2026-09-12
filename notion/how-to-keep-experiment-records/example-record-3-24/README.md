@@ -2,7 +2,7 @@
 source: notion page 3.24 实验记录
 source page id: 492bf030-bc8a-48fc-be9d-fd1a246678b1
 source fetched: 2026-09-11
-status: unverified
+status: verified by sonnet, 2026-09-12 (findings applied; nesting checked against the live block tree)
 figures: 25 result screenshots kept as-is; 25 videos are not downloadable from Notion and are marked in place
 -->
 
@@ -10,27 +10,22 @@ figures: 25 result screenshots kept as-is; 25 videos are not downloadable from N
 
 > [Original Article](https://pengsida.notion.site/492bf030bc8a48fcbe9dfd1a246678b1)
 
-> **Translator's note.** This is the worked example linked from [how to keep experiment records](../README.md). It is a real lab log, so the notes are terse and shorthand, which matches his own advice that the wording need not be detailed as long as you can understand it yourself. That register is kept rather than smoothed into prose. Technical names are left as written.
+> **Translator's note.** List nesting here follows his live Notion block tree, not the flattened export, which loses it. This is the worked example linked from [how to keep experiment records](../README.md). It is a real lab log, so the notes are terse and shorthand, which matches his own advice that the wording need not be detailed as long as you can understand it yourself. That register is kept rather than smoothed into prose. Technical names are left as written.
 
 This week's goals:
 
 1. Replace the generalizable rendering head.
-2. Pretrain a rendering head of the same structure on DTU.
-3. Swap it in.
+   1. Pretrain a rendering head of the same structure on DTU.
+   2. Swap it in.
+   3. Suspect it is the number of samples.
+   4. Suspect there is a bug in the code.
+2. Try single point.
+   1. Study how many points K-Planes and K-Planes IBR each need to work.
+      1. K-Planes: 4, 8, 48
+      2. K-Planes IBR: 4, 8, 48
+   2. Using depth + 1 point.
 
-Found that swapping it in does not work well.
-
-1. Suspect it is the number of samples.
-2. Suspect there is a bug in the code.
-3. Try single point.
-4. Study how many points K-Planes and K-Planes IBR each need to work.
-   1. K-Planes:
-      1. 4, 8, 48
-   2. K-Planes IBR
-      1. 4, 8, 48
-5. Using depth + 1 point.
-
-Found the results are very poor.
+Found that swapping it in does not work well. Found the results are very poor.
 
 ### 1. Edge flickering
 
@@ -85,19 +80,18 @@ Found the results are very poor.
 Current problems:
 
 1. Training time is still fairly long.
-2. Many hyperparameters could be explored.
-   1. Sampling strategy: [256, 128, 48]
-   2. Half precision:
-   3. Pixel sampling strategy: use the human mask.
-   4. Compress the geometry representation parameters: no MLP, make the feature grid a bit smaller.
-3. The path rendering results have some ghosting.
+   1. Many hyperparameters could be explored.
+      1. Sampling strategy: [256, 128, 48]
+      2. Half precision:
+      3. Pixel sampling strategy: use the human body mask.
+      4. Compress the geometry representation parameters: no MLP, make the feature grid a bit smaller.
+2. The path rendering results have some ghosting.
    1. Cause analysis:
       1. Rendering head
-   2. Some other possible starting points:
-      1. Why is CNN + IBR head fine?
-      2. IBR's training strategy.
-
-4. Would fine-tuning specifically on the frames that go wrong work?
+      2. Some other possible starting points:
+         1. Why is CNN + IBR head fine?
+            1. IBR's training strategy.
+            2. Would fine-tuning specifically on the frames that go wrong work?
 
 ![Untitled](./assets/ea16335da8f5468cb5b042410ab59f9f-Untitled.png)
 
