@@ -8,6 +8,8 @@ figures: 2, screenshots of his own GPT session, used as-is
 
 # How to Revise a Paper's Writing
 
+> [Original Article](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78)
+
 > Collected documents (GitHub repo): https://github.com/pengsida/learning_research
 
 > **note**

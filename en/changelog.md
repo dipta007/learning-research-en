@@ -6,6 +6,8 @@ status: translated, needs review by a Chinese reader
 
 # Changelog
 
+> [Original Article](https://github.com/pengsida/learning_research/blob/master/changelog)
+
 - **6 June 2026.** Updated [the paper writing template](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e): added a way of writing based on the pyramid principle.
 - **8 May 2026.** Updated [how to write a rebuttal](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022): added the language style to use in a rebuttal.
 - **3 May 2026.** Updated [how to write a rebuttal](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022): added a basic flowchart of the rebuttal process.

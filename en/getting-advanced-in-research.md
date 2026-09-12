@@ -6,10 +6,12 @@ status: translated, needs review by a Chinese reader
 
 # How to Build Your Research Skills
 
+> [Original Article](https://github.com/pengsida/learning_research/blob/master/getting_advanced_in_research.md)
+
 Writing a paper mainly takes three abilities: coming up with ideas (finding important research problems and proposing solutions), writing (that is, presenting your work), and running experiments.
 
 1. [How to build the ability to come up with ideas](https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea) (not done).
-2. Train your writing and presentation ability through [reading papers](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) (not done), [presenting slides at the weekly meeting](https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da) (not done), [paper writing](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) (not done) (including [practising writing papers](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) (not done)), and presenting the paper itself (slides, video, demo).
+2. Train your writing and presentation ability through [reading papers](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) (not done), [presenting slides at the weekly meeting](https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da) (not done), [paper writing](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) ([translated](../notion/paper-writing-template/README.md)) (including [practising writing papers](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) (not done)), and presenting the paper itself (slides, video, demo).
 3. Train your experimental ability by writing code and running experiments, by [working out why an experiment does not work](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097) (not done), and by [keeping an experiment log](https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f) (not done).
 
 I have laid out, as a table, the abilities a PhD student should have and how one research project can train each of them. It is in [this document](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) (not done) (**recommended reading**). The same document also explains how to run a research project.

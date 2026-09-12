@@ -8,4 +8,6 @@ figures: 0
 
 # Paper Figure Template
 
+> [Original Article](https://pengsida.notion.site/2bd4d371117a45e1af4021ccc25e0515)
+
 Because a paper's figures represent a lab's distinctive paper style, this template is shared only inside the group.

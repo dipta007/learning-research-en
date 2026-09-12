@@ -3,10 +3,12 @@ source: notion page 怎么审论文 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 怎么审论文
 source fetched: 2026-09-11
 status: verified by fable, 2026-09-11 (findings applied)
-figures: 1, the author's original, English redraw pending
+figures: 1, his table redrawn in English as markdown, original kept
 -->
 
 # How to Review a Paper
+
+> [Original Article](https://pengsida.notion.site/eed9ed1e9dc44a1c9437b114e6d5d9fd)
 
 > Collected documents (GitHub repo): https://github.com/pengsida/learning_research
 

@@ -8,6 +8,8 @@ figures: 19 originals kept; the 4 plan-diagram pages redrawn in English as Merma
 
 # A Paper Writing Template
 
+> [Original Article](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e)
+
 > Collected documents (GitHub repo): https://github.com/pengsida/learning_research
 
 The repository that turns this writing template into Vibe Writing Skills: https://github.com/Master-cai/Research-Paper-Writing-Skills
@@ -114,17 +116,17 @@ flowchart TD
 
 | Steps for writing a paper | The matching tutorial |
 |---|---|
-| 1. Sketch a clear pipeline figure | a. Paper figure template (not public) |
-| 2. Sort out the paper's story, write an outline for the Introduction, and organise the comparison experiments and ablation studies to run | a. How to sort out a paper's story<br>b. How to write an outline<br>c. How to organise the experiments to run |
-| 3. Outline the Method, then write the Method while running experiments | a. How to write the Method<br>b. How to write an outline<br>c. How to use Copilot and GPT to help with English writing |
-| 4. Revise the Introduction and Method while running experiments | a. How to revise a paper's writing |
-| 5. Once the experiments are mostly done, outline the Experiments, then write it | a. How to write an outline<br>b. How to use Copilot and GPT to help with English writing<br>c. How to draw experiment tables |
-| 6. Polish the pipeline figure, draw the teaser figure | a. Paper figure template (not public) |
-| 7. Outline the Related work, then write it | a. How to write Related work<br>b. How to write an outline<br>c. How to use Copilot and GPT to help with English writing |
-| 8. Review the paper. Revise its Introduction, Method and Experiments | a. How to review a paper<br>b. How to revise a paper's writing |
-| 9. Outline the Abstract, then write it | a. How to write an Abstract<br>b. How to write an outline<br>c. How to use Copilot and GPT to help with English writing |
-| 10. Choose the paper title | a. How to choose a paper title |
-| 11. Review and revise the paper, again and again | a. How to review a paper<br>b. How to revise a paper's writing |
+| 1. Sketch a clear pipeline figure | a. [Paper figure template (not public)](https://pengsida.notion.site/0051678d2df74d73ae236b9b44875193?pvs=25) ([translated](./paper-figure-template/README.md)) |
+| 2. Sort out the paper's story, write an outline for the Introduction, and organise the comparison experiments and ablation studies to run | a. [How to sort out a paper's story](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#e9ac9d2730e244b09ff448bc90db7378)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to organise the experiments to run](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#b0e7940f3b8b4a3e951ec672eaf4632e) |
+| 3. Outline the Method, then write the Method while running experiments | a. [How to write the Method](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#7a54f95f28334ff7b6b6912fd48566dd)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md)) |
+| 4. Revise the Introduction and Method while running experiments | a. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
+| 5. Once the experiments are mostly done, outline the Experiments, then write it | a. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>b. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to draw experiment tables](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#13d3fe292ff18085ac3ae97c82c431dc) |
+| 6. Polish the pipeline figure, draw the teaser figure | a. [Paper figure template (not public)](https://pengsida.notion.site/0051678d2df74d73ae236b9b44875193?pvs=25) ([translated](./paper-figure-template/README.md)) |
+| 7. Outline the Related work, then write it | a. [How to write Related work](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#5bdde0c289ef4f248a44247e2e0db685)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md)) |
+| 8. Review the paper. Revise its Introduction, Method and Experiments | a. [How to review a paper](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4559fe4c3acd463983a11f9140994c3d) ([translated](./review-a-paper/README.md))<br>b. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
+| 9. Outline the Abstract, then write it | a. [How to write an Abstract](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4a2e8630072c4ff4a7350a81ed90fd56)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md)) |
+| 10. Choose the paper title | a. [How to choose a paper title](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#90f8fc1e49404621bda346f978d8b690) |
+| 11. Review and revise the paper, again and again | a. [How to review a paper](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4559fe4c3acd463983a11f9140994c3d) ([translated](./review-a-paper/README.md))<br>b. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
 
 > **note**
 > The key to a paper getting good reviews: make the paper beautiful and well presented, so the first impression is that this paper is high class.
@@ -137,7 +139,7 @@ flowchart TD
 > 1. One paragraph says one Message, and says it clearly. Do not blend several Messages together.
 > 2. The first sentence of a paragraph must tell the reader what the paragraph is about. (The pyramid principle: the tip of the pyramid is the point you want to convey, the base is the logical evidence supporting it.)
 
-The basic approach to writing in English: first write the outline, then refine the thinking for each part, then write the actual English sentences. Pay attention to the flow between paragraphs and between sentences. (For what flow means, see that document.)
+The basic approach to writing in English: first write the outline, then refine the thinking for each part, then write the actual English sentences. Pay attention to the flow between paragraphs and between sentences. (For what flow means, see [that document](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a), [translated](./writing-experience-of-strong-researchers/README.md).)
 
 Writing a paper must be done "as if cutting, as if grinding, as if carving, as if polishing": taste it over and over, and work out whether the reader can understand it.
 
@@ -179,9 +181,9 @@ The ability to "self-review whether your paper's writing is clear" matters a gre
 
 </details>
 
-How to use Copilot and GPT to help with English writing (important, a basic skill in the age of LLMs)
+[How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) (important, a basic skill in the age of LLMs) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))
 
-How to revise a paper's writing
+[How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md))
 
 > **note** When to start writing the paper: normally, start at least one month before the deadline.
 
@@ -520,7 +522,7 @@ However, they [the limitation], because [xxx technical reason].
 <details>
 <summary>Version 3: novel task, no existing methods.</summary>
 
-Example 1, example 2
+[Example 1](https://arxiv.org/abs/2212.04965), [example 2](https://openaccess.thecvf.com/content/CVPR2021/papers/Martin-Brualla_NeRF_in_the_Wild_Neural_Radiance_Fields_for_Unconstrained_Photo_CVPR_2021_paper.pdf)
 
 ```latex
 % To achieve xx goal, several requirements must be met (or several challenges are faced).
@@ -785,7 +787,7 @@ Typical opening sentences:
 2. Paragraph level: the first sentence of a paragraph must tell people what the paragraph is about, and one paragraph must express one thing well.
 3. Sentence level:
    1. Check carefully whether the motivation of every sentence in the Method is clear. Keep the reader clear at all times about one thing: why the "content" in this sentence has to be carried out.
-   2. Check carefully that the sentences flow between each other. (For what flow means, see that document.)
+   2. Check carefully that the sentences flow between each other. (For what flow means, see [that document](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a), [translated](./writing-experience-of-strong-researchers/README.md).)
    3. Check carefully whether the terms in the paper are consistent, and try not to keep changing them.
 
 </details>
@@ -1018,7 +1020,7 @@ Limitations usually describe limitations caused by the task goal or the task set
 <details>
 <summary>Additional explanation of the above</summary>
 
-Some students have doubts about the statement above, see that issue. The question is what the essential difference is between a "technical defect" and "a limitation caused by the task goal or task setting", as follows:
+Some students have doubts about the statement above, see [that issue](https://github.com/pengsida/learning_research/issues/12). The question is what the essential difference is between a "technical defect" and "a limitation caused by the task goal or task setting", as follows:
 
 > I do not quite understand the Conclusion part.
 > About the Conclusion, you wrote: Limitations usually describe limitations caused by the task goal or the task setting (similar to discussing future work), do not write about technical defects.

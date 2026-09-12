@@ -8,6 +8,8 @@ figures: 2, the author's originals, English redraws pending
 
 # How to Do Influential Work
 
+> [Original Article](https://pengsida.notion.site/e94fd42c49614acc98d8457cf00d5903)
+
 > Collected documents (GitHub repo): https://github.com/pengsida/learning_research
 
 Why increase a paper's citation count:

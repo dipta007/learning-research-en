@@ -6,6 +6,8 @@ status: translated, needs review by a Chinese reader
 
 # Learning Research
 
+> [Original Article](https://github.com/pengsida/learning_research/blob/master/README.md)
+
 ## Motivation of This Repository
 
 1. Teaching research to the graduate and undergraduate students in our lab. The hope is to write research experience down as a summary instead of passing it on by word of mouth, so newcomers to the lab have something to learn from.
@@ -29,8 +31,8 @@ In the actual work of research, a PhD student needs five abilities: finding impo
 3. [How to run a research project, and the abilities a PhD student should have](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) (not done)
 4. Paper writing
     - [How to practise writing papers](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) (not done)
-    - [A paper writing template](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) (not done) (people inside the lab find it very useful)
-    - [The writing experience of strong researchers](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a) (not done)
+    - [A paper writing template](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) ([translated](../notion/paper-writing-template/README.md)) (people inside the lab find it very useful)
+    - [The writing experience of strong researchers](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a) ([translated](../notion/paper-writing-template/writing-experience-of-strong-researchers/README.md))
 5. [How to write a rebuttal](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022) (not done)
 6. [How to make slides for an academic talk](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc) (not done)
 

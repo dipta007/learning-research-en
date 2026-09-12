@@ -7,6 +7,8 @@ status: verified by fable, 2026-09-11 (two passes, findings applied)
 
 # Worked Examples of Writing Outlines
 
+> [Original Article](https://pengsida.notion.site/1723fe292ff18053ade0d7afa6c0328a)
+
 > **Translator's note.** Two things about this page.
 >
 > First, the worked example is built from the draft text of a published paper, ManhattanSDF, *Neural 3D Scene Reconstruction with the Manhattan-world Assumption* (Guo et al., CVPR 2022). The original page lists that paper's own sentences one by one. This translation keeps Prof. Peng's planning notes and the shape of the outline, and describes what each sentence slot does instead of reprinting another author's prose. Open the paper alongside this page to see the sentence that fills each slot. Where a slot is one of his Chinese placeholders rather than a finished sentence, it is translated directly.

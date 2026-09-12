@@ -8,6 +8,8 @@ figures: 2 in the source, both scans of third-party publications, cited here ins
 
 # The Writing Experience of Strong Researchers
 
+> [Original Article](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a)
+
 > Collected documents (GitHub repo): https://github.com/pengsida/learning_research
 
 > **Translator's note.** Every item on this page points at someone else's document. All of them are already in English, so there is nothing to translate in them, and none of the attached files can be downloaded from Notion anonymously. The two figures in the source are page scans of third-party publications, so they are cited here rather than copied into this repository. Follow the citations to read the originals.

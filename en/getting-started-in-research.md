@@ -6,6 +6,8 @@ status: translated, needs review by a Chinese reader
 
 # How to Get Started in 3D Vision Research
 
+> [Original Article](https://github.com/pengsida/learning_research/blob/master/getting_started_in_research.md)
+
 ## Stage one
 
 Learn the basics of deep learning. This stage is about breadth. Get to know the basic concepts and algorithms. Depth is not the goal, and you do not need to master every detail of every algorithm. The point is to build a rough overall picture: which algorithms exist, roughly how they work, and what they are used for.
