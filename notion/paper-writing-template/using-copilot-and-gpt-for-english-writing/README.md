@@ -10,8 +10,6 @@ figures: 17, screenshots of his own Copilot and GPT session, used as-is
 
 > [Original Article](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b)
 
-> Collected documents (GitHub repo): https://github.com/pengsida/learning_research
-
 A full screen recording of using Copilot and GPT to help write an Introduction: https://www.bilibili.com/video/BV1jdxDeZEtq
 
 > **note**

@@ -10,8 +10,6 @@ figures: 1, his table redrawn in English as markdown, original kept
 
 > [Original Article](https://pengsida.notion.site/eed9ed1e9dc44a1c9437b114e6d5d9fd)
 
-> Collected documents (GitHub repo): https://github.com/pengsida/learning_research
-
 Check carefully whether the paper has any factor that would get it rejected. Go through them one by one and you will know whether this paper should be rejected.
 
 Table by Prof. Peng Sida, redrawn in English. [Original](./assets/0c1ce1013cd44592a926a357fc6997ff-Untitled.png).

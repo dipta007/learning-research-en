@@ -10,8 +10,6 @@ figures: 1, the author's original, English redraw pending
 
 > [Original Article](https://pengsida.notion.site/d820794145a041be9599e45dc0cdb3b5)
 
-> Collected documents (GitHub repo): https://github.com/pengsida/learning_research
-
 Why make an attractive demo and application: to increase the paper's impact and its citation count.
 
 The principle: make the demo and application for the downstream research community, and analyse carefully what that community is interested in.

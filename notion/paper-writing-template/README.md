@@ -10,8 +10,6 @@ figures: 19 originals kept; the 4 plan-diagram pages redrawn in English as Merma
 
 > [Original Article](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e)
 
-> Collected documents (GitHub repo): https://github.com/pengsida/learning_research
-
 The repository that turns this writing template into Vibe Writing Skills: https://github.com/Master-cai/Research-Paper-Writing-Skills
 
 > **Translator's note.** The LaTeX blocks on this page are his scaffolding, and his comments inside them are translated. The `%% Example:` lines in the source are verbatim sentences and paragraphs taken from published papers. Rather than reprint another author's prose, this translation says what each example slot does and names the paper it came from, so you can read the original sentence at its source. Where a paper could not be identified with confidence, the slot is described without naming one.
