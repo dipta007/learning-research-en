@@ -57,12 +57,23 @@ def fetch_tree(root_id, max_depth):
     return blocks
 
 
+def seg_text(seg):
+    """One rich-text segment to markdown. Links live in the annotation array,
+    so dropping annotations silently loses every inline link he wrote."""
+    if not seg or not isinstance(seg[0], str):
+        return ""
+    text = seg[0]
+    for ann in (seg[1] if len(seg) > 1 else None) or []:
+        if ann and ann[0] == "a" and len(ann) > 1:
+            url = ann[1]
+            if url.startswith("/"):
+                url = HOST + url
+            return f"[{text}]({url})"
+    return text
+
+
 def text_of(block):
-    out = []
-    for seg in (block.get("properties") or {}).get("title") or []:
-        if seg and isinstance(seg[0], str):
-            out.append(seg[0])
-    return "".join(out)
+    return "".join(seg_text(s) for s in (block.get("properties") or {}).get("title") or [])
 
 
 def slug(s, fallback):
@@ -135,7 +146,7 @@ def render(blocks, node_id, out_dir, depth=0, seen=None):
         else:
             lines.append(f"<!-- {t} not downloadable: {txt or src} -->")
     elif t == "table_row":
-        cells = [("".join(s[0] for s in p if s and isinstance(s[0], str)))
+        cells = ["".join(seg_text(s) for s in p).replace("\n", "<br>")
                  for p in (b.get("properties") or {}).values()]
         lines.append("| " + " | ".join(cells) + " |")
     elif t == "page" and depth > 0:
