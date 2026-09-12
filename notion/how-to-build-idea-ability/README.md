@@ -1,7 +1,6 @@
 <!--
 source: notion page 如何培养想idea的能力（选题能力和解题能力）
 source page id: da6ce171-c138-46b7-a7ff-aa7473ffa6ea
-note: the idea-driven-vs-goal-driven link uses page id d9c6556326e84962a2d7ae190e2705af, taken from a sibling page and not confirmed in an author-written source
 source fetched: 2026-09-11
 status: verified by fable, 2026-09-11 (findings applied)
 figures: 6 in the source, all screenshots of other people's writing, cited here instead of embedded
@@ -133,7 +132,7 @@ Do not improve a technique on its own existing setting, data or failure cases. I
 
 </details>
 
-[Idea-driven research vs. goal-driven research](https://pengsida.notion.site/d9c6556326e84962a2d7ae190e2705af?pvs=25)
+[Idea-driven research vs. goal-driven research](https://pengsida.notion.site/d9c6556326e84962a2d7ae190e2705af?pvs=25) ([translated](../idea-driven-vs-goal-driven-research/README.md))
 
 <details>
 <summary>The benefits of goal-driven research for research output</summary>
