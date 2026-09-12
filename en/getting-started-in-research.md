@@ -24,7 +24,7 @@ Once you have the basics, start working on research projects alongside senior st
 
 Three things to do in this stage:
 
-1. First, pick a research direction that genuinely interests you. Once you have chosen, ask a senior student in the lab to write you a study plan for it. Here is an [example of such a plan](https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf) (not done). The example may go out of date over time, so pay attention to how the plan is put together rather than to its exact content.
+1. First, pick a research direction that genuinely interests you. Once you have chosen, ask a senior student in the lab to write you a study plan for it. Here is an [example of such a plan](https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf) ([translated](../notion/example-study-plan/README.md)). The example may go out of date over time, so pay attention to how the plan is put together rather than to its exact content.
 
 2. At the same time, follow a computer vision course, without doing the assignments: [http://cs231n.stanford.edu/schedule.html](http://cs231n.stanford.edu/schedule.html). It gives a fairly complete introduction to deep learning in computer vision. You are already implementing a paper's algorithm by this point, so the assignments can wait; watching the lectures and reading the notes is enough. Otherwise there will not be enough hours in the day.
 
@@ -32,7 +32,7 @@ Three things to do in this stage:
 
    If motion synthesis or computer animation interests you, also watch [GAMES105: Fundamentals of Computer Character Animation](https://games-105.github.io/), taught by Prof. Libin Liu, also taught very well.
 
-3. While you study, sit in on a senior student's research project and on our weekly discussions, so you see what research really looks like day to day. [This document](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) (not done) lays out the workflow of a research project, along with the abilities it takes and tutorials for each of them. When your algorithm foundation and your experimental skills are strong enough, the lab will try giving you some experiments from our projects to help with. That is where doing research really starts. Taking part in a project means reading papers and running experiments.
+3. While you study, sit in on a senior student's research project and on our weekly discussions, so you see what research really looks like day to day. [This document](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) ([translated](../notion/phd-awareness-abilities-and-research-project/README.md)) lays out the workflow of a research project, along with the abilities it takes and tutorials for each of them. When your algorithm foundation and your experimental skills are strong enough, the lab will try giving you some experiments from our projects to help with. That is where doing research really starts. Taking part in a project means reading papers and running experiments.
 
 This is also a good stage to get comfortable with some [common tools and configurations](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776) ([translated](../notion/machine-setup/README.md)), collected by [He Xingyi](https://github.com/hxy-123) from our lab.
 
@@ -40,7 +40,7 @@ This is also a good stage to get comfortable with some [common tools and configu
 
 With some algorithmic foundation behind you, start a project of your own as first author, with the lab guiding you. The goal is to learn by doing how a paper gets made: finding the research problem, forming the idea, running the experiments, writing the paper. In the better case you finish a submission, which gives you real research output in a narrow direction.
 
-Before you go deep into this stage, prepare yourself mentally, because research is very different from coursework. [This document](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83) (not done) explains how.
+Before you go deep into this stage, prepare yourself mentally, because research is very different from coursework. [This document](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83) ([translated](../notion/research-study-vs-course-study/README.md)) explains how.
 
 This stage sits at the frontier and asks you to create something new, so there is no fixed learning path for it. It leans heavily on what gets passed down person to person inside a lab. We have done our best to write down the research abilities an independent researcher needs. See [this document](./getting-advanced-in-research.md).
 

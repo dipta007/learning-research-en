@@ -10,7 +10,7 @@ figures: 0
 
 > [Original Article](https://pengsida.notion.site/1713fe292ff1808eb33be93ea2d79ad9)
 
-Over the last couple of days I read Sebastian Starke's series of papers on character control from his PhD, and learned a great deal ([my paper notes](https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de?pvs=25) (not done)). I do not know Sebastian Starke, but simply from reading his series of papers I came away deeply impressed, with a lot of thoughts. I am recording my own thinking here so I can review and reflect on it later.
+Over the last couple of days I read Sebastian Starke's series of papers on character control from his PhD, and learned a great deal ([my paper notes](https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de?pvs=25) ([a study note, not translated](../not-translated.md))). I do not know Sebastian Starke, but simply from reading his series of papers I came away deeply impressed, with a lot of thoughts. I am recording my own thinking here so I can review and reflect on it later.
 
 [Sebastian Starke](https://github.com/sebastianstarke) did his PhD in Taku Komura's group. He published one paper at SIGGRAPH every year of his PhD, and over five years built a character control system close to commercial quality, which is astonishing, and which substantially raised the usable level of motion systems in the games industry. On GitHub, his [AI4Animation](https://github.com/sebastianstarke/AI4Animation) has collected 7.4k stars. Academically, each of his SIGGRAPH papers takes on a harder industry problem than the last, researching deeper in one direction, and the final paper of his PhD, DeepPhase, took the SIGGRAPH best paper award, deservedly.
 
