@@ -152,6 +152,49 @@ def check(en_path, zh_path):
     return banned, thin
 
 
+def english_runs(zh_text, min_words=10):
+    """His sources contain whole sentences already in English: example sentences
+    from papers, quoted advice, limitation templates. Those must be carried over
+    verbatim, never retranslated. Round 8 found one reworded, with a framing
+    clause added, and the exact wording was the point of the page.
+
+    Yield each long English-only run, so the caller can check it survived.
+    """
+    for line in zh_text.split("\n"):
+        line = line.strip()
+        if not line or line.startswith(("#", ">", "|", "!", "<")):
+            continue
+        # A line starting with % is his LaTeX scaffolding, and %% marks an
+        # example sentence lifted verbatim from a published paper. Those are
+        # cited rather than reprinted, on purpose, so they must not be flagged.
+        if line.startswith("%"):
+            continue
+        if re.search(r"[一-鿿]", line):
+            continue
+        bare = re.sub(r"^(\d+\.|[-*])\s*", "", line).strip()
+        if len(bare.split()) >= min_words:
+            yield bare
+
+
+# Pages built entirely on another paper's draft sentences. Every list item there
+# describes a sentence slot instead of reprinting it, by design, so the verbatim
+# check has nothing to say about them.
+VERBATIM_EXEMPT = {"writing-outline-examples"}
+
+
+def check_verbatim(en_path, zh_path):
+    """English-only source runs that do not appear verbatim in the translation."""
+    if en_path.parent.name in VERBATIM_EXEMPT:
+        return []
+    en = en_path.read_text(encoding="utf-8")
+    zh = strip_noise(zh_path.read_text(encoding="utf-8"))
+    missing = []
+    for run in english_runs(zh):
+        if run not in en:
+            missing.append(run)
+    return missing
+
+
 def main():
     pairs = load_pairs()
     if len(sys.argv) > 1:
@@ -161,9 +204,14 @@ def main():
     total_banned = 0
     for en_path, zh_path in sorted(pairs.items()):
         banned, thin = check(en_path, zh_path)
-        if not banned and not thin:
+        missing = check_verbatim(en_path, zh_path)
+        if not banned and not thin and not missing:
             continue
         print(f"\n{en_path}")
+        for run in missing:
+            total_banned += 1
+            print(f"  VERBATIM already English in the source, not found here:")
+            print(f"           {run[:150]}")
         for cn, right, bad, n in banned:
             total_banned += 1
             print(f"  suspect  {cn} -> {right!r}, but found {bad!r} x{n}")
