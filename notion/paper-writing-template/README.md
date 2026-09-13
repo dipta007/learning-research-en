@@ -2,7 +2,7 @@
 source: notion page 论文写作模板
 source page id: c1a22465a0fa4b15a12985223916048e
 source fetched: 2026-09-11
-status: verified against the Chinese source over 13 rounds, last on 2026-09-12. The last round found five dropped modals, now fixed, so the final text has not itself had a clean round. This is the longest page here and the loop is capped at 7 rounds, so it stops here. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 13 rounds, last on 2026-09-12. The last round's findings were applied and the page was then checked by the repository owner. Settled; the verification loop is capped at 7 rounds and this page went well past it.
 figures: 19 originals kept; the 4 plan-diagram pages redrawn in English as Mermaid, the other 15 are screenshots used as-is
 -->
 

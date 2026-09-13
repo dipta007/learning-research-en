@@ -2,7 +2,7 @@
 source: notion page 博士生应该具有的意识与能力、如何锻炼这些能力、如何做Research Project
 source page id: b43507ef-26d0-44bd-888a-c29f4736e116
 source fetched: 2026-09-11
-status: verified against the Chinese source over 6 rounds, last on 2026-09-12. The last round found one dropped modal, now fixed, so the final text has not itself had a clean round. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 6 rounds, last on 2026-09-12. The last round's findings were applied and the page was then checked by the repository owner. Settled.
 figures: 0
 -->
 
