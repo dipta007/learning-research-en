@@ -21,6 +21,8 @@ Rights are settled. Do not re-open the licensing question, do not add a license 
 
 Large parts of his pages are not his writing. The `%% 例子:` lines in his LaTeX templates are verbatim sentences and whole paragraphs lifted from published papers (Neural Body, deep snake, ManhattanSDF, DreamBooth and others). One entire sub-page is the sentence-by-sentence draft of a published paper. Some figures are pages scanned out of books.
 
+**The marker is not the test; the content is.** Some published-paper sentences sit on single `%` lines rather than `%%`, for example the deep snake abstract worked through as "版本3". Those are borrowed text too, and they are described and cited like any other. A verifier told only about `%%` will report every one of them as an already-English passage that should have been kept verbatim: that happened once and produced six false findings. When a line inside a LaTeX fence is a fluent English sentence from a real paper, it is borrowed, whatever marker precedes it.
+
 His permission covers his notes. It cannot cover those authors' work. So:
 
 - **Translate all of his own prose and all of his scaffolding in full.** The LaTeX comment structure is his, and his comments inside it get translated.

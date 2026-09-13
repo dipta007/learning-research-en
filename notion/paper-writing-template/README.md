@@ -2,7 +2,7 @@
 source: notion page 论文写作模板
 source page id: c1a22465a0fa4b15a12985223916048e
 source fetched: 2026-09-11
-status: verified against the Chinese source over 6 rounds, last on 2026-09-12. Round 6 is still running, so the last completed round was not clean. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 13 rounds, last on 2026-09-12. The last round found five dropped modals, now fixed, so the final text has not itself had a clean round. This is the longest page here and the loop is capped at 7 rounds, so it stops here. Still needs review by a Chinese reader.
 figures: 19 originals kept; the 4 plan-diagram pages redrawn in English as Mermaid, the other 15 are screenshots used as-is
 -->
 
@@ -532,14 +532,14 @@ Version 1, for an existing task where methods already exist, the approach is to 
 
 1. What technical challenge does our pipeline solve.
 2. What is our technical contribution.
-3. What is the fundamental reason our method works.
+3. What is the fundamental reason our method is able to work.
 4. What is the benefit of our method relative to previous methods.
 
 Version 2, for a novel task, the approach is to think each of these through:
 
 1. What technical challenge does our pipeline solve.
 2. What is our technical contribution.
-3. What is the fundamental reason our method works.
+3. What is the fundamental reason our method is able to work.
 
 <details>
 <summary>Version 1: one contribution, and that contribution has several advantages. There is a teaser figure introducing the basic idea of our method.</summary>
@@ -561,7 +561,7 @@ Our innovation is in [one sentence introducing our key novelty].
 %% Example: Neural Body anchors latent codes to the vertices of a deformable human model, transforms the code locations by the human pose, then regresses density and color for any 3D point from those codes, learning codes and network jointly across all frames.
 Specifically, [say what is actually done].
 
-% Introduce our method's advantage (what is the fundamental reason it works, what is the benefit relative to previous methods.)
+% Introduce our method's advantage (what is the fundamental reason it is able to work, what is the benefit relative to previous methods.)
 %% Example: Neural Body credits the latent variable model in statistics as its inspiration, which is what lets it integrate observations across frames.
 In contrast to previous methods, [our method's advantage].
 
@@ -592,7 +592,7 @@ The basic idea is illustrated in [xxx Figure].
 %% Example: DreamBooth describes fine-tuning the low-resolution model with the input images and prompts containing a unique identifier followed by the subject's class name.
 Specifically, [say what is actually done].
 
-% Introduce our method's advantage (what is the fundamental reason it works, what is the benefit relative to previous methods.)
+% Introduce our method's advantage (what is the fundamental reason it is able to work, what is the benefit relative to previous methods.)
 %% Example: the Neural Body latent-variable-model sentence again.
 In contrast to previous methods, [our method's advantage].
 
@@ -670,7 +670,7 @@ Introduce the key innovation first, then discuss an observation that anyone can 
 % Introduce another contribution
 %% Example: it proposes a pose-matching loss supervising the discriminator for pose consistency, considering a positive pose and a negative pose for a given image, again without saying how it is done.
 
-% Introduce the fundamental reason it works, and the benefit relative to previous methods.
+% Introduce the fundamental reason it is able to work, and the benefit relative to previous methods.
 %% Example: it gives the frontal viewpoint as an irrelevant pose for a side-view image, reports the quality gain, and interprets the design as simplifying a many-class classification problem into a binary one.
 ```
 
