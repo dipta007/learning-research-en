@@ -33,7 +33,7 @@ A SIGGRAPH paper chairs' document on writing (in English). No copy is reachable 
 </details>
 
 <details>
-<summary>What matters a great deal in English writing is flow, including paragraph flow and sentence flow</summary>
+<summary>What is very important in English writing is flow, including paragraph flow and sentence flow</summary>
 
 <details>
 <summary>The divine book of English writing: Writing Science. It has a section introducing flow.</summary>

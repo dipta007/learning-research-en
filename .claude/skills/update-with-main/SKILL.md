@@ -110,6 +110,14 @@ while pages is not empty:
 
 What this actually costs, measured here: `en/getting-started-in-research.md` needed **13 rounds** to reach an empty one (9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, 0 defects). The 32 `notion/` pages had each had one pass, and five further rounds found **155 more real defects** (53, 41, 21, 28, 12). A single pass catches about half.
 
+**Run the mechanical check first, every round.** One whole round found nothing but the same word rendered two ways in one file, which a script finds exhaustively and a model finds by luck:
+
+```bash
+python3 tools/check_renderings.py
+```
+
+Its hits are leads, not verdicts: on the first run 8 of 15 were false positives where a different Chinese word shares the English form. Verify each against the Chinese, then record the benign ones in the script's `ALLOW` table so the report stays worth reading. Doing this before dispatching agents means the round spends its attention on meaning rather than on bookkeeping.
+
 Three things make the loop converge rather than spin:
 
 - **Carry forward what each round learns.** Add every settled rendering to `GLOSSARY.md` and paste that list into the next verifier's prompt as fixed renderings. Round 4 here found more than round 3 purely because it was the first round given a particle-by-particle checklist. A blunt check returns a low count that looks like progress and is not.

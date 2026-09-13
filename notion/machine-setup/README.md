@@ -272,7 +272,7 @@ cacdt /path_to_cuda_your_using/version.txt               #查看系统使用的c
 
 (In order: check pytorch's version; check the cudatoolkit version; check the cuda version the system uses, where the path depends on `~/.zshrc`; or use `nvcc --version` to check the cuda version the system uses.)
 
-Note: even when those three match, if the GPU driver version does not match the cuda version, cuda will not work. Check whether cuda is available:
+Note: even when those three match, if the GPU driver version does not match the cuda version, cuda cannot be used. Check whether cuda is available:
 
 ```
 import torch

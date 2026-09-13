@@ -109,7 +109,7 @@ Research is very different.
 
 In research, when thinking of a solution, you need to first go and feel for the shoulders of giants. See whether an existing algorithm can solve the problem, then see whether a nearby algorithm can.
 
-> **note** In research, search first, then re-search. The ability to search for nearby algorithms matters a great deal.
+> **note** In research, search first, then re-search. The ability to search for nearby algorithms is very important.
 
 Zhilin Yang's view: the essence of technique is combining methods, combining small techniques into large ones, and combining old techniques into new ones.
 

@@ -216,6 +216,24 @@ Rules that make the loop terminate instead of spinning:
 
 Record the result honestly in the `status:` line: how many rounds ran, and whether the last one was clean. `verified by sonnet, 2026-09-12. 13 passes; the last found nothing.` A page still mid-loop says so.
 
+### Run the mechanical check before spending a round on it
+
+Round 7 of the `notion/` sweep found nothing but one Chinese word rendered several ways in one file. A model finds those by luck, one at a time, over many rounds. A script finds them all at once:
+
+```bash
+python3 tools/check_renderings.py                        # every page
+python3 tools/check_renderings.py notion/<page>/README.md
+```
+
+It reports two things, and **neither is a verdict**. Both are leads to go and read the context:
+
+- `suspect`: a rendering that a past round got wrong is present, and so is the Chinese word it belongs to. On its first run, 8 of 15 were false positives, because a different Chinese word shares the English form: 搜集 really is "collect", 各个 is not 各种, 充分 is "fully" where 完全 is "completely", 不会 is "will not" where 无法 is "cannot", 应该没法 is not 很可能. Verify every hit against the Chinese before editing. Once verified benign, add it to `ALLOW` in the script with the reason, so the report keeps meaning something.
+- `thin`: the Chinese uses a word N times and the English has its settled rendering fewer times. Weaker still. Legitimate variation is common: 可行性 reads "viability" on the minimum-viability page, 作业 reads "homework" on the coursework page, 学习了很多 reads "learned a great deal".
+
+Two bugs in that script are worth knowing about, because both produced confident nonsense before being fixed. Substring matching made "carefully" match "fully". And stripping code fences from the English while counting the Chinese in full made every term inside his LaTeX template look dropped. If you extend the script, check its output against a page you have read.
+
+Run it after every fix round. It is cheap, it is exhaustive over the words it knows, and it turns a defect class that took four rounds to chase into one command.
+
 ### Applying findings without introducing new defects
 
 Both of these happened here and both would have shipped silently.

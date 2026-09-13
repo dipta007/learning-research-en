@@ -188,7 +188,7 @@ The ability to "self-review whether your paper's writing is clear" is very impor
 <details>
 <summary>The key time points for writing a paper (plan from one month before the deadline)</summary>
 
-One month before the deadline, the method is very likely not fully settled and the experiments are not all finished. But the paper's story is basically settled, so you can start writing and start planning what to do.
+One month before the deadline, the method is very likely not completely settled and the experiments are not all finished. But the paper's story is basically settled, so you can start writing and start planning what to do.
 
 > **note** Writing the paper a month early can save time later, makes doing the paper somewhat easier on yourself, and can also help you think about which experiments to run.
 
