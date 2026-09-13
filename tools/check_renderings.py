@@ -72,6 +72,29 @@ RULES = [
 # Words whose English form is too common to count meaningfully.
 COUNT_EXEMPT = {"很", "一些", "有些", "需要", "能", "可以", "会", "才", "应该", "要", "多"}
 
+# Modals and particles with several acceptable English forms. Count the union: if
+# the source says it 9 times and the English carries it 5, some were dropped.
+# Every round has found a particle the earlier rounds were not watching (会 in
+# round 9, 要 in round 8), so count them all now instead of waiting to notice.
+# This is the weakest signal in the file. One English word often covers two
+# Chinese ones. Treat a gap as a place to look, never as a count of defects.
+# The Chinese pattern needs guards, because these characters sit inside common
+# compounds that mean something else entirely. Counting bare 要 gave 61 for a
+# page with about 20, because 重要 ("important") and 需要 ("need") both contain
+# it. Same trap as an English substring match; check the pattern before trusting
+# a count.
+MODALS = [
+    (r"(?<![机学社体开晚)])会", "会", ["will", "would"]),
+    (r"(?<![能可性智才不])能(?![力够])", "能", ["can", "could", "able to"]),
+    (r"可以", "可以", ["can", "could", "may"]),
+    (r"需要", "需要", ["need to", "needs to", "needed"]),
+    (r"应该", "应该", ["should", "must have"]),
+    (r"(?<![人口])才(?![能华])", "才", ["only then", "only because", "only when", "only the"]),
+    (r"很(?!多)", "很", ["very", "much", "greatly", "deeply"]),
+    (r"一些", "一些", ["some", "a few"]),
+    (r"(?<![重需主只不想])要(?![求求])", "要", ["need to", "must", "should", "have to"]),
+]
+
 # Hits checked by hand and found benign: a different Chinese word happens to
 # share the English form. Keyed by (page stem, chinese, wrong form) -> why.
 # Without this the report cries wolf every run and stops being read.
@@ -149,6 +172,13 @@ def check(en_path, zh_path):
             n_en = count_words(en, right)
             if n_en < n_cn:
                 thin.append((cn, right, n_cn, n_en))
+    for pattern, label, forms in MODALS:
+        n_cn = len(re.findall(pattern, zh))
+        if not n_cn:
+            continue
+        n_en = sum(count_words(en, f) for f in forms)
+        if n_en < n_cn:
+            thin.append((label, " / ".join(forms), n_cn, n_en))
     return banned, thin
 
 
