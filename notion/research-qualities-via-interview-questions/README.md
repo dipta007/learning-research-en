@@ -63,4 +63,4 @@ Hu asks who does the best research in the candidate's field, whether they have t
 Hu asks whether the candidate's professor works on the problem every day as they do, and whether what the professor says is necessarily right. He recalls that at MIT many professors said their best students never listened to them, and yet came up with better ways to solve the problem. He then asks the sharper version: all of this is what other people said, so what is your own view?
 
 > **note**
-> Reflection: in research, think independently, and work out your own approach.
+> Reflection: in research, think independently, and sum up your own approach.

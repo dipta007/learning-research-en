@@ -43,7 +43,7 @@ Use a literature tree (a novelty tree and a challenge-insight tree) to train and
 1. Plan a general goal for the research direction, and set a roadmap for reaching that general goal.
 
    <details>
-   <summary>How to do it</summary>
+   <summary>The concrete way to do it</summary>
 
    Generally the general goal is easy to define, but setting the roadmap needs a deep understanding of the field.
 
@@ -164,7 +164,7 @@ What will the next new hammer be? What will the next example be?
 </details>
 
 <details>
-<summary>Points to watch when coming up with ideas (which projects are not worth doing)</summary>
+<summary>Points that need watching when coming up with ideas (which projects are not worth doing)</summary>
 
 > **note** Proposing an idea and writing a paper is meant to make a real contribution to the field, not for the sake of the paper itself.
 > If a paper contributes nothing to the field, then writing it is wasting your own time, because we will not gain the field's respect through it, and may even collect negative opinions.
@@ -189,11 +189,11 @@ The lab's experience in developing students' independent research ability, while
 
 On building a solution to the problem, the lab generally makes three contributions:
 
-1. Preventing the student's thinking from falling into a local minimum, encouraging and prompting the student to think more divergently and list more candidate solutions.
+1. Preventing the student's thinking from falling into a local minimum, encouraging and prompting the student to think somewhat more divergently and list more candidate solutions.
 2. When the student's proposed solution has a technical flaw, or needs so many handcrafted tricks that its applicability is too narrow, the lab generally will point out the matching problem and will give other possible rough solutions for the student to refine.
 3. Helping the student improve their proposed solution, making it more beautiful.
 
-The usual division of labour between advisor and student in a research project:
+Normally, the division of labour between advisor and student in a research project:
 
 *Translator's note: Notion's export scrambles this table's columns and drops the advisor cell on some rows. It is rendered here as item, advisor, student, with an empty advisor cell where the source has none.*
 

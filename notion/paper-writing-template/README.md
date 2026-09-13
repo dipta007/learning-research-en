@@ -124,7 +124,7 @@ flowchart TD
 | 8. Review the paper. Revise its Introduction, Method and Experiments | a. [How to review a paper](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4559fe4c3acd463983a11f9140994c3d) ([translated](./review-a-paper/README.md))<br>b. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
 | 9. Outline the Abstract, then write it | a. [How to write an Abstract](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4a2e8630072c4ff4a7350a81ed90fd56)<br>b. [How to write an outline](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md))<br>c. [How to use Copilot and GPT to help with English writing](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b?pvs=25) ([translated](./using-copilot-and-gpt-for-english-writing/README.md)) |
 | 10. Choose the paper title | a. [How to choose a paper title](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#90f8fc1e49404621bda346f978d8b690) |
-| 11. Review and revise the paper, again and again | a. [How to review a paper](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4559fe4c3acd463983a11f9140994c3d) ([translated](./review-a-paper/README.md))<br>b. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
+| 11. Review and revise the paper, over and over | a. [How to review a paper](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e?pvs=25#4559fe4c3acd463983a11f9140994c3d) ([translated](./review-a-paper/README.md))<br>b. [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md)) |
 
 > **note**
 > The key to a paper getting good reviews: make the paper beautiful and well presented, so the first impression is that this paper is very high class.
@@ -190,7 +190,7 @@ The ability to "self-review whether your paper's writing is clear" is very impor
 
 One month before the deadline, the method is very likely not fully settled and the experiments are not all finished. But the paper's story is basically settled, so you can start writing and start planning what to do.
 
-> **note** Writing the paper a month early saves time later, makes doing the paper somewhat easier on yourself, and helps you think about which experiments to run.
+> **note** Writing the paper a month early can save time later, makes doing the paper somewhat easier on yourself, and can also help you think about which experiments to run.
 
 | What to write | Time point |
 |---|---|
