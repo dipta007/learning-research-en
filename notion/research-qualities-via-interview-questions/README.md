@@ -12,7 +12,7 @@ figures: 0
 
 > **Translator's note.** He says at the top that this page is his notes from reading Yuanming Hu's article, and that the questions below are ones Hu put to candidates in a Meshy scholarship defence. The questions and the answers are therefore Hu's material, not his. Each question is given here as what it asks, with a link to the original article, and **his own reflection after each one is translated in full**, since that is his contribution and the actual takeaway.
 
-His notes are from reading this article by Prof. Yuanming Hu: [https://zhuanlan.zhihu.com/p/1893638374646079902](https://zhuanlan.zhihu.com/p/1893638374646079902)
+These notes are summarized from reading this article by Prof. Yuanming Hu: [https://zhuanlan.zhihu.com/p/1893638374646079902](https://zhuanlan.zhihu.com/p/1893638374646079902)
 
 #### The core question
 

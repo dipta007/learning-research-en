@@ -32,7 +32,7 @@ import sys
 # (chinese, settled english, [renderings past rounds got wrong])
 # Every banned entry here was a real defect, not a hypothetical.
 RULES = [
-    ("很多", "many", ["a lot of"]),
+    ("很多", ["many", "much"], ["a lot of"]),
     ("各种", "all sorts of", ["various"]),
     ("真正", "genuinely", ["really"]),
     ("反复", "over and over", ["again and again", "repeatedly"]),
@@ -48,7 +48,7 @@ RULES = [
     ("挺", "quite", []),
     ("尽量", "as far as possible", ["try not to", "where possible"]),
     ("有所", "of some", []),
-    ("总结", "summarize", ["collect", "lay out", "work out"]),
+    ("总结", ["summarize", "summarized", "summary", "summed up", "summarizing"], ["collect", "lay out", "work out"]),
     ("经验", "experience", []),
     ("敢于", "dare to", ["willing to"]),
     ("喷", "slam", ["complain"]),
@@ -63,7 +63,7 @@ RULES = [
     ("极强", "extremely strong", []),
     ("始终", "always", []),
     ("直接", "directly", []),
-    ("完全", "completely", ["fully", "purely"]),
+    ("完全", ["completely", "complete"], ["fully", "purely"]),
     ("一阵", "for a while", []),
     ("没什么", "hardly any", []),
     ("可行性", "feasibility", []),
@@ -89,7 +89,7 @@ MODALS = [
     (r"可以", "可以", ["can", "could", "may"]),
     (r"需要", "需要", ["need to", "needs to", "needed"]),
     (r"应该", "应该", ["should", "must have"]),
-    (r"(?<![人口])才(?![能华])", "才", ["only then", "only because", "only when", "only the"]),
+    (r"(?<![人口刚方])才(?![能华智])", "才", ["only then", "only because", "only when", "only the"]),
     (r"很(?!多)", "很", ["very", "much", "greatly", "deeply"]),
     (r"一些", "一些", ["some", "a few"]),
     (r"(?<![重需主只不想])要(?![求求])", "要", ["need to", "must", "should", "have to"]),
@@ -164,14 +164,16 @@ def check(en_path, zh_path):
         if not n_cn:
             continue
         stem = en_path.parent.name
+        primary = right[0] if isinstance(right, list) else right
         for bad in wrong:
             n = count_words(en, bad)
             if n and (stem, cn, bad) not in ALLOW:
-                banned.append((cn, right, bad, n))
+                banned.append((cn, primary, bad, n))
         if cn not in COUNT_EXEMPT:
-            n_en = count_words(en, right)
+            forms = right if isinstance(right, list) else [right]
+            n_en = sum(count_words(en, f) for f in forms)
             if n_en < n_cn:
-                thin.append((cn, right, n_cn, n_en))
+                thin.append((cn, " / ".join(forms), n_cn, n_en))
     for pattern, label, forms in MODALS:
         n_cn = len(re.findall(pattern, zh))
         if not n_cn:

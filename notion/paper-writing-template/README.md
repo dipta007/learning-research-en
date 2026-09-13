@@ -188,7 +188,7 @@ The ability to "self-review whether your paper's writing is clear" is very impor
 <details>
 <summary>The key time points for writing a paper (plan from one month before the deadline)</summary>
 
-One month before the deadline, the method is very likely not completely settled and the experiments are not all finished. But the paper's story is basically settled, so you can start writing and start planning what to do.
+One month before the deadline, the method is very likely not completely settled and the experiments are not all finished. But the paper's story will basically be settled, so you can start writing and start planning what to do.
 
 > **note** Writing the paper a month early can save time later, makes doing the paper somewhat easier on yourself, and can also help you think about which experiments to run.
 
@@ -246,7 +246,7 @@ The key is to answer each of the following questions before writing:
 \section{Abstract}
 % Task
 % Technical challenge for previous methods (discuss around the technical challenge that we solved)
-% One or two sentences on the technical contribution that solves the challenge. Normally you just name the technique, without walking through each step. That name has to be understandable, with no sense of a jump. This ability matters a lot for writing a good abstract.
+% One or two sentences on the technical contribution that solves the challenge. Normally you just name the technique, and will not walk through each specific step. That name has to be understandable, with no sense of a jump. This ability matters a lot for writing a good abstract.
 % Introduce the benefit of the technical contribution
 % Experiment
 ```
@@ -270,7 +270,7 @@ The key is to answer each of the following questions before writing:
 %% Example: the diffusion paper proposes guidance using depth estimated from the model's own internal representations.
 %% Example: Neural Body states its key idea in one line, integrating observations over video frames.
 
-% One or two sentences on the technical contribution that realizes the insight. Normally you just name the technique, without walking through each step. That name has to be understandable, with no sense of a jump. This ability matters a lot for writing a good abstract.
+% One or two sentences on the technical contribution that realizes the insight. Normally you just name the technique, and will not walk through each specific step. That name has to be understandable, with no sense of a jump. This ability matters a lot for writing a good abstract.
 %% Example: the diffusion paper names a label-efficient depth estimation framework, then two guidance techniques used at sampling time.
 %% Example: Neural Body names its contribution, a human body representation whose per-frame neural representations share one set of latent codes anchored to a deformable mesh.
 
@@ -342,7 +342,7 @@ Then reason forwards, listing the paper's story:
 <summary>Version 1: the Task is fairly niche, so introduce the Task first, then the Application</summary>
 
 ```latex
-% Introduce the Task (if the task is very familiar, this can be skipped)
+% Introduce the Task (if the task is very familiar, this can be skipped directly)
 %% Example: an object pose estimation paper states the task as estimating an object's orientation and translation relative to a canonical frame from a single image.
 [xxx task] targets at recovering/reconstructing/estimating [xxx output] from [xxx input].
 
@@ -415,7 +415,7 @@ For a novel task, the approach is to think each of these through:
 
 1. Think through the technical challenge our pipeline solved.
 
-> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, and only then did it come easily. This would kill the reader's curiosity about solving the technical challenge.
+> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it would also make the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, and only then did it come easily. This would kill the reader's curiosity about solving the technical challenge.
 
 Even if our work really is a 4-point piece, do not write it this way.
 
@@ -704,7 +704,7 @@ Introduce the key innovation first, then discuss an observation that anyone can 
 Questions:
 
 1. Which modules does the paper's method have.
-2. For each module, answer three questions: this module's workflow, why this module is used, and why this module works. Organizing the answers as a mind map or a table may make it somewhat clearer.
+2. For each module, answer three questions: this module's workflow, why this module needs to be used, and why this module works. Organizing the answers as a mind map or a table may make it somewhat clearer.
 
 The steps for writing the method:
 
@@ -846,7 +846,7 @@ Usually mentioned at the end of the section, or in the implementation details se
 
 [Paper figure template](./paper-figure-template/README.md)
 
-> **note** The Method figure matters a lot. The pipeline figure in the Method has to look different from previous methods. Otherwise it gives the reader the impression that there is no novelty. If the whole pipeline (from input to output) is not very novel, the novel module should be highlighted in the pipeline figure. Another way is to draw several small figures rather than one big one, but then the paper may not look as beautiful.
+> **note** The Method figure matters a lot. The pipeline figure in the Method has to look different from previous methods. Otherwise it would give the reader the impression that there is no novelty. If the whole pipeline (from input to output) is not very novel, the novel module should be highlighted in the pipeline figure. Another way is to draw several small figures rather than one big one, but then the paper may not look as beautiful.
 
 The pipeline figure is not there to make the reader understand, it is there to highlight novelty. Only the text of the Method is what makes the reader understand.
 
@@ -898,7 +898,7 @@ The Table caption and Figure caption need to state the experimental setting and 
 
 The content of a Caption should not discuss the experimental results at length, since that easily repeats the main text.
 
-> **note** A typesetting tip for experiment figures and tables: a single-column figure or table looks fairly good in the right column of the paper, because people's reading habit is to look for the first line of text at the top left.
+> **note** A typesetting tip for experiment figures and tables: a single-column figure or table looks fairly good in the right column of the paper, because people's reading habit will look for the first line of text at the top left.
 
 <details>
 <summary>Which comparison experiments to run</summary>
@@ -929,7 +929,7 @@ You need to compare against related, fairly recent baseline methods.
 <details>
 <summary>Which ablation studies to run</summary>
 
-A paper contains some core contributions and some design choices inside each pipeline module. Readers usually care a lot about the effect of the core contributions on performance, and are curious whether those design choices are really useful.
+A paper contains some core contributions and some design choices inside each pipeline module. Readers will usually care a lot about the effect of the core contributions on performance, and will be curious whether those design choices are really useful.
 
 So ablation studies usually need two parts:
 
@@ -987,7 +987,7 @@ So ablation studies usually need two parts:
 <details>
 <summary>Conclusion</summary>
 
-Besides the usual Conclusion content, you also need to write Limitations, otherwise reviewers often treat "no limitations written" as a weakness.
+Besides the usual Conclusion content, you also need to write Limitations, otherwise reviewers will often treat "no limitations written" as a weakness.
 
 Limitations usually describe limitations caused by the task goal or the task setting (similar to discussing future work). Do not write about technical defects.
 
@@ -1027,7 +1027,7 @@ My reply, "as long as it is not below the metric of current SOTA methods, it is 
 
 At the end of the paper, add a self-review question list in five areas. Ask questions in each of the five areas, then revise the paper based on those questions:
 
-1. **Contribution is not enough** (the paper brings the reader no new knowledge, which usually includes several of these: the failure cases you want to solve are very common; the proposed technique is already well-explored, and the performance improvement it brings is predictable or well-known; the technique is fairly straightforward)
+1. **Contribution is not enough** (the paper brings the reader no new knowledge, which will usually include several of these: the failure cases you want to solve are very common; the proposed technique is already well-explored, and the performance improvement it brings is predictable or well-known; the technique is fairly straightforward)
 2. **The writing is unclear** (technical details are missing, so it is not reproducible; some method module lacks motivation)
 3. **The experimental results are not good enough** (only a little better than previous methods; better than previous methods, but still not good enough)
 4. **The experimental testing is not thorough** (missing ablation studies; missing important baselines; missing an important evaluation metric; the data is too simple to show whether the method really works)
