@@ -236,7 +236,7 @@ The key is to answer each of the following questions before writing:
 
 1. What technical problem do we solve, and why is there no well-established solution to it (important).
 2. What is our technical contribution.
-3. What is the fundamental reason our method works.
+3. What is the fundamental reason our method is able to work.
 4. What is our method's technical advantage, and what is our new insight (important).
 
 <details>
@@ -316,7 +316,7 @@ First reason backwards, answering each of these questions.
 
 1. What technical problem do we solve, and why is there no well-established solution to it (important).
 2. What are the contributions of our pipeline (for example, proposing a new and valuable task, proposing a new and valuable technical metric, proposing a new technical problem, proposing a new technique).
-3. What is the benefit of our contributions, why do they solve this technical challenge, and what new insight do they bring (important).
+3. What is the benefit of our contributions, why were they able to solve this technical challenge, and what new insight do they bring (important).
 4. How do we lead into the technical challenge we solved, and into our new insight, by writing about previous methods.
 
 Then reason forwards, listing the paper's story:
@@ -415,7 +415,7 @@ For a novel task, the approach is to think each of these through:
 
 1. Think through the technical challenge our pipeline solved.
 
-> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, which is why it came easily. This kills the reader's curiosity about solving the technical challenge.
+> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, and only then did it come easily. This kills the reader's curiosity about solving the technical challenge.
 
 Even if our work really is a 4-point piece, do not write it this way.
 
@@ -437,7 +437,7 @@ To overcome these challenges, traditional methods [describe what they do], [what
 %% Example: the same paper states that they rely on hand-crafted features, which are not robust to image variation and background clutter.
 However, they [the technical challenge they face].
 
-% One or two sentences introducing a class of recent methods 1, then discuss the technical challenge they face (optional. Lead into the technical challenge by discussing what they do. Discuss several recent methods if that helps lead into the technical challenge.)
+% One or two sentences introducing a class of recent methods 1, then discuss the technical challenge they face (optional. Lead into the technical challenge by discussing what they do. If needed, you can discuss several more recent methods; that should help lead into the technical challenge.)
 %% Introduce recent methods 1
 %% Example: the same paper describes end-to-end networks that take an image and output its pose.
 Recently, [xxx methods] [describe what they do], [what they achieve].
@@ -994,7 +994,7 @@ Limitations usually describe limitations caused by the task goal or the task set
 <details>
 <summary>Example</summary>
 
-1. A limitation sentence of this shape: common videos run for more than a few minutes, but this work only handles videos of 100 to 300 frames, which is relatively short and limits the applications, and modeling a long volumetric video remains an interesting problem.
+1. Common videos are more than a few minutes. However, this work only deals with videos of 100 to 300 frames, which are relatively short, thus limiting the applications. How to model a long volumetric video remains an interesting problem.
 
 </details>
 
@@ -1006,7 +1006,7 @@ Some students have doubts about the statement above, see [that issue](https://gi
 > I do not quite understand the Conclusion part.
 > About the Conclusion, you wrote: Limitations usually describe limitations caused by the task goal or the task setting (similar to discussing future work), do not write about technical defects.
 > Then you gave this example:
-> the 100 to 300 frame limitation sentence above.
+> Common videos are more than a few minutes. However, this work only deals with videos of 100 to 300 frames, which are relatively short, thus limiting the applications. How to model a long volumetric video remains an interesting problem.
 > For your example, in my view "this work only deals with videos of 100 to 300 frames" also counts as a technical defect, namely that the method cannot handle long sequences.
 > I want to know the essential difference between a technical defect and a limitation caused by the task goal or task setting.
 > For instance, my proposed algorithm consumes less memory than current methods but takes longer to train. Does that count as a technical defect or a defect caused by the task goal?

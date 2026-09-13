@@ -35,11 +35,11 @@ He also quotes Einstein: if he had an hour to solve a problem, he would spend fi
 Hu asks why a candidate is not pursuing the very interesting idea they had just described, which could possibly have a very large impact. The answer he is responding to is a mix of hesitation and the pull of easier work: waiting until the idea is clearer, while there is some low-hanging fruit in another direction good for a couple more easy SIGGRAPH papers.
 
 > **note**
-> Reflection: in research, aim high, and dare to act.
+> Reflection: in research, you need to aim high, and dare to act.
 
 #### Question 3: change
 
-Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work may help more, even at the cost of giving up a problem you are already very practiced at, and that the earlier knowledge is not completely wasted anyway, since the problem is being extended rather than abandoned.
+Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work may help more, even at the cost of giving up a problem you are already very practiced at, and that the earlier knowledge is not completely wasted anyway, since the problem is only being extended.
 
 > **note**
 > Reflection: in research, dare to embrace change.
@@ -49,7 +49,7 @@ Hu asks whether the candidate has considered switching problems. Against the wor
 Hu asks whether the work is just combining x from one paper with y from another, leaving the system more complex without improving the result fundamentally, and then asks what an ideal paper should look like and how the candidate would get there. The answer he records concedes it is a good question, and that the candidate had never thought about it.
 
 > **note**
-> Reflection: in research, solve problems from first principles. Patching things can solve some problems in the short term, but in the long term it is certain to be superseded.
+> Reflection: in research, you need to solve problems from first principles. Patching things can solve some problems in the short term, but in the long term it is certain to be superseded.
 
 #### Question 5: about collaboration
 
@@ -63,4 +63,4 @@ Hu asks who does the best research in the candidate's field, whether they have t
 Hu asks whether the candidate's professor works on the problem every day as they do, and whether what the professor says is necessarily right. He recalls that at MIT many professors said their best students never listened to them, and yet came up with better ways to solve the problem. He then asks the sharper version: all of this is what other people said, so what is your own view?
 
 > **note**
-> Reflection: in research, think independently, and sum up your own approach.
+> Reflection: in research, you need to think independently, and sum up your own approach.
