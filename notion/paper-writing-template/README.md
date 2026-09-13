@@ -978,7 +978,7 @@ So ablation studies usually need two parts:
 <summary>Related work</summary>
 
 > **note** To write good Related work, the steps are:
-> (1) First, list the papers that are fairly related to your paper's method. (The most important part of Related work. If it is not discussed, some reviewers will reject the paper on that alone.)
+> (1) First, list the papers that are fairly related to your paper's method. (The most important part of Related work. If it is not discussed, some reviewers will directly reject the paper.)
 > (2) Then, based on the paper's research direction and algorithmic technique, decide which topics the Related work should discuss, and list the papers to discuss under each topic.
 > (3) Finally, based on the papers listed in the first two steps, organize the outline of the related work.
 
@@ -1001,7 +1001,7 @@ Limitations usually describe limitations caused by the task goal or the task set
 <details>
 <summary>Additional explanation of the above</summary>
 
-Some students may have doubts about the statement above, see [that issue](https://github.com/pengsida/learning_research/issues/12). The question is what the essential difference is between a "technical defect" and "a limitation caused by the task goal or task setting", as follows:
+Some students will have doubts about the statement above, see [that issue](https://github.com/pengsida/learning_research/issues/12). The question is what the essential difference is between a "technical defect" and "a limitation caused by the task goal or task setting", as follows:
 
 > I do not quite understand the Conclusion part.
 > About the Conclusion, you wrote: Limitations usually describe limitations caused by the task goal or the task setting (similar to discussing future work), do not write about technical defects.
@@ -1035,7 +1035,7 @@ At the end of the paper, add a self-review question list in five areas. Ask ques
 
 </details>
 
-> **note** Take care that every claim in the paper (especially the claims in the abstract and introduction) must not be wrong, and must have experiments supporting it. Otherwise some reviewers will reject the paper on that alone.
+> **note** Take care that every claim in the paper (especially the claims in the abstract and introduction) must not be wrong, and must have experiments supporting it. Otherwise some reviewers will directly reject the paper.
 
 A very important way to guarantee a paper's quality: pursue perfectionism.
 

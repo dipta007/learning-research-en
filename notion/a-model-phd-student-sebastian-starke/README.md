@@ -2,7 +2,7 @@
 source: notion page 博士生的楷模：Sebastian Starke
 source page id: 1713fe29-2ff1-808e-b33b-e93ea2d79ad9
 source fetched: 2026-09-11
-status: verified against the Chinese source over 6 rounds, last on 2026-09-12. Round 6 is still running, so the last completed round was not clean. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 12 rounds, last on 2026-09-12. The final round checked meaning rather than particles and found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 

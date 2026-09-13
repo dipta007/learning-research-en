@@ -2,7 +2,7 @@
 source: notion page 从面试问题的角度反思科研的宝贵品质
 source page id: 1d13fe29-2ff1-80de-91af-cb7f2eb57b69
 source fetched: 2026-09-11
-status: verified against the Chinese source over 6 rounds, last on 2026-09-12. Round 6 is still running, so the last completed round was not clean. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 12 rounds, last on 2026-09-12. The final round checked meaning rather than particles and found nothing. Still needs review by a Chinese reader.
 figures: 0
 -->
 
