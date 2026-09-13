@@ -2,7 +2,7 @@
 source: notion page 高水平科研工作者的写作经验 (nested under 论文写作模板)
 source page id: c1a22465a0fa4b15a12985223916048e (root) -> 高水平科研工作者的写作经验
 source fetched: 2026-09-11
-status: verified against the Chinese source over 2 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 3 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 2 in the source, both scans of third-party publications, cited here instead of embedded
 -->
 

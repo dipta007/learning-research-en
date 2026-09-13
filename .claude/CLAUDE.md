@@ -193,7 +193,7 @@ One pass catches roughly half. Round 4 of the `notion/` sweep found *more* than 
 ```
 round = 1
 pages = every page you translated or edited
-while pages is not empty:
+while pages is not empty and round <= 7:        # seven is a hard cap
     dispatch fresh verifier agents over pages, batched
     for each page:
         triage each finding: real, or false positive checked against the source
@@ -202,7 +202,31 @@ while pages is not empty:
         else: it leaves the loop, settled at this round
     commit and push this round's fixes
     round += 1
+
+# any page still in the loop at round 7 stops there. Record its real state and
+# hand it to a Chinese reader. Do not run round 8.
 ```
+
+### Hard cap: seven rounds per page
+
+**Never run more than seven rounds on a page.** If round seven is not clean, stop anyway. Record the true state and hand the page to a human who reads Chinese. Do not run round eight.
+
+This cap comes from what the rounds actually produced here:
+
+| Rounds | What they found |
+|---|---|
+| 1 to 2 | 94 defects, including a 15-line invented block, three dropped hyperlinks, and a reversed claim |
+| 3 to 7 | steadily smaller, mostly one dropped particle at a time |
+| 8 to 11 | about 45 defects over 15 agent runs, almost all single particles that do not change what a reader takes away |
+
+Past seven, two things go wrong. The yield is nearly all cosmetic, and **the loop starts producing its own defects**. Round 9 read a 会 as a hedge, I applied "may have doubts", and round 11 flagged it as a weakened claim: 有些 already carried the hedge, so the fix double-hedged his sentence. Round 6 caught a "Very very important" that round 5's own fix had created. When a loop removes single particles while inserting errors of the same size, it has stopped paying.
+
+What to do instead of round eight:
+
+1. **Run `tools/check_renderings.py`.** It found 8 defects in pages that seven model rounds had called clean. For any enumerable defect class, write the check instead of running the round.
+2. **Measure, then aim.** Round 10 was told "roughly 11 occurrences of 会 have lost their modal" rather than "look for problems", and found 16 defects after round 9 found 11. Counting beats noticing.
+3. **Say the page is unfinished.** Set its `status:` to the real round count and state that the last round was not clean. An honest "6 rounds, last one found a defect" is worth more than a page that claims clean because the loop was stopped at a convenient moment.
+4. **Ask for a Chinese reader.** This is the check no round replaces. One reader on the longest page for an hour will find more that matters than round eight will.
 
 Rules that make the loop terminate instead of spinning:
 

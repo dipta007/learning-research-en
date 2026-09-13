@@ -2,7 +2,7 @@
 source: notion page 如何高效地讨论
 source page id: d697ef57-8d78-4c86-9d4f-8314f0d617da
 source fetched: 2026-09-11
-status: verified against the Chinese source over 6 rounds, last on 2026-09-12. Round 6 is still running, so the last completed round was not clean. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 8 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 9 in the source. Seven are his own slide-template screenshots and are kept. Two are screenshots of a linked Xiaohongshu post and are not copied in.
 -->
 

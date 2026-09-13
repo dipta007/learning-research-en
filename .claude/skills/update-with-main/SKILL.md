@@ -98,7 +98,8 @@ Refs must equal files. A link count of 0 on a cross-referencing page means links
 
 ```
 pages = every page you translated or edited in steps 1 to 3
-while pages is not empty:
+round = 1
+while pages is not empty and round <= 7:        # seven is a hard cap
     dispatch fresh verifier agents over pages, batched 3 or 4 short pages each,
       one agent alone for a long page
     for each page:
@@ -106,9 +107,23 @@ while pages is not empty:
         apply the real ones, then grep to confirm each intended result is present
         page stays in the loop if you changed it, leaves if the round was clean
     commit and push this round
+    round += 1
+
+# any page still in the loop at round 7 stops there anyway
 ```
 
-What this actually costs, measured here: `en/getting-started-in-research.md` needed **13 rounds** to reach an empty one (9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, 0 defects). The 32 `notion/` pages had each had one pass, and five further rounds found **155 more real defects** (53, 41, 21, 28, 12). A single pass catches about half.
+**Seven rounds is a hard cap. If round seven is not clean, stop and hand the page to a Chinese reader.** Do not run round eight.
+
+That cap is measured, not a guess. Rounds 1 and 2 on the `notion/` pages found 94 defects including a 15-line invented block, three dropped hyperlinks and a reversed claim. Rounds 8 to 11 found about 45 over 15 agent runs, almost all a single dropped particle. Worse, past round seven the loop began producing its own defects: round 6 caught a "Very very important" that round 5's fix had created, and round 11 caught a sentence that round 9's advice had double-hedged. When a loop removes single particles while inserting errors the same size, it has stopped paying.
+
+When you hit the cap, do these instead of another round:
+
+1. **Run `python3 tools/check_renderings.py`.** It found 8 defects in pages that seven model rounds had called clean. For any enumerable defect class, write the check rather than run the round.
+2. **Measure, then aim.** Round 10 was told "roughly 11 occurrences of 会 have lost their modal" instead of "look for problems", and found 16 defects right after round 9 found 11. Counting beats noticing.
+3. **Say the page is unfinished.** Set `status:` to the real round count and state that the last round was not clean. "6 rounds, last one found a defect" is worth more than a page claiming clean because the loop stopped at a convenient moment.
+4. **Ask for a Chinese reader.** No round replaces this. One reader on the longest page for an hour finds more that matters than round eight.
+
+What the loop costs, measured here: `en/getting-started-in-research.md` took 13 rounds before the cap existed (9, 6, 9, 9, 6, 8, 2, 4, 4, 4, 3, 2, 0). The 32 `notion/` pages had each had one pass, and further rounds found 231 more real defects. A single pass catches about half, and rounds 3 to 7 catch most of the rest.
 
 **Run the mechanical check first, every round.** One whole round found nothing but the same word rendered two ways in one file, which a script finds exhaustively and a model finds by luck:
 

@@ -2,7 +2,7 @@
 source: notion page 如何培养想idea的能力（选题能力和解题能力）
 source page id: da6ce171-c138-46b7-a7ff-aa7473ffa6ea
 source fetched: 2026-09-11
-status: verified against the Chinese source over 6 rounds, last on 2026-09-12. Round 6 is still running, so the last completed round was not clean. Still needs review by a Chinese reader.
+status: verified against the Chinese source over 9 rounds, last on 2026-09-12. The final round found nothing. Still needs review by a Chinese reader.
 figures: 6 in the source, all screenshots of other people's writing, cited here instead of embedded
 -->
 
