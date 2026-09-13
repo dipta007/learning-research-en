@@ -12,7 +12,7 @@ figures: 1, his table redrawn in English as markdown, original kept
 
 Check carefully whether the paper has any factor that would get it rejected. Go through them one by one and you will know whether this paper should be rejected.
 
-Table by Prof. Sida Peng, redrawn in English. [Original](./assets/0c1ce1013cd44592a926a357fc6997ff-Untitled.png).
+*Translator's note: table by Prof. Sida Peng, redrawn in English.* [Original](./assets/0c1ce1013cd44592a926a357fc6997ff-Untitled.png).
 
 | Rejection factor | Specifically |
 |---|---|

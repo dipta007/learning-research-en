@@ -42,7 +42,7 @@ Hu asks why a candidate is not pursuing the very interesting idea they had just 
 Hu asks whether the candidate has considered switching problems. Against the worry that switching means not publishing for a while because the new problem is unfamiliar, he argues that in the long run doing higher-impact work may help more, even at the cost of giving up a problem you are already very practiced at, and that the earlier knowledge is not completely wasted anyway, since the problem is only being extended.
 
 > **note**
-> Reflection: in research, dare to embrace change.
+> Reflection: in research, you need to dare to embrace change.
 
 #### Question 4: solving the problem at its root
 
@@ -56,7 +56,7 @@ Hu asks whether the work is just combining x from one paper with y from another,
 Hu asks who does the best research in the candidate's field, whether they have talked to that person, why that person can do so well, and whether the candidate could too. The answer he is responding to is being fairly shy: not wanting to disturb others or be disturbed, preferring to stay inside one's own world.
 
 > **note**
-> Reflection: dare to collaborate with people stronger than you.
+> Reflection: you need to dare to collaborate with people stronger than you.
 
 #### Question 6: thinking independently
 

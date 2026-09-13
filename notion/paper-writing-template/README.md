@@ -19,7 +19,7 @@ The repository that turns this writing template into Vibe Writing Skills: https:
 
 <!-- the editable 论文写作规划.drawio is not downloadable from Notion; the originals are its exported pages -->
 
-Diagrams by Prof. Sida Peng, redrawn in English. Originals: [page 1](./assets/2f33fe292ff1803caa1cfcdf1d47e716-page1.png), [page 2](./assets/2f33fe292ff1809c9f29eb2954c826b5-180c747c-a47d-4ecc-8520-6d9e30d25728.png), [page 3](./assets/2f33fe292ff1801e8a21d0dbdbb89bdf-83930b48-c627-4b05-aac1-630121ff5c3a.png), [page 4](./assets/2f33fe292ff180dc89eff2a8aabdb8ae-page4.png).
+*Translator's note: diagrams by Prof. Sida Peng, redrawn in English.* Originals: [page 1](./assets/2f33fe292ff1803caa1cfcdf1d47e716-page1.png), [page 2](./assets/2f33fe292ff1809c9f29eb2954c826b5-180c747c-a47d-4ecc-8520-6d9e30d25728.png), [page 3](./assets/2f33fe292ff1801e8a21d0dbdbb89bdf-83930b48-c627-4b05-aac1-630121ff5c3a.png), [page 4](./assets/2f33fe292ff180dc89eff2a8aabdb8ae-page4.png).
 
 **The flowchart for writing a paper**
 
@@ -183,7 +183,7 @@ The ability to "self-review whether your paper's writing is clear" is very impor
 
 [How to revise a paper's writing](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78?pvs=25) ([translated](./revising-a-papers-writing/README.md))
 
-> **note** When to start writing the paper: normally, start at least one month before the deadline.
+> **note** When you need to start writing the paper: normally, you need to start at least one month before the deadline.
 
 <details>
 <summary>The key time points for writing a paper (plan from one month before the deadline)</summary>
@@ -195,7 +195,7 @@ One month before the deadline, the method is very likely not completely settled 
 | What to write | Time point |
 |---|---|
 | 1. Organize the existing story, including the core contribution, each module of the method and its motivation.<br>2. List the comparison experiments and ablation studies to run.<br>3. Write a first draft of the introduction this week. | Four weeks before the deadline |
-| Ideally settle the method this week.<br>1. Draw the pipeline figure sketch clearly and settle it.<br>2. Once the pipeline figure is confirmed, write a first draft of the method. At minimum the method's frame is settled this week, so the method can be started. If the details of the method are not settled, write `\todo{}` in the matching places and leave them for now, but at least get the frame of the method written.<br><br>By the end of this week, the first drafts of the introduction and method must go to your advisor, otherwise your advisor is very likely not able to finish revising the paper. (Imagine your advisor starting to revise ten very incomplete papers in the last few days. What kind of hellish experience is that? If you faced that yourself, how would you feel?) | Three weeks before the deadline |
+| Ideally you can settle the method this week.<br>1. Draw the pipeline figure sketch clearly and settle it.<br>2. Once the pipeline figure is confirmed, write a first draft of the method. At minimum the method's frame is settled this week, so the method can be started. If the details of the method are not settled, write `\todo{}` in the matching places and leave them for now, but at least get the frame of the method written.<br><br>By the end of this week, the first drafts of the introduction and method must go to your advisor, otherwise your advisor is very likely not able to finish revising the paper. (Imagine your advisor starting to revise ten very incomplete papers in the last few days. What kind of hellish experience is that? If you faced that yourself, how would you feel?) | Three weeks before the deadline |
 | Write first drafts of the experiments, abstract and related work this week. | Two weeks before the deadline |
 | Revise the paper, polish the pipeline figure and the teaser, make the demo. | The last week before the deadline |
 
@@ -221,7 +221,7 @@ Record the lab's overall submission progress, so you can know how many papers st
 
 The title matters a lot, because different titles are very likely to attract reviewers from different fields.
 
-Before choosing a title, first write down some important keywords, then choose the title based on those keywords.
+Before choosing a title, you need to first write down some important keywords, then choose the title based on those keywords.
 
 The title and the phrase naming the paper's method must have concrete meaning and be informative, and only then do readers remember them easily. Informative includes: the technique used, the paper's task, the problem the paper solves.
 
@@ -415,7 +415,7 @@ For a novel task, the approach is to think each of these through:
 
 1. Think through the technical challenge our pipeline solved.
 
-> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, and only then did it come easily. This kills the reader's curiosity about solving the technical challenge.
+> **note** Do not first write a naive solution and then write our improvement on that naive solution. That makes it easy for people to think our method is a 4-point improvement piece. Adding things bit by bit this way is easy for the reader to follow, but it also makes the reader smugly assume the idea was very straightforward to come up with. What they may not realize is that it is our way of writing that led them there, and only then did it come easily. This would kill the reader's curiosity about solving the technical challenge.
 
 Even if our work really is a 4-point piece, do not write it this way.
 
@@ -874,7 +874,7 @@ Iterating step by step:
 
 ![image.png](./assets/13d3fe292ff180c1bd58f6799d9e65ed-image.png)
 
-3. As far as possible do not use horizontal lines, since they disturb the eye
+3. As far as possible do not use horizontal lines, since they would disturb the eye
 
 ![image.png](./assets/13d3fe292ff180809fcefc90d9d09f1e-image.png)
 
@@ -1001,7 +1001,7 @@ Limitations usually describe limitations caused by the task goal or the task set
 <details>
 <summary>Additional explanation of the above</summary>
 
-Some students have doubts about the statement above, see [that issue](https://github.com/pengsida/learning_research/issues/12). The question is what the essential difference is between a "technical defect" and "a limitation caused by the task goal or task setting", as follows:
+Some students may have doubts about the statement above, see [that issue](https://github.com/pengsida/learning_research/issues/12). The question is what the essential difference is between a "technical defect" and "a limitation caused by the task goal or task setting", as follows:
 
 > I do not quite understand the Conclusion part.
 > About the Conclusion, you wrote: Limitations usually describe limitations caused by the task goal or the task setting (similar to discussing future work), do not write about technical defects.
